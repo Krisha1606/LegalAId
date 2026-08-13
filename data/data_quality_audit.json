@@ -1,0 +1,3712 @@
+{
+  "total_records": 1237,
+  "valid_records": 774,
+  "suspicious_records": 463,
+  "critical_records": 0,
+  "issues": [
+    {
+      "record_index": 12,
+      "act_name": "Consumer Protection (Direct Selling) Rules, 2021",
+      "section": "Rule 13",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "232214_1732704293.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 17,
+      "act_name": "Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020",
+      "section": "Rule 5",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "232278_1732705181.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 18,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 1",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 19,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 2",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ecognised', 'entral', 'dvertisement', 'uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 20,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 3",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 21,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 4",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 22,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 5",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 23,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 6",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 25,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 8",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 26,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 9",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 27,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 10",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 28,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 11",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 29,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 12",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 30,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 13",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 31,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 14",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 33,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 16",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 35,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 18",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 36,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 19",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 37,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 20",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 38,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 21",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 39,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 22",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 40,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 23",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 41,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 24",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 42,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 25",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 43,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 26",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 44,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 27",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 46,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 29",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 47,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 30",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 48,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 31",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 49,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 32",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 50,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 33",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 51,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 34",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 52,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 35",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 53,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 36",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 54,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 37",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 55,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 38",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 56,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 39",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 59,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 42",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 60,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 43",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 61,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 44",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 62,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 45",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 63,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 46",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 64,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 47",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 65,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 48",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 67,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 50",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 68,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 51",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 72,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 55",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 73,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 56",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 74,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 57",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 75,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 58",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 78,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 61",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 79,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 62",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 80,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 63",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 81,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 64",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 82,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 65",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 83,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 66",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 84,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 67",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 85,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 68",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 87,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 70",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 88,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 71",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 89,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 72",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 90,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 73",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 91,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 74",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 92,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 75",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 96,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 79",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 97,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 80",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 98,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 81",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 99,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 82",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 100,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 83",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 101,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 84",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 103,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 86",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 104,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 87",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 107,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 90",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 108,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 91",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 109,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 92",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 112,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 95",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 115,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 98",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 117,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 100",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 127,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 110",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 128,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 111",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 131,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 114",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 132,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 115",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 133,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 116",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 134,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 117",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 136,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 119",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 138,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 121",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 139,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 122",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 140,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 123",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 141,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 124",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 144,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 127",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 145,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 128",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 146,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 129",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 147,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 130",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 148,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 131",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 149,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 132",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 150,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 133",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 151,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 134",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 152,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 135",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 153,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 136",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 155,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 138",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 156,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 139",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 157,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 140",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 160,
+      "act_name": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "section": "Section 143",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "6eb0c35ba63b776487a025e5123b6b12.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 161,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 1",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 162,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 2",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 163,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 3",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 164,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 4",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 168,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 8",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 169,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 9",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 174,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 14",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ecognised']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 183,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 23",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 187,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 27",
+      "problem": "Text/keyword artifacts detected: ['ecognised', 'entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 188,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 28",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 189,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 29",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 190,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 30",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ecognised', 'entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 192,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 32",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 196,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 36",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 199,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 39",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 200,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 40",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 201,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 41",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 202,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 42",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 203,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 43",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 204,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 44",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 205,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 45",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 206,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 46",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 207,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 47",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 209,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 49",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 213,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 53",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 214,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 54",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 215,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 55",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 218,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 58",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 219,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 59",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 222,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 62",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 225,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 65",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 227,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 66",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 229,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 68",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 230,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 70",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 234,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 74",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 236,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 76",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 237,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 77",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 238,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 78",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 239,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 79",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 240,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 80",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 241,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 81",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 242,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 82",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 243,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 83",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 245,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 85",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 246,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 86",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 249,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 89",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 250,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 90",
+      "problem": "Text/keyword artifacts detected: ['ecognised', 'uthority', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 251,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 91",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 252,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 92",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 255,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 95",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 256,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 96",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 259,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 99",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 260,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 100",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 261,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 101",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 262,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 102",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 263,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 103",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 264,
+      "act_name": "The Industrial Relations Code, 2020",
+      "section": "Section 104",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "91ef39e2096112f8b798e6c45c732e2f.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 297,
+      "act_name": "The Transfer of Property Act, 1882",
+      "section": "Section 42",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1882-04.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 298,
+      "act_name": "The Transfer of Property Act, 1882",
+      "section": "Section 43",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1882-04.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 437,
+      "act_name": "The Indian Stamp Act, 1899",
+      "section": "Section 45",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1899-2.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 438,
+      "act_name": "The Indian Stamp Act, 1899",
+      "section": "Section 46",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1899-2.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 448,
+      "act_name": "The Indian Stamp Act, 1899",
+      "section": "Section 56",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1899-2.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 449,
+      "act_name": "The Indian Stamp Act, 1899",
+      "section": "Section 57",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1899-2.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 450,
+      "act_name": "The Indian Stamp Act, 1899",
+      "section": "Section 58",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1899-2.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 465,
+      "act_name": "The Indian Stamp Act, 1899",
+      "section": "Section 73",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "A1899-2.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 470,
+      "act_name": "The Indian Stamp Act, 1899",
+      "section": "Section 5",
+      "problem": "Text/keyword artifacts detected: ['ecognised']",
+      "source_pdf": "A1899-2.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 475,
+      "act_name": "The Indian Stamp Act, 1899",
+      "section": "Section 29",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1899-2.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 561,
+      "act_name": "The Registration Act, 1908",
+      "section": "Section 19",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "A1908-16.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 563,
+      "act_name": "The Registration Act, 1908",
+      "section": "Section 28",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "A1908-16.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 682,
+      "act_name": "The Limitation Act, 1963",
+      "section": "Section 111",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "A1963-36.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 683,
+      "act_name": "The Limitation Act, 1963",
+      "section": "Section 112",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "A1963-36.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 746,
+      "act_name": "The Specific Relief Act, 1963",
+      "section": "Section 2",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "A1963-47.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 752,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 1",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 753,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 2",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'dvertisement', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 754,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 3",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 755,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 4",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ecognised', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 756,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 5",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ecognised', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 757,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 6",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 758,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 7",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 759,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 8",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 760,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 9",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 761,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 10",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 762,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 11",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 763,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 12",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 764,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 13",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 765,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 14",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 766,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 15",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 767,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 16",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 769,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 18",
+      "problem": "Text/keyword artifacts detected: ['ecognised']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 770,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 19",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 771,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 20",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ecognised', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 772,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 21",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 773,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 22",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 774,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 23",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 775,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 24",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 776,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 25",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 777,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 26",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 778,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 27",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 779,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 28",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 780,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 29",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 781,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 30",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 782,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 31",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 783,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 32",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 784,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 33",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 785,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 34",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 788,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 37",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 789,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 38",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 790,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 39",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 791,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 40",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 792,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 41",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 793,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 42",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 794,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 43",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 795,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 44",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 796,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 45",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 797,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 46",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 798,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 47",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 800,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 49",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 801,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 50",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 802,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 51",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 804,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 53",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 805,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 54",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 806,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 55",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 807,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 56",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 808,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 57",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 809,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 58",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 810,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 59",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 812,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 61",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 813,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 62",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 814,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 63",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 815,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 64",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 816,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 65",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 817,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 66",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 818,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 67",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 819,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 68",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 820,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 69",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 821,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 70",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 822,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 71",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 823,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 72",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 824,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 73",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 825,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 74",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 826,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 75",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 827,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 76",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 828,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 77",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 829,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 78",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 830,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 79",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 831,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 80",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 832,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 81",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 833,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 82",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 834,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 83",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 835,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 84",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 836,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 85",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 838,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 87",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 839,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 88",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 840,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 89",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 841,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 90",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 842,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 91",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 843,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 92",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 844,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 93",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 845,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 94",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 846,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 95",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 847,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 96",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 848,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 97",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 849,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 98",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 850,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 99",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 851,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 100",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 852,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 101",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 853,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 102",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 854,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 103",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 855,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 104",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 856,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 105",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 857,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 106",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 858,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 107",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 859,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 108",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 860,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 109",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 861,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 110",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 863,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 112",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 864,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 113",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 865,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 114",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 866,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 115",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 867,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 116",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 868,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 117",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 869,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 118",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 870,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 119",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 871,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 120",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 872,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 121",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 873,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 122",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 874,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 123",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 876,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 125",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 877,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 126",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 878,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 127",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 879,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 128",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 880,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 129",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 881,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 130",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 882,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 131",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 884,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 133",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 886,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 135",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 887,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 136",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 888,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 137",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 889,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 138",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 890,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 139",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 891,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 140",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 892,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 141",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 894,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 143",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 895,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 144",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 897,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 146",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 898,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 147",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 899,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 148",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 900,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 149",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 901,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 150",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 902,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 151",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 903,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 152",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 904,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 153",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 905,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 154",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 906,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 155",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 907,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 156",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 908,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 157",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 909,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 158",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 910,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 159",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 913,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 162",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 914,
+      "act_name": "The Code on Social Security, 2020",
+      "section": "Section 163",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "b602569a9cd014c49d91472b6a22b24c.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 916,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 1",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 917,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 2",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 919,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 4",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 920,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 5",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 921,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 6",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 922,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 7",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 923,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 8",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 924,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 9",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 925,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 10",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 928,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 13",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 930,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 15",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 932,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 17",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 933,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 18",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 934,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 19",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 935,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 20",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 937,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 22",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 940,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 25",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 941,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 26",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 946,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 31",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 947,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 32",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 949,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 34",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 951,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 36",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 954,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 39",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 955,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 40",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 956,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 41",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 957,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 42",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 959,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 44",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 960,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 45",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 962,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 47",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 963,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 48",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 964,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 49",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 966,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 51",
+      "problem": "Text/keyword artifacts detected: ['uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 968,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 53",
+      "problem": "Text/keyword artifacts detected: ['entral', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 969,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 54",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 971,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 56",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 973,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 58",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 977,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 62",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 979,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 64",
+      "problem": "Text/keyword artifacts detected: ['ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 980,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 65",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 982,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 67",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority', 'ppropriate']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 983,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 68",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 984,
+      "act_name": "The Code on Wages, 2019",
+      "section": "Section 69",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "c328da14bbb15fc4ad571dc33e7a4ab3.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 991,
+      "act_name": "Central Consumer Protection Authority (Allocation and Transaction of Business) Regulations, 2020",
+      "section": "Regulation 7",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CCPA Regulations_1732707386.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 993,
+      "act_name": "Consumer Protection (Consumer Disputes Redressal Commissions) Amendment Rules, 2023",
+      "section": "Rule 2",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CDRC Amendment Rules 2023-1_1732707073.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1013,
+      "act_name": "Consumer Protection (E-Commerce) (Amendment) Rules, 2021",
+      "section": "Rule 2",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "Consumer Protection (E-Commerce) (Amendment) Rules, 2021_1732704241.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1014,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 1",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1015,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(1)",
+      "problem": "Text/keyword artifacts detected: ['dvertisement']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1016,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(2)",
+      "problem": "Text/keyword artifacts detected: ['ecognised', 'entral', 'ppropriate']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1017,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(4)",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1018,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(5)",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1019,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(7)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1020,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(8)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1021,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(9)",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'ppropriate']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1023,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(11)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1027,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(15)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1029,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(17)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1030,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(18)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1037,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(25)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1040,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(28)",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'dvertisement']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1041,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(29)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1044,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(32)",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1046,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(34)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1051,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(39)",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1052,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(41)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1055,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(44)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1057,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(46)",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1058,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 2(47)",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'dvertisement', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1059,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 3",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1060,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 4",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1061,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 5",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1062,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 6",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1063,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 7",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1064,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 8",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1065,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 9",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1066,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 10",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'dvertisement', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1067,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 11",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1068,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 12",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1069,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 13",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1070,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 14",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1071,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 15",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1072,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 16",
+      "problem": "Text/keyword artifacts detected: ['entral', 'dvertisement', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1073,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 17",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'dvertisement', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1074,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 18",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'dvertisement', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1075,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 19",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'dvertisement', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1076,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 20",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1077,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 21",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'dvertisement', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1078,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 22",
+      "problem": "Text/keyword artifacts detected: ['dvertisement']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1079,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 23",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1080,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 24",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1081,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 25",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1082,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 26",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1083,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 27",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1084,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 28",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1085,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 29",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1090,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 34",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1091,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 35",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'ecognised', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1093,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 37",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1094,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 38",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'onsumer', 'entral', 'ppropriate']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1095,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 39",
+      "problem": "Text/keyword artifacts detected: ['hapter', 'onsumer', 'dvertisement', 'ppropriate']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1098,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 42",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1099,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 43",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1103,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 47",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1109,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 53",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1111,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 55",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1112,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 56",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1113,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 57",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1114,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 58",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority', 'ppropriate']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1115,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 59",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1122,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 66",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1126,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 70",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1130,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 74",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1131,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 75",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1132,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 76",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1133,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 77",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1134,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 78",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1135,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 79",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1136,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 80",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1137,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 81",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1138,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 82",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1140,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 84",
+      "problem": "Text/keyword artifacts detected: ['hapter']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1143,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 87",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1144,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 88",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1145,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 89",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'dvertisement']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1146,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 90",
+      "problem": "Text/keyword artifacts detected: ['onsumer']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1147,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 91",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'dvertisement', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1150,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 94",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1151,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 95",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1152,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 96",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1155,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 99",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1157,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 101",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1158,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 102",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1159,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 103",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1160,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 104",
+      "problem": "Text/keyword artifacts detected: ['entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1162,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 106",
+      "problem": "Text/keyword artifacts detected: ['entral']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1163,
+      "act_name": "The Consumer Protection Act, 2019",
+      "section": "Section 107",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral', 'uthority']",
+      "source_pdf": "CP Act 2019_1732700731.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1171,
+      "act_name": "Consumer Protection (E-Commerce) Rules, 2020",
+      "section": "Rule 8",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "E commerce rules_1732703966.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1178,
+      "act_name": "Consumer Protection (Mediation) Rules, 2020",
+      "section": "Rule 7",
+      "problem": "Text/keyword artifacts detected: ['onsumer', 'entral']",
+      "source_pdf": "Mediation Rules_1732703912.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1180,
+      "act_name": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+      "section": "Section 4",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "rentshotelact.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1181,
+      "act_name": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+      "section": "Section 5",
+      "problem": "Text/keyword artifacts detected: ['uthority']",
+      "source_pdf": "rentshotelact.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    },
+    {
+      "record_index": 1229,
+      "act_name": "Central Consumer Protection Authority (Submission of Inquiry or Investigation Report) Regulations, 2021",
+      "section": "Regulation 1",
+      "problem": "Corrupted or body-text section_title: 'Central Consumer Protection Authority (Submission of Inquiry...'; Text/keyword artifacts detected: ['onsumer', 'uthority']",
+      "source_pdf": "Submission of Inquiry or Investigation by the Investigation Wing_1732707627.pdf",
+      "recommended_correction": "Re-parse PDF with direct header detection to correct Act metadata, section titles, and chapter names."
+    }
+  ]
+}

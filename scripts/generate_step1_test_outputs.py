@@ -13,7 +13,7 @@ from src.normalizer import normalize_document  # noqa: E402
 
 
 def generate_artifacts():
-    output_dir = PROJECT_ROOT / "test_outputs" / "step1_data_foundation"
+    output_dir = PROJECT_ROOT / "test_outputs" / "person1_legal_knowledge_base"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     python_exe = sys.executable
@@ -30,7 +30,7 @@ def generate_artifacts():
     if pytest_proc.stderr:
         pytest_out += "\nSTDERR:\n" + pytest_proc.stderr
     pytest_out += f"\nExit Code: {pytest_proc.returncode}\n"
-    (output_dir / "pytest_output.txt").write_text(pytest_out, encoding="utf-8")
+    (output_dir / "legal_pytest_output.txt").write_text(pytest_out, encoding="utf-8")
 
     # 2. Run ruff check
     print("Running ruff check...")
@@ -44,7 +44,7 @@ def generate_artifacts():
     if ruff_check_proc.stderr:
         ruff_check_out += "\nSTDERR:\n" + ruff_check_proc.stderr
     ruff_check_out += f"\nExit Code: {ruff_check_proc.returncode}\n"
-    (output_dir / "ruff_check_output.txt").write_text(ruff_check_out, encoding="utf-8")
+    (output_dir / "legal_ruff_check_output.txt").write_text(ruff_check_out, encoding="utf-8")
 
     # 3. Run ruff format check
     print("Running ruff format check...")
@@ -58,10 +58,10 @@ def generate_artifacts():
     if ruff_fmt_proc.stderr:
         ruff_fmt_out += "\nSTDERR:\n" + ruff_fmt_proc.stderr
     ruff_fmt_out += f"\nExit Code: {ruff_fmt_proc.returncode}\n"
-    (output_dir / "ruff_format_output.txt").write_text(ruff_fmt_out, encoding="utf-8")
+    (output_dir / "legal_ruff_format_output.txt").write_text(ruff_fmt_out, encoding="utf-8")
 
     # 4. Programmatically test data loader & normalizer
-    print("Generating normalization results JSON...")
+    print("Generating legal normalization results JSON...")
     raw_records = load_raw_legal_data()
     total_records = len(raw_records)
     success_count = 0
@@ -99,7 +99,7 @@ def generate_artifacts():
             failures.append(error_info)
 
     norm_json_content = {
-        "step": "step1_data_foundation",
+        "step": "person1_legal_knowledge_base",
         "total_records": total_records,
         "successfully_normalized": success_count,
         "failed_records": failure_count,
@@ -108,10 +108,10 @@ def generate_artifacts():
         "validation_failures": failures,
     }
 
-    (output_dir / "normalization_results.json").write_text(
+    (output_dir / "legal_normalization_results.json").write_text(
         json.dumps(norm_json_content, indent=2), encoding="utf-8"
     )
-    print("Step 1 test artifacts successfully generated!")
+    print("Person 1 legal ingestion test outputs successfully generated!")
 
 
 if __name__ == "__main__":
