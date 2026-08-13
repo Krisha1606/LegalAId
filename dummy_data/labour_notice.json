@@ -1,0 +1,39 @@
+{
+  "document_type": "labour_notice",
+  "user": {
+    "name": "Rahul Sharma",
+    "address": "Ahmedabad, Gujarat"
+  },
+  "opposite_party": {
+    "name": "ABC Technologies Pvt. Ltd.",
+    "address": "Ahmedabad, Gujarat"
+  },
+  "issue": {
+    "title": "Non-payment of salary",
+    "description": "Salary has not been paid for two months.",
+    "amount": "₹50,000"
+  },
+  "facts": [
+    "Employee has been working for the company.",
+    "Salary for two months has not been paid."
+  ],
+  "rights": [
+    "Employee may have a right to receive wages due."
+  ],
+  "laws": [
+    {
+      "act": "Dummy Labour Law",
+      "section": "Section X",
+      "title": "Payment of Wages",
+      "explanation": "Dummy legal information for testing."
+    }
+  ],
+  "recommended_actions": [
+    "Preserve salary records.",
+    "Send a formal demand notice."
+  ],
+  "relief_requested": [
+    "Payment of outstanding salary."
+  ],
+  "date": "13 August 2026"
+}
