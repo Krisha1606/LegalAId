@@ -1,0 +1,140 @@
+{
+  "step": "step1_data_foundation",
+  "total_records": 18,
+  "successfully_normalized": 18,
+  "failed_records": 0,
+  "domain_counts": {
+    "Consumer": 6,
+    "Labour": 6,
+    "Tenant/Rental": 6
+  },
+  "record_details": [
+    {
+      "id": "DUMMY-CONS-001",
+      "domain": "Consumer",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": true
+    },
+    {
+      "id": "DUMMY-CONS-002",
+      "domain": "Consumer",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-CONS-003",
+      "domain": "Consumer",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-CONS-004",
+      "domain": "Consumer",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-CONS-005",
+      "domain": "Consumer",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-CONS-006",
+      "domain": "Consumer",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-LAB-001",
+      "domain": "Labour",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": true
+    },
+    {
+      "id": "DUMMY-LAB-002",
+      "domain": "Labour",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-LAB-003",
+      "domain": "Labour",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-LAB-004",
+      "domain": "Labour",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-LAB-005",
+      "domain": "Labour",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-LAB-006",
+      "domain": "Labour",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-TEN-001",
+      "domain": "Tenant/Rental",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": true
+    },
+    {
+      "id": "DUMMY-TEN-002",
+      "domain": "Tenant/Rental",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-TEN-003",
+      "domain": "Tenant/Rental",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-TEN-004",
+      "domain": "Tenant/Rental",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-TEN-005",
+      "domain": "Tenant/Rental",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    },
+    {
+      "id": "DUMMY-TEN-006",
+      "domain": "Tenant/Rental",
+      "status": "SUCCESS",
+      "is_dummy": true,
+      "has_extra_metadata": false
+    }
+  ],
+  "validation_failures": []
+}

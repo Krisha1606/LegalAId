@@ -1,0 +1,16 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.1.1, pluggy-1.6.0 -- D:\LegalAId\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\LegalAId
+plugins: anyio-4.14.2
+collecting ... collected 5 items
+
+tests/test_normalizer.py::test_normalize_valid_document PASSED           [ 20%]
+tests/test_normalizer.py::test_required_fields_preserved PASSED          [ 40%]
+tests/test_normalizer.py::test_extra_metadata_preserved PASSED           [ 60%]
+tests/test_normalizer.py::test_missing_required_fields PASSED            [ 80%]
+tests/test_normalizer.py::test_integration_load_and_normalize PASSED     [100%]
+
+============================== 5 passed in 0.04s ==============================
+
+Exit Code: 0

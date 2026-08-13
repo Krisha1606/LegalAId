@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Track persistent test output artifacts
+!test_outputs/
+
+# Ruff
+.ruff_cache/
+
+# RAG generated data
+storage/
+
+# Model/cache files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# IDE
+.vscode/
+.idea/
