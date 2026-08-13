@@ -4,9 +4,9 @@ import json
 from pathlib import Path
 from typing import Any
 
-from src.chunker import chunk_legal_pdf_text
 from src.config import config
 from src.data_loader import load_pdf_text
+from src.legal_section_chunker import chunk_legal_pdf_text
 from src.normalizer import (
     normalize_dataset,
     validate_knowledge_base_record,

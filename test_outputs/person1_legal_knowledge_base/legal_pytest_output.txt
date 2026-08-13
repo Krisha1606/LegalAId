@@ -1,0 +1,27 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\priya\Downloads\LegalAId\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\priya\Downloads\LegalAId
+plugins: anyio-4.14.2
+collecting ... collected 16 items
+
+tests/test_legal_section_chunker.py::test_clean_legal_text PASSED        [  6%]
+tests/test_legal_section_chunker.py::test_clean_legal_text_empty PASSED  [ 12%]
+tests/test_legal_section_chunker.py::test_extract_keywords PASSED        [ 18%]
+tests/test_legal_section_chunker.py::test_generate_plain_summary PASSED  [ 25%]
+tests/test_legal_section_chunker.py::test_chunk_legal_pdf_text_sample PASSED [ 31%]
+tests/test_normalizer.py::test_normalize_valid_document PASSED           [ 37%]
+tests/test_normalizer.py::test_required_fields_preserved PASSED          [ 43%]
+tests/test_normalizer.py::test_extra_metadata_preserved PASSED           [ 50%]
+tests/test_normalizer.py::test_missing_required_fields PASSED            [ 56%]
+tests/test_normalizer.py::test_integration_load_and_normalize PASSED     [ 62%]
+tests/test_person1_pipeline.py::test_json_validity_and_load PASSED       [ 68%]
+tests/test_person1_pipeline.py::test_schema_and_required_14_fields PASSED [ 75%]
+tests/test_person1_pipeline.py::test_domain_validity PASSED              [ 81%]
+tests/test_person1_pipeline.py::test_pdf_extraction_sample PASSED        [ 87%]
+tests/test_person1_pipeline.py::test_cross_domain_and_act_consistency PASSED [ 93%]
+tests/test_person1_pipeline.py::test_representative_records PASSED       [100%]
+
+============================= 16 passed in 0.65s ==============================
+
+Exit Code: 0
