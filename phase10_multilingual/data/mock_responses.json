@@ -1,0 +1,56 @@
+{
+  "consumer_defective": {
+    "rights_explanation": "The consumer has the right to demand a refund or replacement for defective goods under the Consumer Protection Act.",
+    "applicable_laws": [
+      {
+        "act": "Consumer Protection Act, 2019",
+        "section": "Section 35",
+        "explanation": "Allows a consumer to file a complaint regarding defective goods or deficiency in services.",
+        "source": "bare_acts/cpa_2019"
+      }
+    ],
+    "recommended_actions": [
+      "Keep the purchase invoice and warranty card safe.",
+      "Send a formal written complaint or legal notice to the seller.",
+      "If unresolved, approach the District Consumer Disputes Redressal Commission."
+    ],
+    "document": null,
+    "citations": ["Consumer Protection Act, 2019", "Section 35"]
+  },
+  "labour_salary": {
+    "rights_explanation": "An employee has the right to receive timely payment of earned wages. Non-payment is a violation of labour laws.",
+    "applicable_laws": [
+      {
+        "act": "Payment of Wages Act, 1936",
+        "section": "Section 15",
+        "explanation": "Provides a remedy for claims arising out of deductions from wages or delay in payment of wages.",
+        "source": "bare_acts/pwa_1936"
+      }
+    ],
+    "recommended_actions": [
+      "Send a formal demand letter or legal notice to the employer.",
+      "File a complaint with the Labour Commissioner.",
+      "Gather evidence such as offer letter, bank statements, and emails."
+    ],
+    "document": null,
+    "citations": ["Payment of Wages Act, 1936", "Section 15"]
+  },
+  "tenant_deposit": {
+    "rights_explanation": "A tenant is entitled to a refund of the security deposit upon vacating the premises, subject to reasonable deductions for damages.",
+    "applicable_laws": [
+      {
+        "act": "Rent Control Act",
+        "section": "General Principles",
+        "explanation": "Regulates the relationship between landlord and tenant, including the handling of security deposits.",
+        "source": "general_law"
+      }
+    ],
+    "recommended_actions": [
+      "Review the rent agreement for clauses regarding deposit refund.",
+      "Send a legal notice to the landlord demanding the refund.",
+      "File a suit for recovery in the civil court or rent controller if applicable."
+    ],
+    "document": null,
+    "citations": ["Rent Control Act"]
+  }
+}
