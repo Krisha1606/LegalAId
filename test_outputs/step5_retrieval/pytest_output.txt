@@ -1,0 +1,35 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.1.1, pluggy-1.6.0 -- D:\LegalAId\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\LegalAId
+plugins: anyio-4.14.2
+collecting ... collected 24 items
+
+tests/test_retriever.py::test_1_retriever_initializes_successfully PASSED [  4%]
+tests/test_retriever.py::test_2_query_embedded_successfully PASSED       [  8%]
+tests/test_retriever.py::test_3_query_vector_dimension_matches_faiss PASSED [ 12%]
+tests/test_retriever.py::test_4_retrieval_returns_ranked_results PASSED  [ 16%]
+tests/test_retriever.py::test_5_results_contain_scores PASSED            [ 20%]
+tests/test_retriever.py::test_6_results_preserve_chunk_ids PASSED        [ 25%]
+tests/test_retriever.py::test_7_results_preserve_document_ids PASSED     [ 29%]
+tests/test_retriever.py::test_8_results_preserve_act_and_section PASSED  [ 33%]
+tests/test_retriever.py::test_9_results_preserve_source_and_url PASSED   [ 37%]
+tests/test_retriever.py::test_10_results_preserve_custom_metadata PASSED [ 41%]
+tests/test_retriever.py::test_11_top_k_limit_respected PASSED            [ 45%]
+tests/test_retriever.py::test_12_top_k_le_zero_raises_error PASSED       [ 50%]
+tests/test_retriever.py::test_13_top_k_larger_than_ntotal_handled_safely PASSED [ 54%]
+tests/test_retriever.py::test_14_results_ordered_descending_score PASSED [ 58%]
+tests/test_retriever.py::test_15_similarity_threshold_filtering PASSED   [ 62%]
+tests/test_retriever.py::test_16_raw_candidates_remain_inspectable PASSED [ 66%]
+tests/test_retriever.py::test_17_insufficient_retrieval_status_detected PASSED [ 70%]
+tests/test_retriever.py::test_18_query_dimension_mismatch_detected PASSED [ 75%]
+tests/test_retriever.py::test_19_empty_query_rejected PASSED             [ 79%]
+tests/test_retriever.py::test_20_dummy_flag_preserved PASSED             [ 83%]
+tests/test_retriever.py::test_21_repeated_query_stable_ranking PASSED    [ 87%]
+tests/test_retriever.py::test_22_consumer_query_retrieves_consumer_chunk PASSED [ 91%]
+tests/test_retriever.py::test_23_tenant_query_retrieves_tenant_chunk PASSED [ 95%]
+tests/test_retriever.py::test_24_labour_query_retrieves_labour_chunk PASSED [100%]
+
+============================= 24 passed in 26.32s =============================
+
+Exit Code: 0

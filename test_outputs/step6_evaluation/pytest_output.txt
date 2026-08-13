@@ -1,0 +1,30 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.1.1, pluggy-1.6.0 -- D:\LegalAId\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\LegalAId
+plugins: anyio-4.14.2
+collecting ... collected 19 items
+
+tests/test_retrieval_evaluator.py::test_1_benchmark_initializes_successfully PASSED [  5%]
+tests/test_retrieval_evaluator.py::test_2_runs_benchmark_over_queries PASSED [ 10%]
+tests/test_retrieval_evaluator.py::test_3_computes_top_metrics PASSED    [ 15%]
+tests/test_retrieval_evaluator.py::test_4_computes_mrr PASSED            [ 21%]
+tests/test_retrieval_evaluator.py::test_5_computes_mean_expected_rank PASSED [ 26%]
+tests/test_retrieval_evaluator.py::test_6_computes_success_rates PASSED  [ 31%]
+tests/test_retrieval_evaluator.py::test_7_domain_wise_metrics PASSED     [ 36%]
+tests/test_retrieval_evaluator.py::test_8_query_eval_reciprocal_rank PASSED [ 42%]
+tests/test_retrieval_evaluator.py::test_9_not_retrieved_chunk_handling PASSED [ 47%]
+tests/test_retrieval_evaluator.py::test_10_expected_chunk_score_populated PASSED [ 52%]
+tests/test_retrieval_evaluator.py::test_11_expected_chunk_qualified_reflects_threshold PASSED [ 57%]
+tests/test_retrieval_evaluator.py::test_12_failure_count_accuracy PASSED [ 63%]
+tests/test_retrieval_evaluator.py::test_13_retrieved_chunk_ids_ordered PASSED [ 68%]
+tests/test_retrieval_evaluator.py::test_14_save_json_report PASSED       [ 73%]
+tests/test_retrieval_evaluator.py::test_15_save_txt_summary_report PASSED [ 78%]
+tests/test_retrieval_evaluator.py::test_16_empty_query_dataset_raises_error PASSED [ 84%]
+tests/test_retrieval_evaluator.py::test_17_missing_query_file_raises_error PASSED [ 89%]
+tests/test_retrieval_evaluator.py::test_18_custom_top_k_and_threshold_respected PASSED [ 94%]
+tests/test_retrieval_evaluator.py::test_19_regression_threshold_enforcement PASSED [100%]
+
+============================= 19 passed in 29.36s =============================
+
+Exit Code: 0

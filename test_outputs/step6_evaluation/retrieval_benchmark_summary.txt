@@ -1,0 +1,35 @@
+================================================================================
+LEGAL AID RETRIEVAL BENCHMARK REPORT (STEP 6)
+================================================================================
+Embedding Model      : sentence-transformers/all-MiniLM-L6-v2
+FAISS Vector Count   : 18
+Top-K Config         : 5
+Similarity Threshold : 0.35
+--------------------------------------------------------------------------------
+GLOBAL RETRIEVAL METRICS:
+  Total Queries          : 15
+  Top-1 Accuracy         : 93.33%
+  Top-3 Recall           : 100.0%
+  Top-5 Recall           : 100.0%
+  Mean Reciprocal Rank   : 0.9556
+  Mean Expected Rank     : 1.13
+  Retrieval Success Rate : 93.33%
+  Insufficient Rate      : 6.67%
+--------------------------------------------------------------------------------
+DOMAIN-WISE PERFORMANCE:
+  [Consumer] (5 queries):
+    - Top-1 Accuracy : 100.0%
+    - Top-3 Recall   : 100.0%
+    - Top-5 Recall   : 100.0%
+    - MRR            : 1.0
+  [Labour] (5 queries):
+    - Top-1 Accuracy : 100.0%
+    - Top-3 Recall   : 100.0%
+    - Top-5 Recall   : 100.0%
+    - MRR            : 1.0
+  [Tenant/Rental] (5 queries):
+    - Top-1 Accuracy : 80.0%
+    - Top-3 Recall   : 100.0%
+    - Top-5 Recall   : 100.0%
+    - MRR            : 0.8667
+================================================================================

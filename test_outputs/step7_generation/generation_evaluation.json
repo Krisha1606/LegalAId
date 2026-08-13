@@ -1,0 +1,150 @@
+{
+  "step": "step7_generation_evaluation",
+  "total_test_queries": 15,
+  "retrieval_successes": 14,
+  "insufficient_retrievals": 1,
+  "generation_successes": 14,
+  "generation_failures": 0,
+  "ollama_calls_skipped": 1,
+  "responses_with_sources": 14,
+  "responses_with_chunk_ids": 14,
+  "responses_with_act_sec": 14,
+  "query_details": [
+    {
+      "query_id": "Q_CONS_01",
+      "query": "I bought a defective smartphone and the seller refuses to replace it or give me a refund.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 2,
+      "sources_count": 2,
+      "answer_length": 505
+    },
+    {
+      "query_id": "Q_CONS_02",
+      "query": "An online store advertised a discount price but charged me full price at checkout.",
+      "status": "insufficient_retrieval",
+      "retrieval_status": "insufficient_retrieval",
+      "qualified_chunk_count": 0,
+      "sources_count": 0,
+      "answer_length": 128
+    },
+    {
+      "query_id": "Q_CONS_03",
+      "query": "My e-commerce order was delayed by three weeks without any explanation from the shopping platform.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 764
+    },
+    {
+      "query_id": "Q_CONS_04",
+      "query": "The manufacturer cancelled my laptop warranty because a local technician cleaned the dust inside.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 689
+    },
+    {
+      "query_id": "Q_CONS_05",
+      "query": "My mobile network auto-renewed an expensive monthly pack without taking my consent.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 606
+    },
+    {
+      "query_id": "Q_LAB_01",
+      "query": "My boss has not paid my monthly salary for the past two months.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 2,
+      "sources_count": 2,
+      "answer_length": 814
+    },
+    {
+      "query_id": "Q_LAB_02",
+      "query": "I am forced to work 12 hours every day but my employer pays me normal hourly rate.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 3,
+      "sources_count": 3,
+      "answer_length": 861
+    },
+    {
+      "query_id": "Q_LAB_03",
+      "query": "Factory management refuses to provide safety helmets and boots on hazardous construction sites.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 454
+    },
+    {
+      "query_id": "Q_LAB_04",
+      "query": "My company fired me after I submitted my 26-week paid maternity leave request.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 2,
+      "sources_count": 2,
+      "answer_length": 853
+    },
+    {
+      "query_id": "Q_LAB_05",
+      "query": "I was terminated on the spot without 30 days notice or severance compensation after two years of work.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 2,
+      "sources_count": 2,
+      "answer_length": 823
+    },
+    {
+      "query_id": "Q_TEN_01",
+      "query": "My landlord is refusing to return my security deposit after I moved out of the apartment.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 371
+    },
+    {
+      "query_id": "Q_TEN_02",
+      "query": "The house owner increased my rent by 30 percent in the middle of my 11-month rental lease.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 586
+    },
+    {
+      "query_id": "Q_TEN_03",
+      "query": "The roof of my rented house is leaking heavily and the landlord refuses to fix it.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 386
+    },
+    {
+      "query_id": "Q_TEN_04",
+      "query": "My landlord changed the main door locks and threw out my belongings without giving notice or court order.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 1018
+    },
+    {
+      "query_id": "Q_TEN_05",
+      "query": "The landlord disconnected my electricity and water connection to force me to leave the house.",
+      "status": "success",
+      "retrieval_status": "success",
+      "qualified_chunk_count": 1,
+      "sources_count": 1,
+      "answer_length": 384
+    }
+  ],
+  "execution_status": "SUCCESS"
+}

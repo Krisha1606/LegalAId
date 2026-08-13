@@ -1,0 +1,23 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.1.1, pluggy-1.6.0 -- D:\LegalAId\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\LegalAId
+plugins: anyio-4.14.2
+collecting ... collected 12 items
+
+tests/test_chunker.py::test_1_normal_document_produces_chunks PASSED     [  8%]
+tests/test_chunker.py::test_2_short_text_not_unnecessarily_split PASSED  [ 16%]
+tests/test_chunker.py::test_3_large_text_splits_into_multiple_chunks PASSED [ 25%]
+tests/test_chunker.py::test_4_chunk_ids_are_unique PASSED                [ 33%]
+tests/test_chunker.py::test_5_chunks_retain_parent_document_id PASSED    [ 41%]
+tests/test_chunker.py::test_6_legal_metadata_preserved PASSED            [ 50%]
+tests/test_chunker.py::test_7_extra_metadata_preserved PASSED            [ 58%]
+tests/test_chunker.py::test_8_chunk_size_limits_respected PASSED         [ 66%]
+tests/test_chunker.py::test_9_overlap_behaves_correctly PASSED           [ 75%]
+tests/test_chunker.py::test_10_dataset_chunking PASSED                   [ 83%]
+tests/test_chunker.py::test_11_empty_invalid_text_handling PASSED        [ 91%]
+tests/test_chunker.py::test_12_dummy_flag_preserved PASSED               [100%]
+
+============================= 12 passed in 0.03s ==============================
+
+Exit Code: 0

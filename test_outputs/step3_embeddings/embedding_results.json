@@ -1,0 +1,68 @@
+{
+  "step": "step3_embeddings",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "number_of_chunks_embedded": 18,
+  "embedding_dimension": 384,
+  "vector_dtype": "float32",
+  "matrix_shape": [
+    18,
+    384
+  ],
+  "all_dimensions_match": true,
+  "query_embedding_dimension": 384,
+  "number_of_failed_embeddings": 0,
+  "sample_chunk_ids": [
+    "DUMMY-CONS-001-chunk-0",
+    "DUMMY-CONS-002-chunk-0",
+    "DUMMY-CONS-003-chunk-0",
+    "DUMMY-CONS-004-chunk-0",
+    "DUMMY-CONS-005-chunk-0"
+  ],
+  "sample_embedding_prefixes": {
+    "DUMMY-CONS-001-chunk-0": [
+      -0.01189,
+      0.03193,
+      0.04578,
+      -0.0487,
+      0.01588
+    ],
+    "DUMMY-CONS-002-chunk-0": [
+      -0.05305,
+      0.07096,
+      -0.00666,
+      -0.03178,
+      0.02844
+    ],
+    "DUMMY-CONS-003-chunk-0": [
+      -0.01822,
+      0.00051,
+      -0.01045,
+      -0.09028,
+      0.00492
+    ],
+    "DUMMY-CONS-004-chunk-0": [
+      -0.05163,
+      0.04213,
+      0.05392,
+      -0.08431,
+      -0.00713
+    ],
+    "DUMMY-CONS-005-chunk-0": [
+      -0.02823,
+      -0.02422,
+      -0.04775,
+      -0.04194,
+      0.00304
+    ]
+  },
+  "semantic_sanity_test_results": {
+    "query_consumer": "I bought a defective product and the seller refuses to refund me.",
+    "query_tenant": "My landlord has not returned my rental security deposit.",
+    "sim_consumer_query_to_consumer_chunk": 0.5163,
+    "sim_consumer_query_to_tenant_chunk": 0.1856,
+    "sim_tenant_query_to_tenant_chunk": 0.5986,
+    "sim_tenant_query_to_consumer_chunk": 0.0829,
+    "sanity_test_status": "PASS"
+  },
+  "execution_status": "SUCCESS"
+}

@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.1.1, pluggy-1.6.0 -- D:\LegalAId\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\LegalAId
+plugins: anyio-4.14.2
+collecting ... collected 17 items
+
+tests/test_vector_store.py::test_1_faiss_index_creation PASSED           [  5%]
+tests/test_vector_store.py::test_2_index_dimension_matches_embeddings PASSED [ 11%]
+tests/test_vector_store.py::test_3_correct_number_of_vectors_added PASSED [ 17%]
+tests/test_vector_store.py::test_4_metadata_mapping_count_matches PASSED [ 23%]
+tests/test_vector_store.py::test_5_chunk_ids_preserved PASSED            [ 29%]
+tests/test_vector_store.py::test_6_document_ids_preserved PASSED         [ 35%]
+tests/test_vector_store.py::test_7_act_section_metadata_preserved PASSED [ 41%]
+tests/test_vector_store.py::test_8_source_and_url_preserved PASSED       [ 47%]
+tests/test_vector_store.py::test_9_custom_metadata_preserved PASSED      [ 52%]
+tests/test_vector_store.py::test_10_11_save_index_and_metadata PASSED    [ 58%]
+tests/test_vector_store.py::test_12_13_14_15_16_load_index_and_metadata PASSED [ 64%]
+tests/test_vector_store.py::test_17_rejects_duplicate_chunk_ids PASSED   [ 70%]
+tests/test_vector_store.py::test_18_rejects_inconsistent_dimensions PASSED [ 76%]
+tests/test_vector_store.py::test_19_empty_input_handling PASSED          [ 82%]
+tests/test_vector_store.py::test_20_persistence_roundtrip PASSED         [ 88%]
+tests/test_vector_store.py::test_21_dummy_flag_preserved_across_roundtrip PASSED [ 94%]
+tests/test_vector_store.py::test_22_self_search_index_validation PASSED  [100%]
+
+======================= 17 passed in 133.35s (0:02:13) ========================
+
+Exit Code: 0

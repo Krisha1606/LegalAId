@@ -1,0 +1,44 @@
+{
+  "step": "step4_vector_store",
+  "faiss_index_type": "IndexFlatIP",
+  "embedding_dimension": 384,
+  "number_of_vectors": 18,
+  "number_of_metadata_records": 18,
+  "index_metadata_count_match": true,
+  "sample_position_mappings": {
+    "0": "DUMMY-CONS-001-chunk-0",
+    "1": "DUMMY-CONS-002-chunk-0",
+    "2": "DUMMY-CONS-003-chunk-0",
+    "3": "DUMMY-CONS-004-chunk-0",
+    "4": "DUMMY-CONS-005-chunk-0"
+  },
+  "sample_act_section_mappings": {
+    "0": {
+      "act": "Dummy Consumer Rights Act, 2024",
+      "section": "Dummy Section 12"
+    },
+    "1": {
+      "act": "Dummy Consumer Rights Act, 2024",
+      "section": "Dummy Section 14"
+    },
+    "2": {
+      "act": "Dummy Digital Commerce Code, 2024",
+      "section": "Dummy Section 21"
+    },
+    "3": {
+      "act": "Dummy Consumer Rights Act, 2024",
+      "section": "Dummy Section 30"
+    },
+    "4": {
+      "act": "Dummy Financial Services Consumer Code, 2024",
+      "section": "Dummy Section 09"
+    }
+  },
+  "index_file_path": "D:\\LegalAId\\storage\\legal_index\\index.faiss",
+  "metadata_file_path": "D:\\LegalAId\\storage\\legal_index\\metadata.json",
+  "persistence_roundtrip_status": "PASS",
+  "duplicate_id_validation_status": "PASS",
+  "dimension_validation_status": "PASS",
+  "self_search_validation_status": "PASS",
+  "execution_status": "SUCCESS"
+}
