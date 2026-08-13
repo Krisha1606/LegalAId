@@ -20,7 +20,12 @@ def load_raw_legal_data(
         FileNotFoundError: If the specified file does not exist.
         ValueError: If the file is malformed JSON, empty, or has an invalid structure.
     """
-    path = Path(file_path) if file_path is not None else Path(config.DATA_PATH)
+    if file_path is not None:
+        path = Path(file_path)
+    elif config.DATA_PATH.is_file():
+        path = config.DATA_PATH
+    else:
+        path = config.DUMMY_DATA_PATH
 
     if not path.is_file():
         raise FileNotFoundError(f"Legal dataset file not found at: {path.resolve()}")
@@ -54,3 +59,39 @@ def load_raw_legal_data(
         raise ValueError(f"Legal dataset at {path.resolve()} contains no records.")
 
     return records
+
+
+def load_pdf_text(file_path: str | Path) -> str:
+    """Extracts raw text from an official legal PDF document.
+
+    Args:
+        file_path: Path to the PDF file.
+
+    Returns:
+        Extracted text as a string.
+
+    Raises:
+        FileNotFoundError: If the PDF file is missing.
+        ValueError: If extraction fails or yields no text.
+    """
+    path = Path(file_path)
+    if not path.is_file():
+        raise FileNotFoundError(f"PDF file not found at: {path.resolve()}")
+
+    try:
+        import pypdf
+
+        reader = pypdf.PdfReader(path)
+        pages_text = []
+        for page in reader.pages:
+            txt = page.extract_text()
+            if txt:
+                pages_text.append(txt)
+        full_text = "\n".join(pages_text)
+    except Exception as exc:
+        raise ValueError(f"Failed to extract text from PDF at {path.resolve()}: {exc}") from exc
+
+    if not full_text.strip():
+        raise ValueError(f"PDF at {path.resolve()} contained no readable text.")
+
+    return full_text

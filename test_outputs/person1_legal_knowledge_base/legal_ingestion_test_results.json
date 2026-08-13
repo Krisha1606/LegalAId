@@ -1,0 +1,252 @@
+{
+  "title": "Person 1 Legal Ingestion Final Testing Results",
+  "summary": {
+    "total_tests": 23,
+    "passed": 23,
+    "failed": 0,
+    "status": "PASS"
+  },
+  "verification_results": {
+    "pdf_processing": "PASS",
+    "section_extraction": "PASS",
+    "metadata_verification": "PASS",
+    "legal_text_verification": "PASS",
+    "schema_verification": "PASS",
+    "cross_act_verification": "PASS"
+  },
+  "test_cases": [
+    {
+      "test_id": "T01_JSON_VALIDITY",
+      "category": "Ingestion Pipeline",
+      "description": "Verify JSON loads as a valid list of records",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "total_records": 1237
+      }
+    },
+    {
+      "test_id": "T02_PDF_EXTRACTION",
+      "category": "PDF Ingestion",
+      "description": "Verify PDF text extraction succeeds for sample PDF",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "sample_pdf": "0fd090d29a4576739079a7b565c8ca9d.pdf",
+        "text_length": 2158
+      }
+    },
+    {
+      "test_id": "T03_SCHEMA_14_FIELDS",
+      "category": "Schema Verification",
+      "description": "Verify all 14 required Person 1 fields exist in every generated record",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "failed_count": 0
+      }
+    },
+    {
+      "test_id": "T04_DOMAIN_VALIDITY",
+      "category": "Metadata Verification",
+      "description": "Verify domain values are strictly consumer, labour, tenant_property",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "domain_distribution": {
+          "labour": 480,
+          "consumer": 220,
+          "tenant_property": 537
+        }
+      }
+    },
+    {
+      "test_id": "T05_SECTION_DETECTION",
+      "category": "Structure Detection",
+      "description": "Verify sections are detected with section numbers",
+      "status": "PASS",
+      "failure_reason": null
+    },
+    {
+      "test_id": "T06_SECTION_TITLES",
+      "category": "Structure Detection",
+      "description": "Verify section titles are preserved",
+      "status": "PASS",
+      "failure_reason": null
+    },
+    {
+      "test_id": "T07_CHAPTER_NAMES",
+      "category": "Structure Detection",
+      "description": "Verify chapter names are preserved",
+      "status": "PASS",
+      "failure_reason": null
+    },
+    {
+      "test_id": "T08_LEGAL_TEXT_PRESENT",
+      "category": "Content Verification",
+      "description": "Verify legal_text is present and non-empty",
+      "status": "PASS",
+      "failure_reason": null
+    },
+    {
+      "test_id": "T09_PLAIN_SUMMARY_PRESENT",
+      "category": "Content Verification",
+      "description": "Verify plain_summary is present and non-empty",
+      "status": "PASS",
+      "failure_reason": null
+    },
+    {
+      "test_id": "T10_KEYWORDS_PRESENT",
+      "category": "Content Verification",
+      "description": "Verify keywords are present and non-empty list",
+      "status": "PASS",
+      "failure_reason": null
+    },
+    {
+      "test_id": "T11_ACT_METADATA_CONSISTENCY",
+      "category": "Cross-Act Safety",
+      "description": "Verify act_name, act_number, and year consistency",
+      "status": "PASS",
+      "failure_reason": null
+    },
+    {
+      "test_id": "T12_NO_CROSS_DOMAIN_ASSIGNMENT",
+      "category": "Cross-Act Safety",
+      "description": "Verify no section from one domain is assigned to another domain",
+      "status": "PASS",
+      "failure_reason": null
+    },
+    {
+      "test_id": "T13_REPR_CONSUMER_CPA",
+      "category": "Representative Records",
+      "description": "Verify representative record The Consumer Protection Act, 2019 - Section 1",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 1",
+        "act": "The Consumer Protection Act, 2019",
+        "domain": "consumer"
+      }
+    },
+    {
+      "test_id": "T13_REPR_CONSUMER_DEF",
+      "category": "Representative Records",
+      "description": "Verify representative record The Consumer Protection Act, 2019 - Section 2(7)",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 2(7)",
+        "act": "The Consumer Protection Act, 2019",
+        "domain": "consumer"
+      }
+    },
+    {
+      "test_id": "T13_REPR_CONSUMER_ECOM",
+      "category": "Representative Records",
+      "description": "Verify representative record Consumer Protection (E-Commerce) Rules, 2020 - Rule 4",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Rule 4",
+        "act": "Consumer Protection (E-Commerce) Rules, 2020",
+        "domain": "consumer"
+      }
+    },
+    {
+      "test_id": "T13_REPR_LABOUR_WAGES",
+      "category": "Representative Records",
+      "description": "Verify representative record The Code on Wages, 2019 - Section 5",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 5",
+        "act": "The Code on Wages, 2019",
+        "domain": "labour"
+      }
+    },
+    {
+      "test_id": "T13_REPR_LABOUR_IR",
+      "category": "Representative Records",
+      "description": "Verify representative record The Industrial Relations Code, 2020 - Section 4",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 4",
+        "act": "The Industrial Relations Code, 2020",
+        "domain": "labour"
+      }
+    },
+    {
+      "test_id": "T13_REPR_LABOUR_SS",
+      "category": "Representative Records",
+      "description": "Verify representative record The Code on Social Security, 2020 - Section 53",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 53",
+        "act": "The Code on Social Security, 2020",
+        "domain": "labour"
+      }
+    },
+    {
+      "test_id": "T13_REPR_LABOUR_OSH",
+      "category": "Representative Records",
+      "description": "Verify representative record The Occupational Safety, Health and Working Conditions Code, 2020 - Section 1",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 1",
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "domain": "labour"
+      }
+    },
+    {
+      "test_id": "T13_REPR_TENANT_TPA",
+      "category": "Representative Records",
+      "description": "Verify representative record The Transfer of Property Act, 1882 - Section 5",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 5",
+        "act": "The Transfer of Property Act, 1882",
+        "domain": "tenant_property"
+      }
+    },
+    {
+      "test_id": "T13_REPR_TENANT_REG",
+      "category": "Representative Records",
+      "description": "Verify representative record The Registration Act, 1908 - Section 17",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 17",
+        "act": "The Registration Act, 1908",
+        "domain": "tenant_property"
+      }
+    },
+    {
+      "test_id": "T13_REPR_TENANT_SRA",
+      "category": "Representative Records",
+      "description": "Verify representative record The Specific Relief Act, 1963 - Section 10",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 10",
+        "act": "The Specific Relief Act, 1963",
+        "domain": "tenant_property"
+      }
+    },
+    {
+      "test_id": "T13_REPR_TENANT_BOMBAY",
+      "category": "Representative Records",
+      "description": "Verify representative record The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947 - Section 12",
+      "status": "PASS",
+      "failure_reason": null,
+      "metadata": {
+        "section": "Section 12",
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "domain": "tenant_property"
+      }
+    }
+  ]
+}
