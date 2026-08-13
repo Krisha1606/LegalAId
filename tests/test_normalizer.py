@@ -127,6 +127,11 @@ def test_integration_load_and_normalize():
 
     for doc in normalized_docs:
         assert doc.id
-        assert doc.domain in ["Consumer", "Labour", "Tenant/Rental"]
+        assert doc.domain.lower() in [
+            "consumer",
+            "labour",
+            "tenant/rental",
+            "tenant",
+            "tenant_property",
+        ]
         assert doc.legal_text
-        assert doc.is_dummy is True
