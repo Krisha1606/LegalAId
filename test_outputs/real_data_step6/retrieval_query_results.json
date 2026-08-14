@@ -1,0 +1,1007 @@
+[
+  {
+    "query_id": "REAL_Q_01",
+    "query": "What is the territorial extent and commencement of the Consumer Protection Act, 2019?",
+    "expected_domain": "consumer",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 1",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+    "actual_expected_rank": 2,
+    "is_top1": false,
+    "is_top3": true,
+    "is_top5": true,
+    "expected_chunk_score": 0.7741,
+    "highest_incorrect_score": 0.7823,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-2",
+        "similarity_score": 0.7823,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 1",
+        "retrieved_section_title": "Short Title, Extent, Commencement And Application",
+        "retrieved_text": "2019, and is hereby published for general information:— vlk/kkj.k EXTRAORDINARY PART II — Section 1 PUBLISHED BY AUTHORITY 2"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+        "similarity_score": 0.7741,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 1",
+        "retrieved_section_title": "Short Title, Extent, Commencement And Application",
+        "retrieved_text": "Section 1. 1. (1) This Act may be called the Consumer Protection Act, 2019. (2) It extends to the whole of India except the State of Jammu and Kashmir. (3) It shall come into force on such date as the Central Government may, by notification, appoint and different dates may be appointed for different States and for different provisions of this Act and any reference in any such provision to the commencement of this Act shall be construed as a reference to the coming into force of that provision."
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION56-78b44d-chunk-0",
+        "similarity_score": 0.7603,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 56",
+        "retrieved_section_title": "Section 56 Provision",
+        "retrieved_text": "56. The President and every other member appointed immediately before the\ncommencement of section 177 of the Finance Act, 2017 shall continue to be governed by the\nprovisions of the Consumer Protection Act, 1986 and the rules made thereunder as if this Act\nhad not come into force."
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-1",
+        "similarity_score": 0.7593,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 1",
+        "retrieved_section_title": "Short Title, Extent, Commencement And Application",
+        "retrieved_text": "of this Act shall be construed as a reference to the coming into force of that provision. (4) Save as otherwise expressly provided by the Central Government, by notification, this Act shall apply to all goods and services. MINISTRY OF LAW AND JUSTICE (Legis New Delhi, the 9th August, 2019/Shravana 18, 1941 (Saka) The following Act of Parliament received the assent of the President on the 9th August, 2019, and is hereby published for general information:— vlk/kkj.k EXTRAORDINARY PART II — Section"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION58-5eac0d-chunk-1",
+        "similarity_score": 0.7562,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 58",
+        "retrieved_section_title": "May Be Prescribed",
+        "retrieved_text": "State Commission; (iv) appeals against the orders of the Central Authority; and (b) to call for the records and pass appropriate orders in any consumer dispute which is pending before or has been decided by any State Commission where it appears to the National Commission that such State Commission has exercised a jurisdiction not vested in it by has acted in the exercise of its jurisdiction illegally or with material irregu (2) The jurisdiction, powers and authority of the National Commission"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_02",
+    "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+    "expected_domain": "consumer",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 2(7)",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0",
+    "actual_expected_rank": null,
+    "is_top1": false,
+    "is_top3": false,
+    "is_top5": false,
+    "expected_chunk_score": null,
+    "highest_incorrect_score": 0.781,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-1",
+        "similarity_score": 0.781,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(7)",
+        "retrieved_section_title": "Consumer",
+        "retrieved_text": "is made with the approval of such person, but does not include a person who obtains such goods for resale or for any commercial purpose; or (ii) hires or avails of any service for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment and includes any beneficiary of such service other than the person who hires or avails of the services for consideration paid or promised, or partly paid and partly promised, or under any system"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION227-ce4a31-chunk-0",
+        "similarity_score": 0.778,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(27)",
+        "retrieved_section_title": "Member",
+        "retrieved_text": "Section 2(27) (27) \"member\" includes the President and a member of the National Commission\nor a State Commission or a District Commission, as the case may be;"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION58-5eac0d-chunk-1",
+        "similarity_score": 0.7634,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 58",
+        "retrieved_section_title": "May Be Prescribed",
+        "retrieved_text": "State Commission; (iv) appeals against the orders of the Central Authority; and (b) to call for the records and pass appropriate orders in any consumer dispute which is pending before or has been decided by any State Commission where it appears to the National Commission that such State Commission has exercised a jurisdiction not vested in it by has acted in the exercise of its jurisdiction illegally or with material irregu (2) The jurisdiction, powers and authority of the National Commission"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION29-557c14-chunk-1",
+        "similarity_score": 0.7579,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(9)",
+        "retrieved_section_title": "Consumer Rights",
+        "retrieved_text": "to be assured, wherever possible, access to a variety of goods, products or services at competitive prices; (iv) the right to be heard and to be assured that consumer's interests will receive due consideration at appropriate fora; (v) the right to seek redressal against unfair trade practice or restrictive trade practices or unscrupulous exploitation of consumers; and (vi) the right to consumer awareness;"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION35-2a352d-chunk-1",
+        "similarity_score": 0.7573,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 35",
+        "retrieved_section_title": "Section 35 Provision",
+        "retrieved_text": "the consumer to whom such goods are sold or delivered or agreed to be sold or delivered or such service is provided or agreed to be provided, or who alleges unfair trade practice in respect of such goods or service, is a member of such association or not; (c) one or more consumers, where there are numerous consumers having the same interest, with the permission of the District Commission, on behalf of, or for the benefit of, all consumers so interested; or (d) the Central Government, the Central"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_03",
+    "query": "How is a defect in goods defined under consumer protection law?",
+    "expected_domain": "consumer",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 2(10)",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION210-7aa357-chunk-0",
+    "actual_expected_rank": 1,
+    "is_top1": true,
+    "is_top3": true,
+    "is_top5": true,
+    "expected_chunk_score": 0.7827,
+    "highest_incorrect_score": 0.7353,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION210-7aa357-chunk-0",
+        "similarity_score": 0.7827,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(10)",
+        "retrieved_section_title": "Defect",
+        "retrieved_text": "Section 2(10) (10) \"defect\" means any fault, imperfection or shortcoming in the quality,\nquantity, potency, purity or standard which is required to be maintained by or under\nany \nc\nand the expression \"defective\" shall be construed accordingly;"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION39-8dd768-chunk-1",
+        "similarity_score": 0.7353,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 39",
+        "retrieved_section_title": "Comp",
+        "retrieved_text": "defect; (c) to return to the comp by the comp decided; (d) to pay such amount as may be awarded by it as compensation to the consumer for any loss or injury suffered by the consumer due to the negligence of the opposite party: Provided that the District Commission shall have the power to grant punitive damages in such circumstances as it deems fit; (e) to pay such amount as may be awarded by it as compensation in a product liability action under Chapter VI; (f) to remove the defects in goods or"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION38-1e43ef-chunk-1",
+        "similarity_score": 0.7089,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 38",
+        "retrieved_section_title": "Shall Apply",
+        "retrieved_text": "(b) if the opposite party on receipt of a comp denies or disputes the allegations contained in the comp any action to represent his case within the time given by the District Commission, proceed to settle the consumer dispute in the manner specified in c (c) if the comp without proper analysis or test of the goods, obtain a sample of the goods from the comp the sample so sealed to the appropriate finding out whether such goods suffer from any defect alleged in the comp from any other defect and"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION247-2face6-chunk-2",
+        "similarity_score": 0.7015,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(47)",
+        "retrieved_section_title": "Unfair Trade Practice",
+        "retrieved_text": "accessories, uses or benefits which such goods or services do not have; (e) represents that the seller or the supplier has a sponsorship or approval or affiliation which such seller or supplier does not have; (f) makes a false or misleading representation concerning the need for, or the usefulness of, any goods or services; (g) gives to the public any warranty or guarantee of the performance, efficacy or length of life of a product or of any goods that is not based on an adequate or proper test"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION39-8dd768-chunk-0",
+        "similarity_score": 0.6968,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 39",
+        "retrieved_section_title": "Comp",
+        "retrieved_text": "39. (1) Where the District Commission is satisfied that the goods comp suffer from any of the defects specified in the comp contained in the comp compensation under product liability are proved, it shall issue an order to the opposite party directing him to do one or more of the following, namely:— (a) to remove the defect pointed out by the appropriate goods in question; (b) to rep free from any defect; (c) to return to the comp by the comp decided; (d) to pay such amount as may be awarded by"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_04",
+    "query": "What constitutes a deficiency of service for a service provider?",
+    "expected_domain": "consumer",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 2(11)",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION211-ee1d2b-chunk-0",
+    "actual_expected_rank": 1,
+    "is_top1": true,
+    "is_top3": true,
+    "is_top5": true,
+    "expected_chunk_score": 0.6117,
+    "highest_incorrect_score": 0.5697,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION211-ee1d2b-chunk-0",
+        "similarity_score": 0.6117,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(11)",
+        "retrieved_section_title": "Deficiency",
+        "retrieved_text": "Section 2(11) (11) \"deficiency\" means any fault, imperfection, shortcoming or inadequacy in\nthe quality, nature and manner of performance which is required to be maintained by or\nunder any \nperson in pursuance of a contract or otherwise in re\n(i) any act of negligence or omission or commission by such person which\ncauses loss or injury to the consumer; and\n(ii) deliberate withholding of relevant information by such person to the\nconsumer;"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION85-6cd240-chunk-0",
+        "similarity_score": 0.5697,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 85",
+        "retrieved_section_title": "Section 85 Provision",
+        "retrieved_text": "85. A product service provider shall be liable in a product liability action, if— (a) the service provided by him was faulty or imperfect or deficient or inadequate in quality, nature or manner of performance which is required to be provided by or under any (b) there was an act of omission or commission or negligence or conscious withholding any information which caused harm; or (c) the service provider did not issue adequate instructions or warnings to prevent any harm; or (d) the service did"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION25-66766d-chunk-1",
+        "similarity_score": 0.5549,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(5)",
+        "retrieved_section_title": "Section Section 2(5) Provision",
+        "retrieved_text": "of a consumer being a minor, his parent or legal guardian; (6) \"comp obtaining any relief provided by or under this Act, that— (i) an unfair contract or unfair trade practice or a restrictive trade practice has been adopted by any trader or service provider; (ii) the goods bought by him or agreed to be bought by him suffer from one or more defects; (iii) the services hired or availed of or agreed to be hired or availed of by him suffer from any deficiency; (iv) a trader or a service provider, as"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION242-cab14c-chunk-0",
+        "similarity_score": 0.5171,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(42)",
+        "retrieved_section_title": "Service",
+        "retrieved_text": "Section 2(42) (42) \"service\" means service of any description which is made avai potential users and includes, but not limited to, the provision of facilities in connection with banking, financing, insurance, transport, processing, supply of electrical or other energy, telecom, boarding or lodging or both, housing construction, entertainment, amusement or the purveying of news or other information, but does not include the rendering of any service free of charge or under a contract of personal"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION25-66766d-chunk-2",
+        "similarity_score": 0.4754,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(5)",
+        "retrieved_section_title": "Section Section 2(5) Provision",
+        "retrieved_text": "to be hired or availed of by him suffer from any deficiency; (iv) a trader or a service provider, as the case may be, has charged for the goods or for the services mentioned in the comp price— (a) fixed by or under any Definitions. SEC. 1] (b) disp (c) disp for the time being in force; or (d) agreed between the parties; (v) the goods, which are hazardous to life and safety when used, are being offered for sale to the public— (a) in contravention of standards re as required to be complied with,"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_05",
+    "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+    "expected_domain": "consumer",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 2(14)",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0",
+    "actual_expected_rank": null,
+    "is_top1": false,
+    "is_top3": false,
+    "is_top5": false,
+    "expected_chunk_score": null,
+    "highest_incorrect_score": 0.7252,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION216-793550-chunk-0",
+        "similarity_score": 0.7252,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(16)",
+        "retrieved_section_title": "E-Commerce",
+        "retrieved_text": "Section 2(16) (16) \"e-commerce\" means buying or selling of goods or services including\ndigital products over digital or electronic network;"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-3",
+        "similarity_score": 0.6192,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(7)",
+        "retrieved_section_title": "Consumer",
+        "retrieved_text": "by him exclusively for the purpose of earning his livelihood, by means of self-employment; (b) the expressions \"buys any goods\" and \"hires or avails any services\" includes offline or online transactions through electronic means or by teleshopping or direct selling or multi-level marketing;"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION94-6e98fb-chunk-0",
+        "similarity_score": 0.6052,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 94",
+        "retrieved_section_title": "Miscellaneous",
+        "retrieved_text": "94. For the purposes of preventing unfair trade practices in e-commerce, direct selling\nand also to protect the interest and rights of consumers, the Central Government may take\nsuch measures in the manner as may be prescribed."
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION217-a9ba7e-chunk-0",
+        "similarity_score": 0.6043,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(17)",
+        "retrieved_section_title": "Electronic Service Provider",
+        "retrieved_text": "Section 2(17) (17) \"electronic service provider\" means a person who provides technologies\nor processes to enable a product seller to engage in advertising or selling goods or\nservices to a consumer and includes any online market p"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "CONS-THECONSUMERP-SECTION237-3324d4-chunk-1",
+        "similarity_score": 0.5966,
+        "retrieved_domain": "consumer",
+        "retrieved_act": "The Consumer Protection Act, 2019",
+        "retrieved_section": "Section 2(37)",
+        "retrieved_section_title": "Product Seller",
+        "retrieved_text": "in the sale of constructed house or in the construction of homes or f (b) a provider of professional services in any transaction in which, the sale or use of a product is only incidental thereto, but furnishing of opinion, skill or services being the essence of such transaction; (c) a person who— (I) acts only in a financial capacity with respect to the sale of the product; (II) is not a manufacturer, wholesaler, distributor, retailer, direct seller or an electronic service provider; (III)"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_08",
+    "query": "Does the Code on Wages prohibit paying different wages to male and female employees for equal work?",
+    "expected_domain": "labour",
+    "expected_act": "The Code on Wages, 2019",
+    "expected_section": "Section 3",
+    "expected_chunk_id": "LABO-THECODEONWAG-SECTION3-75d583-chunk-0",
+    "actual_expected_rank": 1,
+    "is_top1": true,
+    "is_top3": true,
+    "is_top5": true,
+    "expected_chunk_score": 0.7172,
+    "highest_incorrect_score": 0.6913,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION3-75d583-chunk-0",
+        "similarity_score": 0.7172,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 3",
+        "retrieved_section_title": "Central Government From Time To Time",
+        "retrieved_text": "3. (1) There shall be no discrimination in an establishment or any unit thereof among employees on the ground of gender in matters re respect of the same work or work of a simi (2) No employer shall,— (i) for the purposes of complying with the provisions of sub-section (1), reduce the rate of wages of any employee; and (ii) make any discrimination on the ground of sex while recruiting any employee for the same work or work of simi where the employment of women in such work is prohibited or"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION4-78d364-chunk-0",
+        "similarity_score": 0.6913,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 4",
+        "retrieved_section_title": "Section 4 Provision",
+        "retrieved_text": "4. Where there is any dispute as to whether a work is of same or simi\npurposes of section 3, the dispute shall be decided by such authority as may be notified by\nthe appropriate Government.\n52 of 1961.\n45 of 1955.\n11 of 1976.\n45 of 1950.\n46 of 1950.\n62 of 1957.\nProhibition of\ndiscrimination\non ground of\ngender.\nDecision as to\ndisputes with\nregard to same\nor simi\nof work.\n6 \nCHAPTER II\nMINIMUM WAGES"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION17-a05ce0-chunk-2",
+        "similarity_score": 0.6411,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 17",
+        "retrieved_section_title": "Provided That Different Wage Periods May Be Fixed For Different Establishments",
+        "retrieved_text": "limit for payment of wages where it considers reasonable having regard to the circumstances under which the wages are to be paid. (4) Nothing contained in sub-section (1) or sub-section (2) shall affect any time limit for payment of wages provided in any other"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION2-fe8e60-chunk-18",
+        "similarity_score": 0.63,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 2",
+        "retrieved_section_title": "Section 2 Provision",
+        "retrieved_text": "by the employer to the employee under c or such other per cent. as may be notified by the Central Government, of the all remuneration calcu 14 of 1947. 42 of 2005. SEC. 1] one-half, or the per cent. so notified, shall be deemed as remuneration and shall be accordingly added in wages under this c Provided further that for the purpose of equal wages to all genders and for the purpose of payment of wages, the emoluments specified in c (g) and (h) shall be taken for computation of wage. Exp the"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "LABO-THEOCCUPATIO-SECTION2-662524-chunk-79",
+        "similarity_score": 0.6283,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "retrieved_section": "Section 2",
+        "retrieved_section_title": "Employer",
+        "retrieved_text": "24 of 1997. 14 one-half, or such other per cent. as may be notified by the Central Government, of the all remuneration calcu such one-half, or the per cent. so notified, shall be deemed as remuneration and shall be accordingly added in wages under this c Provided further that for the purpose of equal wages to all genders and for the purpose of payment of wages, the emoluments specified in sub-c (d), (f), (g) and (h) shall be taken for computation of wages. Exp the wages payable to him, any"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_09",
+    "query": "What factors must the government consider when fixing minimum wage rates for workers?",
+    "expected_domain": "labour",
+    "expected_act": "The Code on Wages, 2019",
+    "expected_section": "Section 6",
+    "expected_chunk_id": "LABO-THECODEONWAG-SECTION6-12443d-chunk-0",
+    "actual_expected_rank": 1,
+    "is_top1": true,
+    "is_top3": true,
+    "is_top5": true,
+    "expected_chunk_score": 0.6974,
+    "highest_incorrect_score": 0.6424,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION6-12443d-chunk-0",
+        "similarity_score": 0.6974,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 6",
+        "retrieved_section_title": "Notified By The Appropriate Government",
+        "retrieved_text": "6. (1) Subject to the provisions of section 9, the appropriate Government shall fix the minimum rate of wages payable to employees in accordance with the provisions of section 8. (2) For the purposes of sub-section (1), the appropriate Government shall fix a minimum rate of wages–– (a) for time work; or (b) for piece work. (3) Where employees are employed on piece work, for the purpose of sub-section (1), the appropriate Government shall fix a minimum rate of wages for securing such employees a"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION6-12443d-chunk-1",
+        "similarity_score": 0.6424,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 6",
+        "retrieved_section_title": "Notified By The Appropriate Government",
+        "retrieved_text": "(1), the appropriate Government shall fix a minimum rate of wages for securing such employees a minimum rate of wages on a time work basis. (4) The minimum rate of wages on time work basis may be fixed in accordance with any one or more of the following wage periods, namely:–– (i) by the hour; or (ii) by the day; or (iii) by the month. (5) Where the rates of wages are fixed by the hour or by the day or by the month, the manner of calcu (6) For the purpose of fixation of minimum rate of wages"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION6-12443d-chunk-3",
+        "similarity_score": 0.6076,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 6",
+        "retrieved_section_title": "Notified By The Appropriate Government",
+        "retrieved_text": "category of workers, take into account their arduousness of work like temperature or humidity normally difficult to bear, hazardous occupations or processes or underground work as may be prescribed by that Government; and (c) the norms of such fixation of minimum rate of wages shall be such as may be prescribed. (7) The number of minimum rates of wages referred to in sub-section (6) may, as far as possible, be kept at minimum by the appropriate Government."
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION9-2e5be2-chunk-0",
+        "similarity_score": 0.5924,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 9",
+        "retrieved_section_title": "At An Interval Not Exceeding Five Years",
+        "retrieved_text": "9. (1) The Central Government shall fix floor wage taking into account minimum living standards of a worker in such manner as may be prescribed: Provided that different floor wage may be fixed for different geographical areas. (2) The minimum rates of wages fixed by the appropriate Government under section 6 shall not be less than the floor wage and if the minimum rates of wages fixed by the appropriate Government earlier is more than the floor wage, then, the appropriate Government shall not"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "LABO-THECODEONWAG-SECTION7-28fe65-chunk-0",
+        "similarity_score": 0.586,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Wages, 2019",
+        "retrieved_section": "Section 7",
+        "retrieved_section_title": "Possible, Be Kept At Minimum By The Appropriate Government",
+        "retrieved_text": "7. (1) Any minimum rate of wages fixed or revised by the appropriate Government under section 8 may consist of–– (a) a basic rate of wages and an allowance at a rate to be adjusted, at such intervals and in such manner as the appropriate Government may direct, to accord as nearly as practicable with the variation in the cost of living index number applicable to such workers (hereinafter referred to as \"cost of living allowance\"); or (b) a basic rate of wages with or without the cost of living"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_10",
+    "query": "What is the role and powers of conciliation officers in industrial disputes?",
+    "expected_domain": "labour",
+    "expected_act": "The Industrial Relations Code, 2020",
+    "expected_section": "Section 4",
+    "expected_chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0",
+    "actual_expected_rank": null,
+    "is_top1": false,
+    "is_top3": false,
+    "is_top5": false,
+    "expected_chunk_score": null,
+    "highest_incorrect_score": 0.6541,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "LABO-THEINDUSTRIA-SECTION43-e7e64f-chunk-0",
+        "similarity_score": 0.6541,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Industrial Relations Code, 2020",
+        "retrieved_section": "Section 43",
+        "retrieved_section_title": "Echanism For Resolution Of Industrial Disputes",
+        "retrieved_text": "43. (1) The appropriate Government may, by notification, appoint such number of\npersons, as it thinks fit to be conciliation officers, charged with the duty of mediating in\nand promoting the settlement of industrial disputes.\n(2) A conciliation officer may be appointed for a specified area or for specified\nindustries in a specified area or for one or more specified industries and either permanently\nor for a limited period."
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "LABO-THEINDUSTRIA-SECTION49-7aec73-chunk-4",
+        "similarity_score": 0.6538,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Industrial Relations Code, 2020",
+        "retrieved_section": "Section 49",
+        "retrieved_section_title": "Tribunal Or With Any Industry Directly Affected By Such Dispute",
+        "retrieved_text": "out any other duty imposed on him under this Code, and for the aforesaid purposes, the conciliation officer shall have the same powers as are vested in a civil court under the Code of Civil Procedure, 1908, in respect of enforcing the attendance of any person and examining him or of compelling the production of documents. (5) The appropriate Government may, if it so thinks fit, appoint one or more persons having special knowledge of the matter under consideration as assessors or experts to"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "LABO-THEINDUSTRIA-SECTION53-b472c2-chunk-1",
+        "similarity_score": 0.5969,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Industrial Relations Code, 2020",
+        "retrieved_section": "Section 53",
+        "retrieved_section_title": "Period Of His Office",
+        "retrieved_text": "Powers of Tribunal and National Industrial Tribunal to give appropriate relief in case of discharge or dismissal of worker. Transfer of pending cases. Adjustment of services of presiding officers under repealed Act. Conciliation and adjudication of dispute. 14 of 1947. 14 of 1947. 14 of 1947. 26 (2) The conciliation officer shall, for the purpose of bringing about a settlement of the dispute, without de settlement thereof and may do all such things as he thinks fit for the purpose of inducing"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "LABO-THEINDUSTRIA-SECTION53-b472c2-chunk-0",
+        "similarity_score": 0.5952,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Industrial Relations Code, 2020",
+        "retrieved_section": "Section 53",
+        "retrieved_section_title": "Period Of His Office",
+        "retrieved_text": "53. (1) Where any industrial dispute exists or is apprehended or a notice under section 62 has been given, the conciliation officer shall, hold conciliation proceedings in such manner as may be prescribed: Provided that the conciliation officer shall not hold any such proceedings re the industrial dispute after two years from the date on which such industrial dispute arose. 2 of 1974. 5 of 1908. Powers of Tribunal and National Industrial Tribunal to give appropriate relief in case of discharge"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "LABO-THEINDUSTRIA-SECTION49-7aec73-chunk-3",
+        "similarity_score": 0.5941,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Industrial Relations Code, 2020",
+        "retrieved_section": "Section 49",
+        "retrieved_section_title": "Tribunal Or With Any Industry Directly Affected By Such Dispute",
+        "retrieved_text": "proceeding within the meaning of sections 193 and 228 of the Indian Penal Code. (4) A conciliation officer may enforce the attendance of any person for the purpose of examination of such person or call for and inspect any document which he has ground for considering to be relevant to the industrial dispute or to be necessary for the purpose of verifying the implementation of any award or carrying out any other duty imposed on him under this Code, and for the aforesaid purposes, the conciliation"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_11",
+    "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+    "expected_domain": "labour",
+    "expected_act": "The Code on Social Security, 2020",
+    "expected_section": "Section 6",
+    "expected_chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0",
+    "actual_expected_rank": null,
+    "is_top1": false,
+    "is_top3": false,
+    "is_top5": false,
+    "expected_chunk_score": null,
+    "highest_incorrect_score": 0.7455,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "LABO-THECODEONSOC-SECTION4-376a34-chunk-0",
+        "similarity_score": 0.7455,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Social Security, 2020",
+        "retrieved_section": "Section 4",
+        "retrieved_section_title": "Ocial Security Organisations",
+        "retrieved_text": "4. (1) The Central Government may, by notification, constitute, with effect from such date as may be specified therein, a Board of Trustees of the Employees' Provident Fund to be called the Central Board, for the purposes of Chapter III and the provisions of this Code re may be prescribed by the Central Government, consisting of the following members, namely:— (a) a Chairperson and a Vice-Chairperson to be appointed by the Central Government; (b) not more than five persons appointed by the"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "LABO-THECODEONSOC-SECTION4-376a34-chunk-3",
+        "similarity_score": 0.7313,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Social Security, 2020",
+        "retrieved_section": "Section 4",
+        "retrieved_section_title": "Ocial Security Organisations",
+        "retrieved_text": "with such organisations of employees as may be recognised by that Government in this behalf; and (f) the Central Provident Fund Commissioner, ex officio. (2) The Central Board shall be a body corporate by the name of Board of Trustees of the Employees' Provident Fund, having perpetual succession and a common seal and shall by the said name sue and be sued. (3) The Central Government may, by notification, constitute, with effect from such date as may be specified therein, an Executive Committee"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "LABO-THECODEONSOC-SECTION4-376a34-chunk-4",
+        "similarity_score": 0.7308,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Social Security, 2020",
+        "retrieved_section": "Section 4",
+        "retrieved_section_title": "Ocial Security Organisations",
+        "retrieved_text": "constitute, with effect from such date as may be specified therein, an Executive Committee from amongst the members of the Central Board to assist the Central Board in performance of its functions in such manner as may be prescribed by the Central Government. Registration and cancel an establishment. Constitution of Board of Trustees of Employees’ Provident Fund. SEC. 1] (4) The Central Board may, by order, constitute one or more committees of such composition as may be specified in the order to"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "LABO-THECODEONSOC-SECTION155-3ada45-chunk-3",
+        "similarity_score": 0.6824,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Social Security, 2020",
+        "retrieved_section": "Section 155",
+        "retrieved_section_title": "Appropriate Government Under The Provisions Of This Code",
+        "retrieved_text": "and whose business activities are in the process of closure, under section 3; (d) the manner of administration of the funds vested in the Central Board under sub-section (1), the manner to assist the Central Board in performance of its functions by Executive Committee under sub-section ( 3), the terms and conditions, including tenure of office of members of the Central Board and Executive Committee under sub-section (6) and the other functions and the manner of performing such functions under"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "LABO-THECODEONSOC-SECTION156-ec2aa4-chunk-5",
+        "similarity_score": 0.679,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Code on Social Security, 2020",
+        "retrieved_section": "Section 156",
+        "retrieved_section_title": "Central Government Under The Provisions Of This Code",
+        "retrieved_text": "and costs incidental to the proceedings under sub-section (4) of section 93; (j) the manner of authentication of memorandum under section 97; (k) such other sources of funding and the manner of administering and expending of the fund under sub-section ( 5) of section 141; and (l) any other matter which is required to be, or may be, prescribed by the State Government under the provisions of this Code."
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_12",
+    "query": "What safety equipment and precautions must factory employers provide to workers?",
+    "expected_domain": "labour",
+    "expected_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+    "expected_section": "Section 6",
+    "expected_chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0",
+    "actual_expected_rank": null,
+    "is_top1": false,
+    "is_top3": false,
+    "is_top5": false,
+    "expected_chunk_score": null,
+    "highest_incorrect_score": 0.6547,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-4",
+        "similarity_score": 0.6547,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "retrieved_section": "Section 136",
+        "retrieved_section_title": "Factories",
+        "retrieved_text": "the production of documents and material objects; (i) for regu and of any rules made thereunder, the storage, conveyance and use of explosives; (j) for prohibiting, restricting or regu or in any c to the life, safety or health of such persons and for limiting the weight of any single load that may be carried by any such person; (k) for providing for the safety of the persons employed in a mine, their means of entrance there into and exit therefrom, the number of shafts or outlets to be"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-19",
+        "similarity_score": 0.6188,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "retrieved_section": "Section 136",
+        "retrieved_section_title": "Factories",
+        "retrieved_text": "may be dangerous to them; (zs) providing for the safety of workers on docks from the risk of falling overboard being struck by cargo during loading or unloading operations; (zt) providing for the construction, maintenance and use of lifting and other cargo handling appliances and services, such as, pallets containing or supporting loads and provision of safety appliances on them, if necessary; (zu) providing for the safety of workers employed in freight container terminals or other terminals for"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "LABO-THEOCCUPATIO-SECTION84-46dfe4-chunk-0",
+        "similarity_score": 0.6149,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "retrieved_section": "Section 84",
+        "retrieved_section_title": "Purpose Referred To In The Said Sub-Section In Such Form, As May Be Prescribed",
+        "retrieved_text": "84. (1) The occupier of every factory involving a hazardous process shall disclose in the manner prescribed by the State Government all information regarding dangers, including health hazards and the measures to overcome such hazards arising from the exposure to or handling of the materials or substances in the manufacture, transportation, storage and other processes, to the workers employed in the factory, the Chief Inspector-cum-Facilitator or Inspector-cum-Facilitator, the local authority"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "LABO-THEOCCUPATIO-SECTION8-a0cea1-chunk-7",
+        "similarity_score": 0.6134,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "retrieved_section": "Section 8",
+        "retrieved_section_title": "Under Section 24 Has Been Appointed",
+        "retrieved_text": "that such article so erected or installed does not make it unsafe or a risk to health when that article is used by the persons in such factory; (b) who manufactures, imports or supplies any substance for use in any factory shall— (i) ensure, so far as practicable, that such substance when used in the factory does not make it unsafe or a risk to health of persons working in such factory; (ii) carry out or arrange for carrying out of such tests and examination in re (iii) take such steps as are"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-22",
+        "similarity_score": 0.6054,
+        "retrieved_domain": "labour",
+        "retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "retrieved_section": "Section 136",
+        "retrieved_section_title": "Factories",
+        "retrieved_text": "to prevent dangerous methods of working in the stacking, unstacking, stowing and unstowing of cargo or handling in connection therewith; (zzb) providing for the handling of dangerous substances and working in dangerous or harmful environments and the precautions to be taken in connection with such handling; (zzc) providing for the work in connection with cleaning, chipping, painting, operations and precautions to be taken in connection with such work; 74 (zzd) providing for the employment of"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_13",
+    "query": "How is a valid sale of immovable property defined under the Transfer of Property Act?",
+    "expected_domain": "tenant_property",
+    "expected_act": "The Transfer of Property Act, 1882",
+    "expected_section": "Section 54",
+    "expected_chunk_id": "TENA-THETRANSFERO-SECTION54-277528-chunk-0",
+    "actual_expected_rank": 1,
+    "is_top1": true,
+    "is_top3": true,
+    "is_top5": true,
+    "expected_chunk_score": 0.7283,
+    "highest_incorrect_score": 0.6985,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION54-277528-chunk-0",
+        "similarity_score": 0.7283,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 54",
+        "retrieved_section_title": "Of Sales Of Immoveable Property",
+        "retrieved_text": "54. “Sale” defined. \nSale how made. \nContract for sale."
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION118-b8f672-chunk-0",
+        "similarity_score": 0.6985,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 118",
+        "retrieved_section_title": "Of Exchanges",
+        "retrieved_text": "118. “Exchange ” defined. —When two persons mutually transfer the ownership of one thing for the ownership of another , neither thing or both things being money only, the transaction is called an “exchange ”. A transfer of property in completion of an exchange can be made only in manner provided for the transfer of such pr operty by sale. 3[119 . Right of party deprived of thing received in exchange .—If any party to an exchange or any person c title of the other party deprived of the thing or"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION123-439d84-chunk-0",
+        "similarity_score": 0.6912,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 123",
+        "retrieved_section_title": "If The Donee Dies Before Acceptance, The Gift Is Void",
+        "retrieved_text": "123. Transfer how effected. —For the purpose of making a gift of immoveable \nproperty, the transfer must be ef fected by a registered instrument signed by or on behalf of \nthe donor, and attested by at least two witnesses. \nFor the purpose of making a gift of moveable property, the transfer may be effected \neither by a registered instrument signed as aforesaid or by delivery. \nSuch delivery may be made in the same way as goods sold may be delivered."
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION4-8f6d08-chunk-0",
+        "similarity_score": 0.6892,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 4",
+        "retrieved_section_title": "Interpretation -C",
+        "retrieved_text": "4. Enactments re\nsupplemental to the Registration Act. \nCHAPTER II \nOF TRANSFERS OF PROPERTY BY ACT OF PARTIES \n(A) Transfe r of Property, whether moveable or immoveable"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "TENA-THELIMITATIO-SECTION94-faed73-chunk-0",
+        "similarity_score": 0.6854,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Limitation Act, 1963",
+        "retrieved_section": "Section 94",
+        "retrieved_section_title": "Section 94 Provision",
+        "retrieved_text": "94. To set aside a transfer of immovable \nproperty comprised in a Hindu, \nMuslim or Buddhist religious or \ncharitable endowment, made by a \nmanager thereof for a valuable \nconsideration. \nTwelve years. When the transfer becomes known to the \np"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_14",
+    "query": "What are the legal requirements for creating a lease of immovable property?",
+    "expected_domain": "tenant_property",
+    "expected_act": "The Transfer of Property Act, 1882",
+    "expected_section": "Section 105",
+    "expected_chunk_id": "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+    "actual_expected_rank": 4,
+    "is_top1": false,
+    "is_top3": false,
+    "is_top5": true,
+    "expected_chunk_score": 0.5811,
+    "highest_incorrect_score": 0.6977,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION107-36ecb8-chunk-0",
+        "similarity_score": 0.6977,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 107",
+        "retrieved_section_title": "Is Not Practicable) Affixed To A Conspicuous Part Of The Property.]",
+        "retrieved_text": "107. Leases how made .—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases of immoveable property may be made either by a registered instrument or by oral agreement accompanied by delivery of possession. 3 [Where a lease of immoveable property is made by a registered instrument, such instrument or, where there are more instruments than one, each such instrument shall be"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION107-36ecb8-chunk-1",
+        "similarity_score": 0.6649,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 107",
+        "retrieved_section_title": "Is Not Practicable) Affixed To A Conspicuous Part Of The Property.]",
+        "retrieved_text": "such instrument or, where there are more instruments than one, each such instrument shall be executed by both the lessor and the lessee:] Provided that the State Government may, 4*** from tim e to time, by notification in the Official Gazette, direct that leases of immoveable property, other than leases from year to year, or for any term exceeding one year, or reserving a yearly rent, or any c be made by unregistered ins trument or by oral agreement without delivery of possession.]"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION116-a3af55-chunk-0",
+        "similarity_score": 0.5892,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 116",
+        "retrieved_section_title": "Section 114",
+        "retrieved_text": "116. Effect of holding over. —If a lessee or under -lessee of property remains in possession thereof after the determination of the lease granted to the lessee, and the lessor or his legal representative accepts rent from the lessee or under -lessee, or otherwise assents to his continuing in possession, the lease is, in the absence of an agreement to the contrary, renewed from year to year, or from month to month, according to the purpose for which the property is leased, as specified in section"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+        "similarity_score": 0.5811,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 105",
+        "retrieved_section_title": "Of Leases Of Immoveable Property",
+        "retrieved_text": "105. Lease defined. \nLessor, lessee, premium and rent defined."
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION104-d9e451-chunk-0",
+        "similarity_score": 0.575,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 104",
+        "retrieved_section_title": "Notice, Etc., To Or By Person Incompetent To Contract",
+        "retrieved_text": "104. Power to make rules. \nCHAPTER V \nOF LEASES OF IMMOVEABLE PROPERTY"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_15",
+    "query": "Which property lease agreements and legal documents require compulsory registration?",
+    "expected_domain": "tenant_property",
+    "expected_act": "The Registration Act, 1908",
+    "expected_section": "Section 17",
+    "expected_chunk_id": "TENA-THEREGISTRAT-SECTION17-9aacc8-chunk-0",
+    "actual_expected_rank": 1,
+    "is_top1": true,
+    "is_top3": true,
+    "is_top5": true,
+    "expected_chunk_score": 0.7184,
+    "highest_incorrect_score": 0.6972,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "TENA-THEREGISTRAT-SECTION17-9aacc8-chunk-0",
+        "similarity_score": 0.7184,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Registration Act, 1908",
+        "retrieved_section": "Section 17",
+        "retrieved_section_title": "Or Registrabel Documents",
+        "retrieved_text": "17. Documents of which registration is compulsory."
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "TENA-THEREGISTRAT-SECTION18-1a2b3f-chunk-0",
+        "similarity_score": 0.6972,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Registration Act, 1908",
+        "retrieved_section": "Section 18",
+        "retrieved_section_title": "Documents Of Which Registration Is Compulsory",
+        "retrieved_text": "18. Documents of which registration is optional."
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "TENA-THEREGISTRAT-SECTION50-c03f89-chunk-0",
+        "similarity_score": 0.6948,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Registration Act, 1908",
+        "retrieved_section": "Section 50",
+        "retrieved_section_title": "Effect Of Non-Registration Of Documents Required To Be Registered",
+        "retrieved_text": "50. Certain registered documents re\nPART XI \nOF THE DUITES AND POWERS OF REGISTERING OFFICERS \n(A) As to the Register-books and Indexes"
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "TENA-THEREGISTRAT-SECTION58-65f47c-chunk-1",
+        "similarity_score": 0.6636,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Registration Act, 1908",
+        "retrieved_section": "Section 58",
+        "retrieved_section_title": "(B) As To The Procedure On Admitting To Registration",
+        "retrieved_text": "and addition of such representative, assign or agent; (b) the signature and addition of every person examined in reference to such document under any of the provisions of this Act; and (c) any payment of money or delivery of goods made in the presence of the registering officer in reference to the execution of the document, and any admission of receipt of consideration, in whole or in part, made in his presence in reference to such execution. (2) If any person admitting the execution of a"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "TENA-THEREGISTRAT-SECTION2-a94cc3-chunk-0",
+        "similarity_score": 0.6545,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Registration Act, 1908",
+        "retrieved_section": "Section 2",
+        "retrieved_section_title": "Short Title, Extent And Commencement",
+        "retrieved_text": "2. Definitions. \nPART II \nOF THE REGISTRATION-ESTABLISHMENT"
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_16",
+    "query": "How can a rightful property owner recover possession of immovable property?",
+    "expected_domain": "tenant_property",
+    "expected_act": "The Specific Relief Act, 1963",
+    "expected_section": "Section 5",
+    "expected_chunk_id": "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+    "actual_expected_rank": 3,
+    "is_top1": false,
+    "is_top3": true,
+    "is_top5": true,
+    "expected_chunk_score": 0.5487,
+    "highest_incorrect_score": 0.5725,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "TENA-THELIMITATIO-SECTION65-40c8d7-chunk-0",
+        "similarity_score": 0.5725,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Limitation Act, 1963",
+        "retrieved_section": "Section 65",
+        "retrieved_section_title": "Twelve Years. The Date Of Dispossession",
+        "retrieved_text": "65. For possession of immovable property or any interest therein based on title. Exp this article— (a)where the suit is by a remainderman, a reversioner (other than a devisee, the possession of the defendant shall be deemed to become adverse only when the estate of the remainderman, reversioner or devisee, as the case may be, falls into possession; (b) where the suit is by a Hindu or Muslim entitled to the possession of immovable property on the death of a Hindu or Muslim female, the possession"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "TENA-THELIMITATIO-SECTION92-c829f0-chunk-0",
+        "similarity_score": 0.5512,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Limitation Act, 1963",
+        "retrieved_section": "Section 92",
+        "retrieved_section_title": "Section 92 Provision",
+        "retrieved_text": "92. To recover possession of immovable \nproperty conveyed or bequeathed \nin trust and afterwards transferred \nby the trustee for a valuable \nconsideration. \nTwelve years. When the transfer becomes known to the \np"
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+        "similarity_score": 0.5487,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Specific Relief Act, 1963",
+        "retrieved_section": "Section 5",
+        "retrieved_section_title": "Recovering Possession Of Property",
+        "retrieved_text": "5. Recovery of specific immovable property."
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "TENA-THELIMITATIO-SECTION91-3dc091-chunk-0",
+        "similarity_score": 0.5468,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Limitation Act, 1963",
+        "retrieved_section": "Section 91",
+        "retrieved_section_title": "Three Years. When The Injunction Ceases",
+        "retrieved_text": "91. For compensation,— (a)for wrongfully taking or detaining any specific movable property lost, oracquired by theft, or dishonest misappropriation, or conversion; Three years. When the person having the right to the possession of the property first learns in whose possession it is. (b) for wrongfully taking or injuring or wrongfully detaining any other specific movable property. Three years. When the property is wrongfully taken or injured, or when the detainer ’s possession becomes un PART"
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "TENA-THESPECIFICR-SECTION6-25edf4-chunk-0",
+        "similarity_score": 0.5361,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Specific Relief Act, 1963",
+        "retrieved_section": "Section 6",
+        "retrieved_section_title": "Recovery Of Specific Immovable Property",
+        "retrieved_text": "6. Suit by person dispossessed of immovable property."
+      }
+    ]
+  },
+  {
+    "query_id": "REAL_Q_17",
+    "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+    "expected_domain": "tenant_property",
+    "expected_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+    "expected_section": "Section 12",
+    "expected_chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0",
+    "actual_expected_rank": null,
+    "is_top1": false,
+    "is_top3": false,
+    "is_top5": false,
+    "expected_chunk_score": null,
+    "highest_incorrect_score": 0.4145,
+    "retrieval_status": "success",
+    "top5_results": [
+      {
+        "rank": 1,
+        "retrieved_chunk_id": "TENA-THEBOMBAYREN-SECTION18-f6c809-chunk-3",
+        "similarity_score": 0.4145,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "retrieved_section": "Section 18",
+        "retrieved_section_title": "The Order And The State Government May Pass Such Order As It Deems Fit.]",
+        "retrieved_text": "behalf it was received or from his legal representative at any time within a period of six months from the date of payment and may, if such person is a tenant, without prejudice to any other remedy for recovery, be deducted by him from any rent payable by him to such (3) Nothing in this section shall apply to any payment made under any agreement entered into before the 114[specified date] 115[or to any payment made by any person to the erection of the whole or part of a residential building or a"
+      },
+      {
+        "rank": 2,
+        "retrieved_chunk_id": "TENA-THETRANSFERO-SECTION116-a3af55-chunk-1",
+        "similarity_score": 0.4133,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Transfer of Property Act, 1882",
+        "retrieved_section": "Section 116",
+        "retrieved_section_title": "Section 114",
+        "retrieved_text": "month to month, according to the purpose for which the property is leased, as specified in section 106. Illustrations (a) A lets a house to B for five years. B underlets the house to C at a monthly rent of Rs. 100. The five years expire, but C continues in possession of the house and pays the rent to A. C's lease is renewed from month to month. (b) A lets a farm to B for the life of C. C dies, but B continues in possession with A's assent. B's lease is renewed from year to year."
+      },
+      {
+        "rank": 3,
+        "retrieved_chunk_id": "TENA-THEBOMBAYREN-SECTION23-66637a-chunk-0",
+        "similarity_score": 0.4103,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "retrieved_section": "Section 23",
+        "retrieved_section_title": "Ordinance, 1959",
+        "retrieved_text": "23. Landlord's duty to keep premises in good repair. \n \n23A. Tenant entitled to supply of electricity at his cost."
+      },
+      {
+        "rank": 4,
+        "retrieved_chunk_id": "TENA-THELIMITATIO-SECTION37-9a7d84-chunk-0",
+        "similarity_score": 0.4041,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Limitation Act, 1963",
+        "retrieved_section": "Section 37",
+        "retrieved_section_title": "Of The Respective Terms Of Payment",
+        "retrieved_text": "37. On a promissor y note or bond \npayable by insta lments, which \nprovides that, if default be made \nin payment of one or more \ninstalments, the whole shall be \ndue. \nThree years. When the default is made, unless where \nthe payee or obligee waives the \nbenefit of the provision and then \nwhen fresh default is made in respect \nof which there is no such waiver."
+      },
+      {
+        "rank": 5,
+        "retrieved_chunk_id": "TENA-THEBOMBAYREN-SECTION38-f9d38e-chunk-0",
+        "similarity_score": 0.4021,
+        "retrieved_domain": "tenant_property",
+        "retrieved_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "retrieved_section": "Section 38",
+        "retrieved_section_title": "Charges Not Recoverable In Excess Of Fair Rate",
+        "retrieved_text": "38. No ejectment ordinarily to be made if fair rate paid."
+      }
+    ]
+  }
+]

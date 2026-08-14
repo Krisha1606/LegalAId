@@ -105,9 +105,12 @@ class RetrievalBenchmark:
             queries_path: Path to test queries JSON file. Defaults to data/dummy_test_queries.json.
         """
         self.retriever = retriever or LegalRetriever()
-        self.queries_path = (
-            Path(queries_path) if queries_path is not None else Path("data/dummy_test_queries.json")
-        )
+        if queries_path is not None:
+            self.queries_path = Path(queries_path)
+        elif Path("data/real_test_queries.json").is_file():
+            self.queries_path = Path("data/real_test_queries.json")
+        else:
+            self.queries_path = Path("data/dummy_test_queries.json")
 
     def compute_metrics(self, evaluations: list[QueryEvaluation]) -> BenchmarkMetrics:
         """Calculates BenchmarkMetrics object from a list of QueryEvaluation records."""

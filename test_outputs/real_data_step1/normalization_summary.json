@@ -1,0 +1,46 @@
+{
+  "step": "real_data_step1_normalization",
+  "dataset_path": "D:\\LegalAId\\data\\legal_knowledge_base.json",
+  "raw_record_count": 1237,
+  "normalized_record_count": 1237,
+  "unique_document_ids_count": 1237,
+  "validation_issues": {
+    "missing_legal_text": 0,
+    "missing_act": 0,
+    "missing_section": 0,
+    "missing_source_url": 0,
+    "duplicate_document_ids": 0
+  },
+  "domain_distribution": {
+    "consumer": 220,
+    "labour": 480,
+    "tenant_property": 537
+  },
+  "act_distribution": {
+    "Consumer Protection (Direct Selling) Rules, 2021": 13,
+    "Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020": 5,
+    "The Occupational Safety, Health and Working Conditions Code, 2020": 143,
+    "The Industrial Relations Code, 2020": 104,
+    "The Transfer of Property Act, 1882": 134,
+    "The Indian Stamp Act, 1899": 80,
+    "The Registration Act, 1908": 93,
+    "The Limitation Act, 1963": 137,
+    "The Specific Relief Act, 1963": 43,
+    "The Code on Social Security, 2020": 164,
+    "The Code on Wages, 2019": 69,
+    "Central Consumer Protection Authority (Allocation and Transaction of Business) Regulations, 2020": 7,
+    "Consumer Protection (Consumer Disputes Redressal Commissions) Amendment Rules, 2023": 2,
+    "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020": 18,
+    "Consumer Protection (E-Commerce) (Amendment) Rules, 2021": 2,
+    "The Consumer Protection Act, 2019": 150,
+    "Consumer Protection (E-Commerce) Rules, 2020": 8,
+    "Consumer Protection (Mediation) Rules, 2020": 7,
+    "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947": 50,
+    "Central Consumer Protection Authority (Submission of Inquiry or Investigation Report) Regulations, 2021": 1,
+    "Guidelines for Prevention and Regulation of Dark Patterns, 2023": 7
+  },
+  "verification_status": {
+    "true": 1237
+  },
+  "status": "SUCCESS"
+}

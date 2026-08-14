@@ -1,0 +1,460 @@
+{
+  "failed_top1_count": 9,
+  "failed_top5_count": 6,
+  "error_cases": [
+    {
+      "query_id": "REAL_Q_01",
+      "query": "What is the territorial extent and commencement of the Consumer Protection Act, 2019?",
+      "expected": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 1",
+        "chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+        "actual_rank": 2,
+        "score": 0.7741
+      },
+      "retrieved_top1": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 1",
+        "section_title": "Short Title, Extent, Commencement And Application",
+        "chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-2",
+        "score": 0.7823,
+        "text_snippet": "2019, and is hereby published for general information:— vlk/kkj.k EXTRAORDINARY PART II — Section 1 PUBLISHED BY AUTHORITY 2"
+      },
+      "classification_category": "A. Correct semantic result but wrong exact chunk split",
+      "explanation": "Retrieved sibling chunk 'CONS-THECONSUMERP-SECTION1-29f7d3-chunk-2' of exact same Act and Section."
+    },
+    {
+      "query_id": "REAL_Q_02",
+      "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+      "expected": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(7)",
+        "chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0",
+        "actual_rank": null,
+        "score": null
+      },
+      "retrieved_top1": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(7)",
+        "section_title": "Consumer",
+        "chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-1",
+        "score": 0.781,
+        "text_snippet": "is made with the approval of such person, but does not include a person who obtains such goods for resale or for any commercial purpose; or (ii) hires or avails of any service for a consideration whic"
+      },
+      "classification_category": "A. Correct semantic result but wrong exact chunk split",
+      "explanation": "Retrieved sibling chunk 'CONS-THECONSUMERP-SECTION27-c01b79-chunk-1' of exact same Act and Section."
+    },
+    {
+      "query_id": "REAL_Q_05",
+      "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+      "expected": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(14)",
+        "chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0",
+        "actual_rank": null,
+        "score": null
+      },
+      "retrieved_top1": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(16)",
+        "section_title": "E-Commerce",
+        "chunk_id": "CONS-THECONSUMERP-SECTION216-793550-chunk-0",
+        "score": 0.7252,
+        "text_snippet": "Section 2(16) (16) \"e-commerce\" means buying or selling of goods or services including\ndigital products over digital or electronic network;"
+      },
+      "classification_category": "B. Similar legal provision in same Act",
+      "explanation": "Retrieved Section 'Section 2(16)' from same Act 'The Consumer Protection Act, 2019'."
+    },
+    {
+      "query_id": "REAL_Q_10",
+      "query": "What is the role and powers of conciliation officers in industrial disputes?",
+      "expected": {
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 4",
+        "chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0",
+        "actual_rank": null,
+        "score": null
+      },
+      "retrieved_top1": {
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 43",
+        "section_title": "Echanism For Resolution Of Industrial Disputes",
+        "chunk_id": "LABO-THEINDUSTRIA-SECTION43-e7e64f-chunk-0",
+        "score": 0.6541,
+        "text_snippet": "43. (1) The appropriate Government may, by notification, appoint such number of\npersons, as it thinks fit to be conciliation officers, charged with the duty of mediating in\nand promoting the settlemen"
+      },
+      "classification_category": "B. Similar legal provision in same Act",
+      "explanation": "Retrieved Section 'Section 43' from same Act 'The Industrial Relations Code, 2020'."
+    },
+    {
+      "query_id": "REAL_Q_11",
+      "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+      "expected": {
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 6",
+        "chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0",
+        "actual_rank": null,
+        "score": null
+      },
+      "retrieved_top1": {
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 4",
+        "section_title": "Ocial Security Organisations",
+        "chunk_id": "LABO-THECODEONSOC-SECTION4-376a34-chunk-0",
+        "score": 0.7455,
+        "text_snippet": "4. (1) The Central Government may, by notification, constitute, with effect from such date as may be specified therein, a Board of Trustees of the Employees' Provident Fund to be called the Central Bo"
+      },
+      "classification_category": "B. Similar legal provision in same Act",
+      "explanation": "Retrieved Section 'Section 4' from same Act 'The Code on Social Security, 2020'."
+    },
+    {
+      "query_id": "REAL_Q_12",
+      "query": "What safety equipment and precautions must factory employers provide to workers?",
+      "expected": {
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 6",
+        "chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0",
+        "actual_rank": null,
+        "score": null
+      },
+      "retrieved_top1": {
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 136",
+        "section_title": "Factories",
+        "chunk_id": "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-4",
+        "score": 0.6547,
+        "text_snippet": "the production of documents and material objects; (i) for regu and of any rules made thereunder, the storage, conveyance and use of explosives; (j) for prohibiting, restricting or regu or in any c to "
+      },
+      "classification_category": "B. Similar legal provision in same Act",
+      "explanation": "Retrieved Section 'Section 136' from same Act 'The Occupational Safety, Health and Working Conditions Code, 2020'."
+    },
+    {
+      "query_id": "REAL_Q_14",
+      "query": "What are the legal requirements for creating a lease of immovable property?",
+      "expected": {
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 105",
+        "chunk_id": "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+        "actual_rank": 4,
+        "score": 0.5811
+      },
+      "retrieved_top1": {
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 107",
+        "section_title": "Is Not Practicable) Affixed To A Conspicuous Part Of The Property.]",
+        "chunk_id": "TENA-THETRANSFERO-SECTION107-36ecb8-chunk-0",
+        "score": 0.6977,
+        "text_snippet": "107. Leases how made .—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases"
+      },
+      "classification_category": "B. Similar legal provision in same Act",
+      "explanation": "Retrieved Section 'Section 107' from same Act 'The Transfer of Property Act, 1882'."
+    },
+    {
+      "query_id": "REAL_Q_16",
+      "query": "How can a rightful property owner recover possession of immovable property?",
+      "expected": {
+        "act": "The Specific Relief Act, 1963",
+        "section": "Section 5",
+        "chunk_id": "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+        "actual_rank": 3,
+        "score": 0.5487
+      },
+      "retrieved_top1": {
+        "act": "The Limitation Act, 1963",
+        "section": "Section 65",
+        "section_title": "Twelve Years. The Date Of Dispossession",
+        "chunk_id": "TENA-THELIMITATIO-SECTION65-40c8d7-chunk-0",
+        "score": 0.5725,
+        "text_snippet": "65. For possession of immovable property or any interest therein based on title. Exp this article— (a)where the suit is by a remainderman, a reversioner (other than a devisee, the possession of the de"
+      },
+      "classification_category": "D. Wrong Act in same Domain",
+      "explanation": "Retrieved Act 'The Limitation Act, 1963' in same domain 'tenant_property'."
+    },
+    {
+      "query_id": "REAL_Q_17",
+      "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+      "expected": {
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 12",
+        "chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0",
+        "actual_rank": null,
+        "score": null
+      },
+      "retrieved_top1": {
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 18",
+        "section_title": "The Order And The State Government May Pass Such Order As It Deems Fit.]",
+        "chunk_id": "TENA-THEBOMBAYREN-SECTION18-f6c809-chunk-3",
+        "score": 0.4145,
+        "text_snippet": "behalf it was received or from his legal representative at any time within a period of six months from the date of payment and may, if such person is a tenant, without prejudice to any other remedy fo"
+      },
+      "classification_category": "B. Similar legal provision in same Act",
+      "explanation": "Retrieved Section 'Section 18' from same Act 'The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947'."
+    }
+  ],
+  "chunking_audit": [
+    {
+      "query_id": "REAL_Q_02",
+      "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0",
+      "parent_document_id": "CONS-THECONSUMERP-SECTION27-c01b79",
+      "sibling_chunks_count": 4,
+      "expected_chunk_text_length": 498,
+      "representation_assessment": "correctly_represented",
+      "notes": "Provision text length 498 chars. Total 4 sibling chunks for parent doc. Multi-chunk split may dilute single-chunk retrieval focus.",
+      "expected_text_snippet": "Section 2(7) (7) \"consumer\" means any person who— (i) buys any goods for a consideration which has been paid or promised or partly paid and partly promised, or under any system of deferred payment and"
+    },
+    {
+      "query_id": "REAL_Q_05",
+      "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0",
+      "parent_document_id": "CONS-THECONSUMERP-SECTION214-e43ec3",
+      "sibling_chunks_count": 1,
+      "expected_chunk_text_length": 111,
+      "representation_assessment": "correctly_represented",
+      "notes": "Provision text length 111 chars. Total 1 sibling chunks for parent doc.",
+      "expected_text_snippet": "Section 2(14) (14) \"Director-General\" means the Director-General appointed under\nsub-section (2) of section 15;"
+    },
+    {
+      "query_id": "REAL_Q_10",
+      "query": "What is the role and powers of conciliation officers in industrial disputes?",
+      "expected_chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0",
+      "parent_document_id": "LABO-THEINDUSTRIA-SECTION4-00f97d",
+      "sibling_chunks_count": 9,
+      "expected_chunk_text_length": 496,
+      "representation_assessment": "correctly_represented",
+      "notes": "Provision text length 496 chars. Total 9 sibling chunks for parent doc. Multi-chunk split may dilute single-chunk retrieval focus.",
+      "expected_text_snippet": "4. (1) Every industrial establishment employing twenty or more workers shall have one or more Grievance Redressal Committees for resolution of disputes arising out of individual grievances. (2) The Gr"
+    },
+    {
+      "query_id": "REAL_Q_11",
+      "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+      "expected_chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0",
+      "parent_document_id": "LABO-THECODEONSOC-SECTION6-f2bd34",
+      "sibling_chunks_count": 15,
+      "expected_chunk_text_length": 484,
+      "representation_assessment": "correctly_represented",
+      "notes": "Provision text length 484 chars. Total 15 sibling chunks for parent doc. Multi-chunk split may dilute single-chunk retrieval focus.",
+      "expected_text_snippet": "6. (1) The Central Government shall, by notification, constitute a National Social Security Board for unorganised workers to exercise the powers conferred on, and to perform the functions assigned to,"
+    },
+    {
+      "query_id": "REAL_Q_12",
+      "query": "What safety equipment and precautions must factory employers provide to workers?",
+      "expected_chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0",
+      "parent_document_id": "LABO-THEOCCUPATIO-SECTION6-43d624",
+      "sibling_chunks_count": 6,
+      "expected_chunk_text_length": 500,
+      "representation_assessment": "correctly_represented",
+      "notes": "Provision text length 500 chars. Total 6 sibling chunks for parent doc. Multi-chunk split may dilute single-chunk retrieval focus.",
+      "expected_text_snippet": "6. (1) Every employer shall,— (a) ensure that workp injury or occupational disease to the employees; Appeal. Notice by employer of commencement and cessation of operation. Duties of employer. SEC. 1] "
+    },
+    {
+      "query_id": "REAL_Q_17",
+      "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+      "expected_chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0",
+      "parent_document_id": "TENA-THEBOMBAYREN-SECTION12-564b29",
+      "sibling_chunks_count": 1,
+      "expected_chunk_text_length": 207,
+      "representation_assessment": "correctly_represented",
+      "notes": "Provision text length 207 chars. Total 1 sibling chunks for parent doc.",
+      "expected_text_snippet": "12. No ejectment ordinarily t o be made if tenant pays or is ready and willing to \npay standard rent and permitted increase. \nBombay Rents, Hotel and Lodging House Rates Control Act, 1947 \n3 of 45 \nSE"
+    }
+  ],
+  "ground_truth_audit": [
+    {
+      "query_id": "REAL_Q_01",
+      "query": "What is the territorial extent and commencement of the Consumer Protection Act, 2019?",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Consumer Protection Act, 2019",
+      "index_section": "Section 1",
+      "index_domain": "consumer",
+      "text_preview": "Section 1. 1. (1) This Act may be called the Consumer Protection Act, 2019. (2) It extends to the whole of India except the State of Jammu and Kashmir"
+    },
+    {
+      "query_id": "REAL_Q_02",
+      "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Consumer Protection Act, 2019",
+      "index_section": "Section 2(7)",
+      "index_domain": "consumer",
+      "text_preview": "Section 2(7) (7) \"consumer\" means any person who— (i) buys any goods for a consideration which has been paid or promised or partly paid and partly pro"
+    },
+    {
+      "query_id": "REAL_Q_03",
+      "query": "How is a defect in goods defined under consumer protection law?",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION210-7aa357-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Consumer Protection Act, 2019",
+      "index_section": "Section 2(10)",
+      "index_domain": "consumer",
+      "text_preview": "Section 2(10) (10) \"defect\" means any fault, imperfection or shortcoming in the quality,\nquantity, potency, purity or standard which is required to be"
+    },
+    {
+      "query_id": "REAL_Q_04",
+      "query": "What constitutes a deficiency of service for a service provider?",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION211-ee1d2b-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Consumer Protection Act, 2019",
+      "index_section": "Section 2(11)",
+      "index_domain": "consumer",
+      "text_preview": "Section 2(11) (11) \"deficiency\" means any fault, imperfection, shortcoming or inadequacy in\nthe quality, nature and manner of performance which is req"
+    },
+    {
+      "query_id": "REAL_Q_05",
+      "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Consumer Protection Act, 2019",
+      "index_section": "Section 2(14)",
+      "index_domain": "consumer",
+      "text_preview": "Section 2(14) (14) \"Director-General\" means the Director-General appointed under\nsub-section (2) of section 15;"
+    },
+    {
+      "query_id": "REAL_Q_08",
+      "query": "Does the Code on Wages prohibit paying different wages to male and female employees for equal work?",
+      "expected_chunk_id": "LABO-THECODEONWAG-SECTION3-75d583-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Code on Wages, 2019",
+      "index_section": "Section 3",
+      "index_domain": "labour",
+      "text_preview": "3. (1) There shall be no discrimination in an establishment or any unit thereof among employees on the ground of gender in matters re respect of the s"
+    },
+    {
+      "query_id": "REAL_Q_09",
+      "query": "What factors must the government consider when fixing minimum wage rates for workers?",
+      "expected_chunk_id": "LABO-THECODEONWAG-SECTION6-12443d-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Code on Wages, 2019",
+      "index_section": "Section 6",
+      "index_domain": "labour",
+      "text_preview": "6. (1) Subject to the provisions of section 9, the appropriate Government shall fix the minimum rate of wages payable to employees in accordance with "
+    },
+    {
+      "query_id": "REAL_Q_10",
+      "query": "What is the role and powers of conciliation officers in industrial disputes?",
+      "expected_chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Industrial Relations Code, 2020",
+      "index_section": "Section 4",
+      "index_domain": "labour",
+      "text_preview": "4. (1) Every industrial establishment employing twenty or more workers shall have one or more Grievance Redressal Committees for resolution of dispute"
+    },
+    {
+      "query_id": "REAL_Q_11",
+      "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+      "expected_chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Code on Social Security, 2020",
+      "index_section": "Section 6",
+      "index_domain": "labour",
+      "text_preview": "6. (1) The Central Government shall, by notification, constitute a National Social Security Board for unorganised workers to exercise the powers confe"
+    },
+    {
+      "query_id": "REAL_Q_12",
+      "query": "What safety equipment and precautions must factory employers provide to workers?",
+      "expected_chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "index_section": "Section 6",
+      "index_domain": "labour",
+      "text_preview": "6. (1) Every employer shall,— (a) ensure that workp injury or occupational disease to the employees; Appeal. Notice by employer of commencement and ce"
+    },
+    {
+      "query_id": "REAL_Q_13",
+      "query": "How is a valid sale of immovable property defined under the Transfer of Property Act?",
+      "expected_chunk_id": "TENA-THETRANSFERO-SECTION54-277528-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Transfer of Property Act, 1882",
+      "index_section": "Section 54",
+      "index_domain": "tenant_property",
+      "text_preview": "54. “Sale” defined. \nSale how made. \nContract for sale."
+    },
+    {
+      "query_id": "REAL_Q_14",
+      "query": "What are the legal requirements for creating a lease of immovable property?",
+      "expected_chunk_id": "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Transfer of Property Act, 1882",
+      "index_section": "Section 105",
+      "index_domain": "tenant_property",
+      "text_preview": "105. Lease defined. \nLessor, lessee, premium and rent defined."
+    },
+    {
+      "query_id": "REAL_Q_15",
+      "query": "Which property lease agreements and legal documents require compulsory registration?",
+      "expected_chunk_id": "TENA-THEREGISTRAT-SECTION17-9aacc8-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Registration Act, 1908",
+      "index_section": "Section 17",
+      "index_domain": "tenant_property",
+      "text_preview": "17. Documents of which registration is compulsory."
+    },
+    {
+      "query_id": "REAL_Q_16",
+      "query": "How can a rightful property owner recover possession of immovable property?",
+      "expected_chunk_id": "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Specific Relief Act, 1963",
+      "index_section": "Section 5",
+      "index_domain": "tenant_property",
+      "text_preview": "5. Recovery of specific immovable property."
+    },
+    {
+      "query_id": "REAL_Q_17",
+      "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+      "expected_chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0",
+      "exists_in_index": true,
+      "act_match": true,
+      "section_match": true,
+      "domain_match": true,
+      "index_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+      "index_section": "Section 12",
+      "index_domain": "tenant_property",
+      "text_preview": "12. No ejectment ordinarily t o be made if tenant pays or is ready and willing to \npay standard rent and permitted increase. \nBombay Rents, Hotel and "
+    }
+  ]
+}

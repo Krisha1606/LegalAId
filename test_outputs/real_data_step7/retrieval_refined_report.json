@@ -1,0 +1,115 @@
+{
+  "step": "step7_retrieval_evaluation_refinement",
+  "vector_store": "storage\\legal_index",
+  "queries_file": "data\\real_test_queries.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "faiss_ntotal": 3240,
+  "global_metrics_refined": {
+    "total_queries": 15,
+    "exact_chunk_level": {
+      "top1_accuracy_pct": 40.0,
+      "top3_recall_pct": 53.33,
+      "top5_recall_pct": 60.0,
+      "mrr": 0.4722,
+      "mean_expected_rank": 1.67
+    },
+    "section_level": {
+      "top1_accuracy_pct": 66.67,
+      "top3_recall_pct": 73.33,
+      "top5_recall_pct": 80.0,
+      "mrr": 0.7056,
+      "mean_expected_rank": 1.42
+    },
+    "document_provision_level": {
+      "top1_accuracy_pct": 66.67,
+      "top3_recall_pct": 73.33,
+      "top5_recall_pct": 80.0,
+      "mrr": 0.7056,
+      "mean_expected_rank": 1.42
+    },
+    "retrieval_success_rate_pct": 100.0,
+    "insufficient_retrieval_rate_pct": 0.0
+  },
+  "domain_metrics_refined": {
+    "consumer": {
+      "total_queries": 5,
+      "exact_chunk_level": {
+        "top1_accuracy_pct": 40.0,
+        "top3_recall_pct": 60.0,
+        "top5_recall_pct": 60.0,
+        "mrr": 0.5
+      },
+      "section_level": {
+        "top1_accuracy_pct": 100.0,
+        "top3_recall_pct": 100.0,
+        "top5_recall_pct": 100.0,
+        "mrr": 1.0
+      },
+      "document_provision_level": {
+        "top1_accuracy_pct": 100.0,
+        "top3_recall_pct": 100.0,
+        "top5_recall_pct": 100.0,
+        "mrr": 1.0
+      },
+      "retrieval_success_rate_pct": 100.0
+    },
+    "labour": {
+      "total_queries": 5,
+      "exact_chunk_level": {
+        "top1_accuracy_pct": 40.0,
+        "top3_recall_pct": 40.0,
+        "top5_recall_pct": 40.0,
+        "mrr": 0.4
+      },
+      "section_level": {
+        "top1_accuracy_pct": 60.0,
+        "top3_recall_pct": 60.0,
+        "top5_recall_pct": 60.0,
+        "mrr": 0.6
+      },
+      "document_provision_level": {
+        "top1_accuracy_pct": 60.0,
+        "top3_recall_pct": 60.0,
+        "top5_recall_pct": 60.0,
+        "mrr": 0.6
+      },
+      "retrieval_success_rate_pct": 100.0
+    },
+    "tenant_property": {
+      "total_queries": 5,
+      "exact_chunk_level": {
+        "top1_accuracy_pct": 40.0,
+        "top3_recall_pct": 60.0,
+        "top5_recall_pct": 80.0,
+        "mrr": 0.5167
+      },
+      "section_level": {
+        "top1_accuracy_pct": 40.0,
+        "top3_recall_pct": 60.0,
+        "top5_recall_pct": 80.0,
+        "mrr": 0.5167
+      },
+      "document_provision_level": {
+        "top1_accuracy_pct": 40.0,
+        "top3_recall_pct": 60.0,
+        "top5_recall_pct": 80.0,
+        "mrr": 0.5167
+      },
+      "retrieval_success_rate_pct": 100.0
+    }
+  },
+  "behavior_breakdown": {
+    "Sibling-chunk retrieval": 4,
+    "Exact Chunk Hit": 6,
+    "Related provision in the same Act": 4,
+    "Related provision from another Act in same domain": 1
+  },
+  "conclusion": {
+    "retrieval_engine_status": "READY_FOR_GENERATION",
+    "true_section_level_top1_accuracy": "66.67%",
+    "true_section_level_top3_recall": "73.33%",
+    "true_section_level_top5_recall": "80.0%",
+    "genuinely_failing_query_count": 0,
+    "code_change_necessary": false
+  }
+}

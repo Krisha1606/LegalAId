@@ -1,0 +1,68 @@
+{
+  "step": "real_data_phase1_raw_loading",
+  "source_file": "data\\legal_knowledge_base.json",
+  "dummy_file_avoided": "data\\dummy_legal_data.json",
+  "is_reading_real_file": true,
+  "total_records": 1237,
+  "records_by_domain": {
+    "consumer": 220,
+    "labour": 480,
+    "tenant_property": 537
+  },
+  "missing_field_counts": {
+    "act_name": 0,
+    "section": 0,
+    "section_title": 0,
+    "legal_text": 0,
+    "plain_summary": 0,
+    "keywords": 0,
+    "source_name": 0,
+    "source_url": 0,
+    "domain": 0,
+    "issue": 1237,
+    "jurisdiction": 1237,
+    "applicability": 1237,
+    "verified": 0,
+    "is_dummy": 1237
+  },
+  "sample_record_fields": [
+    "domain",
+    "act_name",
+    "act_number",
+    "year",
+    "section",
+    "section_title",
+    "chapter",
+    "legal_text",
+    "plain_summary",
+    "keywords",
+    "source_name",
+    "source_url",
+    "verified",
+    "last_verified"
+  ],
+  "sample_record_metadata": {
+    "domain": "consumer",
+    "act_name": "Consumer Protection (Direct Selling) Rules, 2021",
+    "act_number": "unknown",
+    "year": 2021,
+    "section": "Rule 1",
+    "section_title": "()      94       ,    , :-",
+    "chapter": "Section (I)",
+    "keywords": [
+      "legal",
+      "provision",
+      "section"
+    ],
+    "source_name": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "source_url": "https://consumeraffairs.nic.in",
+    "verified": true,
+    "last_verified": "2026-08-13"
+  },
+  "raw_text_integrity": {
+    "status": "PASSED",
+    "matches": 1237,
+    "total": 1237
+  },
+  "status": "SUCCESS"
+}

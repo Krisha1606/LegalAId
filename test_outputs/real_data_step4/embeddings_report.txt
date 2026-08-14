@@ -1,0 +1,13 @@
+================================================================================
+LEGAL AID REAL DATA STEP 4 EMBEDDINGS VALIDATION REPORT
+================================================================================
+Embedding Model      : sentence-transformers/all-MiniLM-L6-v2
+Total Chunks Embedded: 3240
+Embedding Dimension  : 384
+Matrix Shape         : (3240, 384)
+Data Type (dtype)    : float32
+Has NaN Values       : False
+Has Inf Values       : False
+L2 Normalized        : True
+Norm Min / Max       : 1.000000 / 1.000000
+================================================================================

@@ -1,0 +1,11 @@
+================================================================================
+LEGAL AID REAL DATA STEP 5 VECTOR STORE VALIDATION REPORT
+================================================================================
+FAISS Index Path     : D:\LegalAId\storage\legal_index\index.faiss
+Metadata JSON Path   : D:\LegalAId\storage\legal_index\metadata.json
+Total Vectors (ntotal): 3240
+Vector Dimension     : 384
+Metadata Records     : 3240
+Missing Positions    : 0
+is_dummy Flag Sample : False
+================================================================================

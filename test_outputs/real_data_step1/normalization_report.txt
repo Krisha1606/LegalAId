@@ -1,0 +1,39 @@
+================================================================================
+LEGAL AID REAL DATA STEP 1 & 2 NORMALIZATION VALIDATION REPORT
+================================================================================
+Raw Records Loaded         : 1237
+Normalized Records         : 1237
+Unique Document IDs        : 1237
+Missing Legal Text         : 0
+Missing Act Name           : 0
+Missing Section            : 0
+Missing Source URL         : 0
+--------------------------------------------------------------------------------
+DOMAIN DISTRIBUTION:
+  - consumer: 220 records
+  - labour: 480 records
+  - tenant_property: 537 records
+--------------------------------------------------------------------------------
+ACT DISTRIBUTION:
+  - Consumer Protection (Direct Selling) Rules, 2021: 13 records
+  - Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020: 5 records
+  - The Occupational Safety, Health and Working Conditions Code, 2020: 143 records
+  - The Industrial Relations Code, 2020: 104 records
+  - The Transfer of Property Act, 1882: 134 records
+  - The Indian Stamp Act, 1899: 80 records
+  - The Registration Act, 1908: 93 records
+  - The Limitation Act, 1963: 137 records
+  - The Specific Relief Act, 1963: 43 records
+  - The Code on Social Security, 2020: 164 records
+  - The Code on Wages, 2019: 69 records
+  - Central Consumer Protection Authority (Allocation and Transaction of Business) Regulations, 2020: 7 records
+  - Consumer Protection (Consumer Disputes Redressal Commissions) Amendment Rules, 2023: 2 records
+  - Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020: 18 records
+  - Consumer Protection (E-Commerce) (Amendment) Rules, 2021: 2 records
+  - The Consumer Protection Act, 2019: 150 records
+  - Consumer Protection (E-Commerce) Rules, 2020: 8 records
+  - Consumer Protection (Mediation) Rules, 2020: 7 records
+  - The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947: 50 records
+  - Central Consumer Protection Authority (Submission of Inquiry or Investigation Report) Regulations, 2021: 1 records
+  - Guidelines for Prevention and Regulation of Dark Patterns, 2023: 7 records
+================================================================================

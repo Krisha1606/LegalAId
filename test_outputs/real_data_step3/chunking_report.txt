@@ -1,0 +1,39 @@
+================================================================================
+LEGAL AID REAL DATA STEP 3 CHUNKING VALIDATION REPORT
+================================================================================
+Normalized Documents Chunked : 1237
+Total Chunks Generated      : 3240
+Unique Chunk IDs            : 3240
+Empty Chunks                : 0
+Min Chunk Length            : 30 chars
+Max Chunk Length            : 500 chars
+Average Chunk Length        : 390.15 chars
+--------------------------------------------------------------------------------
+CHUNKS PER DOMAIN:
+  - consumer: 533 chunks
+  - labour: 2058 chunks
+  - tenant_property: 649 chunks
+--------------------------------------------------------------------------------
+CHUNKS PER ACT:
+  - Consumer Protection (Direct Selling) Rules, 2021: 66 chunks
+  - Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020: 7 chunks
+  - The Occupational Safety, Health and Working Conditions Code, 2020: 587 chunks
+  - The Industrial Relations Code, 2020: 443 chunks
+  - The Transfer of Property Act, 1882: 154 chunks
+  - The Indian Stamp Act, 1899: 97 chunks
+  - The Registration Act, 1908: 110 chunks
+  - The Limitation Act, 1963: 148 chunks
+  - The Specific Relief Act, 1963: 48 chunks
+  - The Code on Social Security, 2020: 804 chunks
+  - The Code on Wages, 2019: 224 chunks
+  - Central Consumer Protection Authority (Allocation and Transaction of Business) Regulations, 2020: 11 chunks
+  - Consumer Protection (Consumer Disputes Redressal Commissions) Amendment Rules, 2023: 6 chunks
+  - Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020: 40 chunks
+  - Consumer Protection (E-Commerce) (Amendment) Rules, 2021: 5 chunks
+  - The Consumer Protection Act, 2019: 326 chunks
+  - Consumer Protection (E-Commerce) Rules, 2020: 48 chunks
+  - Consumer Protection (Mediation) Rules, 2020: 13 chunks
+  - The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947: 92 chunks
+  - Central Consumer Protection Authority (Submission of Inquiry or Investigation Report) Regulations, 2021: 2 chunks
+  - Guidelines for Prevention and Regulation of Dark Patterns, 2023: 9 chunks
+================================================================================

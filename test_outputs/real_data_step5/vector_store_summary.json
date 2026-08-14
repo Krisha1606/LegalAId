@@ -1,0 +1,32 @@
+{
+  "step": "real_data_step5_vector_store",
+  "index_path": "D:\\LegalAId\\storage\\legal_index\\index.faiss",
+  "metadata_path": "D:\\LegalAId\\storage\\legal_index\\metadata.json",
+  "ntotal": 3240,
+  "dimension": 384,
+  "positions_count": 3240,
+  "missing_positions_count": 0,
+  "is_dummy_flag_sample": false,
+  "sample_metadata": {
+    "chunk_id": "CONS-CONSUMERPROT-RULE1-6b395b-chunk-0",
+    "document_id": "CONS-CONSUMERPROT-RULE1-6b395b",
+    "parent_document_id": "CONS-CONSUMERPROT-RULE1-6b395b",
+    "chunk_index": 0,
+    "total_chunks": 1,
+    "text": "1. संजक्षप्त नाम और प्रारम्भ – (1) आन जनयमों का संजक्षप्त नाम ईपभोक्ता संरक्षण (प्रत्यक्ष जबक्री) जनयम, 2021 है। \n(2) ये राजपत्र में प्रकािन की तारीख से प्रर्ृत्त होंगे।",
+    "domain": "consumer",
+    "issue": "()      94       ,    , :-",
+    "act": "Consumer Protection (Direct Selling) Rules, 2021",
+    "section": "Rule 1",
+    "section_title": "()      94       ,    , :-",
+    "plain_explanation": null,
+    "applicability": null,
+    "jurisdiction": null,
+    "source": null,
+    "source_url": "https://consumeraffairs.nic.in",
+    "verified": true,
+    "is_dummy": false,
+    "metadata": {}
+  },
+  "status": "SUCCESS"
+}
