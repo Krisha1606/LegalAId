@@ -1,0 +1,42 @@
+================================================================================
+FRONTEND RESPONSE MAPPING & UI BINDING AUDIT
+================================================================================
+
+API Response Schema (MultilingualProcessResponse) -> React Results.jsx UI Binding:
+
+1. response.data.rights_explanation:
+   -> React: {result.rights_explanation || "No specific rights explanation could be generated."}
+   -> UI Card: 'Your Rights' (with Shield icon, large text typography)
+
+2. response.data.applicable_laws:
+   -> React: {result.applicable_laws.map(law => (
+        <div key={index}>
+          <h3>{law.act}</h3>
+          <span>{law.section}</span>
+          <p>{law.explanation}</p>
+          <p>Source: {law.source}</p>
+        </div>
+      ))}
+   -> UI Card: 'Applicable Law' (Section badges, Act title, statute explanation)
+
+3. response.data.recommended_actions:
+   -> React: {result.recommended_actions.map(action => <li>{action}</li>)}
+   -> UI Card: 'What You Can Do' (Numbered step-by-step guidance list)
+
+4. response.data.citations:
+   -> React: {result.citations.map(cite => <div>{cite}</div>)}
+   -> UI Card: 'Statutory Citations' (Mono-spaced statutory reference blocks)
+
+5. response.data.disclaimer:
+   -> React: {result.disclaimer}
+   -> UI Banner: Amber alert banner with warning icon
+
+6. Document Generation:
+   -> Button: 'Generate Legal Notice'
+   -> Triggers: handleGenerateDocument() -> calls documentApi.generateDocument()
+
+FALLBACK / MAPPING CHECKS:
+- Results.jsx does NOT use artificial hardcoded overrides.
+- No faulty boolean checks on status flags in Results.jsx.
+- The UI renders exactly what the live backend returns.
+================================================================================

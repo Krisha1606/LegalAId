@@ -1,0 +1,31 @@
+================================================================================
+REPOSITORY HARDCODING AND EVALUATION AUDIT
+================================================================================
+
+Audited Targets:
+1. phase10_multilingual/src/adapters/real_legal_engine.py:
+   - Dynamic real call to LegalGenerator.generate().
+   - NO hardcoded responses or dummy strings.
+   - Classification: REAL RUNTIME RESULT
+
+2. src/generator.py:
+   - Dynamic prompt construction and live HTTP call to local Ollama (qwen2.5:7b).
+   - Insufficient retrieval fallback is returned ONLY when qualified_chunks == 0.
+   - Classification: REAL RUNTIME RESULT
+
+3. src/reranker.py:
+   - Dynamic model scoring with CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2').
+   - Dynamic keyword overlap and logit scoring rules.
+   - Classification: REAL RUNTIME RESULT
+
+4. frontend/src/services/api/legalApi.js:
+   - Sends real dynamic HTTP POST to /api/language/process.
+   - Classification: REAL RUNTIME RESULT
+
+5. tests/test_*.py:
+   - Contains pytest assertion expectations (e.g. assert len(applicable_laws) >= 1).
+   - Classification: STATIC TEST FIXTURE (Standard automated test assertions)
+
+AUDIT CONCLUSION:
+Zero hardcoded artificial responses or dummy data shortcuts exist in the production runtime path. All results are produced dynamically by FAISS, Cross-Encoder, and Ollama.
+================================================================================

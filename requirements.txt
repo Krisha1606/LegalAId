@@ -6,3 +6,6 @@ ollama
 pytest
 ruff
 pypdf
+reportlab>=4.2.2
+fastapi
+uvicorn

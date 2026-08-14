@@ -1,0 +1,87 @@
+[
+  {
+    "query_id": "Q1",
+    "query": "My employer has not paid my salary for two months.",
+    "direct_pipeline": {
+      "status": "success",
+      "qualified_chunks": 3,
+      "applicable_laws": 3,
+      "ollama_called": true
+    },
+    "http_api": {
+      "status": "success",
+      "applicable_laws": 3,
+      "ollama_called": true
+    },
+    "match": true,
+    "difference": "None - identical pipeline decisions"
+  },
+  {
+    "query_id": "Q2",
+    "query": "My employer terminated me without paying my wages.",
+    "direct_pipeline": {
+      "status": "success",
+      "qualified_chunks": 5,
+      "applicable_laws": 3,
+      "ollama_called": true
+    },
+    "http_api": {
+      "status": "success",
+      "applicable_laws": 3,
+      "ollama_called": true
+    },
+    "match": true,
+    "difference": "None - identical pipeline decisions"
+  },
+  {
+    "query_id": "Q3",
+    "query": "I was injured because of a defective product.",
+    "direct_pipeline": {
+      "status": "success",
+      "qualified_chunks": 5,
+      "applicable_laws": 4,
+      "ollama_called": true
+    },
+    "http_api": {
+      "status": "success",
+      "applicable_laws": 4,
+      "ollama_called": true
+    },
+    "match": true,
+    "difference": "None - identical pipeline decisions"
+  },
+  {
+    "query_id": "Q4",
+    "query": "My landlord has not returned my security deposit.",
+    "direct_pipeline": {
+      "status": "insufficient_retrieval",
+      "qualified_chunks": 0,
+      "applicable_laws": 0,
+      "ollama_called": false
+    },
+    "http_api": {
+      "status": "insufficient_retrieval",
+      "applicable_laws": 0,
+      "ollama_called": false
+    },
+    "match": true,
+    "difference": "None - identical pipeline decisions"
+  },
+  {
+    "query_id": "Q5",
+    "query": "What is the recipe for baking a chocolate cake?",
+    "direct_pipeline": {
+      "status": "insufficient_retrieval",
+      "qualified_chunks": 0,
+      "applicable_laws": 0,
+      "ollama_called": false
+    },
+    "http_api": {
+      "status": "insufficient_retrieval",
+      "applicable_laws": 0,
+      "ollama_called": false
+    },
+    "match": true,
+    "difference": "None - identical pipeline decisions"
+  }
+]

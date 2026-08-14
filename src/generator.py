@@ -167,23 +167,27 @@ class OllamaClient:
             ) from e
 
 
+from src.retriever import LegalRetriever, RetrievedLegalChunk
+from src.reranker import LegalReranker
+
+
 class LegalGenerator:
-    """Main RAG Generation Layer coordinating retrieval, prompt building, and grounded LLM generation."""
+    """Main RAG Generation Layer coordinating two-stage reranking retrieval, prompt building, and grounded LLM generation."""
 
     def __init__(
         self,
-        retriever: LegalRetriever | None = None,
+        retriever: LegalReranker | LegalRetriever | None = None,
         ollama_client: OllamaClient | None = None,
         prompt_builder: LegalPromptBuilder | None = None,
     ) -> None:
         """Initializes LegalGenerator.
 
         Args:
-            retriever: LegalRetriever instance. Defaults to new instance.
+            retriever: LegalReranker or LegalRetriever instance. Defaults to new LegalReranker.
             ollama_client: OllamaClient instance. Defaults to new instance.
             prompt_builder: LegalPromptBuilder instance. Defaults to new instance.
         """
-        self.retriever = retriever or LegalRetriever()
+        self.retriever = retriever or LegalReranker()
         self.ollama_client = ollama_client or OllamaClient()
         self.prompt_builder = prompt_builder or LegalPromptBuilder()
 
@@ -228,9 +232,12 @@ class LegalGenerator:
         if not isinstance(query, str) or not query.strip():
             raise ValueError("Query must be a non-empty string.")
 
-        retrieval_result = self.retriever.retrieve(
-            query, top_k=top_k, similarity_threshold=similarity_threshold
-        )
+        if hasattr(self.retriever, "rerank"):
+            retrieval_result = self.retriever.rerank(query, top_k=top_k)
+        else:
+            retrieval_result = self.retriever.retrieve(
+                query, top_k=top_k, similarity_threshold=similarity_threshold
+            )
 
         qualified_chunks = retrieval_result.qualified_chunks
         retrieved_chunk_dicts = [c.to_dict() for c in retrieval_result.candidates]

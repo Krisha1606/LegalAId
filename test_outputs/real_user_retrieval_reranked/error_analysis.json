@@ -1,0 +1,170 @@
+[
+  {
+    "id": "Q01",
+    "domain": "Tenant/Property",
+    "query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+    "normalized_query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q02",
+    "domain": "Labour",
+    "query": "My employer has not paid my salary for the last two months.",
+    "normalized_query": "My employer has not paid my salary for the last two months.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q04",
+    "domain": "Tenant/Property",
+    "query": "My landlord is threatening to evict me without giving any prior written notice.",
+    "normalized_query": "My landlord is threatening to evict me without giving any prior written notice.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q06",
+    "domain": "Consumer",
+    "query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+    "normalized_query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q07",
+    "domain": "Tenant/Property",
+    "query": "मेरे मकान मालिक ने बिना किसी नोटिस के मुझे किराए के घर से निकालने की धमकी दी है।",
+    "normalized_query": "My landlord has not returned my security deposit.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q10",
+    "domain": "Tenant/Property",
+    "query": "Mere landlord ne mera security deposit wapas nahi kiya aur phone receive nahi kar raha.",
+    "normalized_query": "My landlord has not returned my security deposit.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q12",
+    "domain": "Consumer",
+    "query": "Online shopping site ne fake product bhej diya aur return request reject kar di.",
+    "normalized_query": "Online shopping site ne fake product bhej diya aur return request reject kar di.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q13",
+    "domain": "Tenant/Property",
+    "query": "My landlord increased the rent arbitrarily by 40% in middle of the tenancy term.",
+    "normalized_query": "My landlord increased the rent arbitrarily by 40% in middle of the tenancy term.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q15",
+    "domain": "Consumer",
+    "query": "Direct selling distributor promised guaranteed high returns and cheated me of my investment.",
+    "normalized_query": "Direct selling distributor promised guaranteed high returns and cheated me of my investment.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q16",
+    "domain": "Tenant/Property",
+    "query": "The buyer refused to register the property sale deed after taking the advance token amount.",
+    "normalized_query": "The buyer refused to register the property sale deed after taking the advance token amount.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q17",
+    "domain": "Labour",
+    "query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+    "normalized_query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q18",
+    "domain": "Consumer",
+    "query": "The hotel cancelled my confirmed online booking at the last minute and refused compensation.",
+    "normalized_query": "The hotel cancelled my confirmed online booking at the last minute and refused compensation.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q19",
+    "domain": "Tenant/Property",
+    "query": "मकान मालिक ने मेरा सिक्योरिटी डिपॉजिट रख लिया है और मरम्मत का झूठा खर्च बता रहा है।",
+    "normalized_query": "My landlord has not returned my security deposit.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q22",
+    "domain": "Tenant/Property",
+    "query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+    "normalized_query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q23",
+    "domain": "Labour",
+    "query": "Boss ne maternity leave par jane se pehle job se nikala aur final settlement rok liya.",
+    "normalized_query": "Boss ne maternity leave par jane se pehle job se nikala aur final settlement rok liya.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q24",
+    "domain": "Consumer",
+    "query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+    "normalized_query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q26",
+    "domain": "Labour",
+    "query": "Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry.",
+    "normalized_query": "Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry.",
+    "failure_category": "C. Knowledge-base coverage gap",
+    "description": "Topic/Act (e.g. POSH Act or state security deposit law) is missing from the 1,237 KB dataset."
+  },
+  {
+    "id": "Q27",
+    "domain": "Consumer",
+    "query": "A coaching institute is refusing to refund fees after student withdrew within 3 days of joining.",
+    "normalized_query": "A coaching institute is refusing to refund fees after student withdrew within 3 days of joining.",
+    "failure_category": "B. Relevance/ranking classification failure",
+    "description": "Candidate was present in candidate pool but reranker scored it below threshold."
+  },
+  {
+    "id": "Q28",
+    "domain": "Tenant/Property",
+    "query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+    "normalized_query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q29",
+    "domain": "Labour",
+    "query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+    "normalized_query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+    "failure_category": "A. First-stage FAISS retrieval failure",
+    "description": "First-stage FAISS similarity search failed to pull the exact statutory section into the top-20 candidate pool."
+  },
+  {
+    "id": "Q30",
+    "domain": "Out-of-Domain",
+    "query": "How do I bake a chocolate cake at home without using an oven?",
+    "normalized_query": "How do I bake a chocolate cake at home without using an oven?",
+    "failure_category": "C. Knowledge-base coverage gap",
+    "description": "Topic/Act (e.g. POSH Act or state security deposit law) is missing from the 1,237 KB dataset."
+  }
+]

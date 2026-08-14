@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 from typing import Optional
-from src.schemas.language import LanguageCode
-from src.schemas.legal_response import DocumentSchema
+from phase10_multilingual.src.schemas.language import LanguageCode
+from phase10_multilingual.src.schemas.legal_response import DocumentSchema
 
 class DocumentTranslationRequest(BaseModel):
     document_type: str = Field(..., max_length=100, description="Type of document, e.g., legal_notice")

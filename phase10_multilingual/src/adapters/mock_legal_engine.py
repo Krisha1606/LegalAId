@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from src.schemas.legal_response import LegalEngineResponse
+from phase10_multilingual.src.schemas.legal_response import LegalEngineResponse
 
 class MockLegalEngine:
     def __init__(self):

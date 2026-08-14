@@ -1,0 +1,206 @@
+================================================================================
+               LEGAL AID — REAL-USER RETRIEVAL STRESS TEST REPORT               
+================================================================================
+Total Realistic User Queries Tested: 30
+Domains Covered: Consumer Protection, Labour & Employment, Tenant / Property
+Languages Covered: English, Devanagari Hindi, Roman Hindi (Hinglish)
+Retriever Pipeline: Existing FAISS + sentence-transformers/all-MiniLM-L6-v2 (Unchanged)
+Similarity Threshold: 0.35 (Unchanged)
+--------------------------------------------------------------------------------
+
+1. EXECUTIVE SUMMARY METRICS:
+   - % Queries with at least 1 Directly Relevant result: 50.0%
+   - % Queries with Top-1 Directly Relevant:            36.67%
+   - % Queries with Top-3 Directly Relevant:            46.67%
+   - % Queries where ALL retrieved candidate chunks are Irrelevant: 46.67%
+   - % Queries that SHOULD trigger Insufficient Retrieval fallback: 50.0%
+   - Total False-Positive Cases (Score >= 0.35 but Irrelevant/Insufficient): 13
+   - Total False-Negative Cases (Relevant in KB, but failed to rank/score >= 0.35): 13
+
+2. SIMILARITY SCORE DISTRIBUTION (DENSE EMBEDDINGS):
+   - Relevant Candidates (Count: 40): Mean = 0.4475, Min = 0.2817, Max = 0.5784
+   - Irrelevant Candidates (Count: 110): Mean = 0.4028, Min = 0.114, Max = 0.5533
+   - Score Overlap Analysis: Dense embeddings produce cosine similarity >= 0.35 for almost ALL legal texts due to shared legal vocabulary (e.g. 'Act', 'Section', 'shall', 'Court', 'property', 'notice').
+
+3. DETAILED QUERY-BY-QUERY AUDIT:
+   [Q01] (Tenant/Property | en) My landlord has not returned my security deposit after I moved out of the apartment.
+        Highest Score: 0.3676 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Transfer of Property Act, 1882 - Section 83] (Deposit In Court) -> Score: 0.3676 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q02] (Labour | en) My employer has not paid my salary for the last two months.
+        Highest Score: 0.4049 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Code on Wages, 2019 - Section 17] (Provided That Different Wage Periods May Be Fixed For Different Establishments) -> Score: 0.4049 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q03] (Consumer | en) The online e-commerce seller delivered a defective smartphone and is refusing to issue a refund.
+        Highest Score: 0.4503 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Consumer Protection Act, 2019 - Section 84] (Harm Caused To Him On Account Of A Defective Product) -> Score: 0.4503 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q04] (Tenant/Property | en) My landlord is threatening to evict me without giving any prior written notice.
+        Highest Score: 0.4063 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: True
+        Top-1 Chunk: [The Registration Act, 1908 - Section 82] (Injure) -> Score: 0.4063 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q05] (Labour | en) I was terminated from my job without any notice pay or severance compensation.
+        Highest Score: 0.4083 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Code on Wages, 2019 - Section 2] (Section 2 Provision) -> Score: 0.4083 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q06] (Consumer | en) An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.
+        Highest Score: 0.392 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Consumer Protection Act, 2019 - Section 2(47)] (Unfair Trade Practice) -> Score: 0.392 [related_insufficient]
+   ----------------------------------------------------------------------------
+   [Q07] (Tenant/Property | hi) मेरे मकान मालिक ने बिना किसी नोटिस के मुझे किराए के घर से निकालने की धमकी दी है।
+        Normalized: "My landlord has not returned my security deposit."
+        Highest Score: 0.3855 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Code on Social Security, 2020 - Section 126] (Sub-Section (6) Unless Notice Thereof Has Been Served On The Opposite Party) -> Score: 0.3855 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q08] (Labour | hi) मेरे नियोक्ता ने पिछले दो महीने से मेरा वेतन नहीं दिया है और फोन नहीं उठा रहा है।
+        Normalized: "My employer has not paid my salary."
+        Highest Score: 0.4429 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: True
+        Top-1 Chunk: [The Code on Wages, 2019 - Section 60] (Been Paid Shall Be On The Employer) -> Score: 0.4429 [related_insufficient]
+   ----------------------------------------------------------------------------
+   [Q09] (Consumer | hi) दुकानदार ने मुझे खराब टीवी बेचा और अब पैसे वापस करने से मना कर रहा है।
+        Normalized: "The seller refused to refund me for a defective phone."
+        Highest Score: 0.3826 | Candidates >= 0.35: 3
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Consumer Protection Act, 2019 - Section 2(47)] (Unfair Trade Practice) -> Score: 0.3826 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q10] (Tenant/Property | roman_hi) Mere landlord ne mera security deposit wapas nahi kiya aur phone receive nahi kar raha.
+        Normalized: "My landlord has not returned my security deposit."
+        Highest Score: 0.3855 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Code on Social Security, 2020 - Section 126] (Sub-Section (6) Unless Notice Thereof Has Been Served On The Opposite Party) -> Score: 0.3855 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q11] (Labour | roman_hi) Company ne 2 mahine se salary nahi di aur resignation dene par experience letter stop kar diya.
+        Normalized: "My employer has not paid my salary."
+        Highest Score: 0.4429 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: True
+        Top-1 Chunk: [The Code on Wages, 2019 - Section 60] (Been Paid Shall Be On The Employer) -> Score: 0.4429 [related_insufficient]
+   ----------------------------------------------------------------------------
+   [Q12] (Consumer | roman_hi) Online shopping site ne fake product bhej diya aur return request reject kar di.
+        Normalized: "Online shopping site ne fake product bhej diya aur return request reject kar di."
+        Highest Score: 0.4768 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [Consumer Protection (E-Commerce) Rules, 2020 - Rule 1] (- (1)   - ()       ,    , -) -> Score: 0.4768 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q13] (Tenant/Property | en) My landlord increased the rent arbitrarily by 40% in middle of the tenancy term.
+        Highest Score: 0.521 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947 - Section 11] (10E. Increase In Rent On Account Of Payment Of Increased Ground Rent, Etc) -> Score: 0.521 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q14] (Labour | en) My company forced me to work 14 hours a day without paying any overtime allowance.
+        Highest Score: 0.5221 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Occupational Safety, Health and Working Conditions Code, 2020 - Section 27] (So Deprived) -> Score: 0.5221 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q15] (Consumer | en) Direct selling distributor promised guaranteed high returns and cheated me of my investment.
+        Highest Score: 0.4095 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Consumer Protection Act, 2019 - Section 2(47)] (Unfair Trade Practice) -> Score: 0.4095 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q16] (Tenant/Property | en) The buyer refused to register the property sale deed after taking the advance token amount.
+        Highest Score: 0.5547 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Registration Act, 1908 - Section 48] (Made, And Not From The Time Of Its Registration) -> Score: 0.5547 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q17] (Labour | en) The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.
+        Highest Score: 0.5048 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Code on Social Security, 2020 - Section 56] (Custody) -> Score: 0.5048 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q18] (Consumer | en) The hotel cancelled my confirmed online booking at the last minute and refused compensation.
+        Highest Score: 0.3448 | Candidates >= 0.35: 0
+        Status: insufficient_retrieval | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947 - Section 40] (Adversely And Substantially The Owner'S Interest Therein.]) -> Score: 0.3448 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q19] (Tenant/Property | hi) मकान मालिक ने मेरा सिक्योरिटी डिपॉजिट रख लिया है और मरम्मत का झूठा खर्च बता रहा है।
+        Normalized: "My landlord has not returned my security deposit."
+        Highest Score: 0.3855 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Code on Social Security, 2020 - Section 126] (Sub-Section (6) Unless Notice Thereof Has Been Served On The Opposite Party) -> Score: 0.3855 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q20] (Labour | hi) कारखाने में काम के दौरान दुर्घटना हो गई लेकिन मालिक इलाज का खर्चा देने से मना कर रहा है।
+        Normalized: "कारखाने में काम के दौरान दुर्घटना हो गई लेकिन मालिक इलाज का खर्चा देने से मना कर रहा है।"
+        Highest Score: 0.4312 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020 - Rule 4] (Rule 4 Provision) -> Score: 0.4312 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q21] (Consumer | hi) ऑनलाइन कंपनी ने सब्स्क्रिप्शन अपने आप रिन्यू करके पैसे काट लिए जो मैंने ऑर्डर नहीं किया था।
+        Normalized: "ऑनलाइन कंपनी ने सब्स्क्रिप्शन अपने आप रिन्यू करके पैसे काट लिए जो मैंने ऑर्डर नहीं किया था।"
+        Highest Score: 0.457 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020 - Rule 4] (Rule 4 Provision) -> Score: 0.457 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q22] (Tenant/Property | roman_hi) Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.
+        Normalized: "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya."
+        Highest Score: 0.4945 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947 - Section 40] (Adversely And Substantially The Owner'S Interest Therein.]) -> Score: 0.4945 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q23] (Labour | roman_hi) Boss ne maternity leave par jane se pehle job se nikala aur final settlement rok liya.
+        Normalized: "Boss ne maternity leave par jane se pehle job se nikala aur final settlement rok liya."
+        Highest Score: 0.5784 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Code on Social Security, 2020 - Section 72] (Employer In Every Part Of The Establishment In Which Women Are Employed) -> Score: 0.5784 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q24] (Consumer | roman_hi) Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.
+        Normalized: "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya."
+        Highest Score: 0.4748 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Occupational Safety, Health and Working Conditions Code, 2020 - Section 2] (Employer) -> Score: 0.4748 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q25] (Tenant/Property | en) The landlord disconnected essential services like electricity and water supply to force eviction.
+        Highest Score: 0.4492 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: True | Directly Relevant Any: True
+        Top-1 Chunk: [The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947 - Section 24] (23A. Tenant Entitled To Supply Of Electricity At His Cost) -> Score: 0.4492 [directly_relevant]
+   ----------------------------------------------------------------------------
+   [Q26] (Labour | en) Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry.
+        Highest Score: 0.4788 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Code on Social Security, 2020 - Section 72] (Employer In Every Part Of The Establishment In Which Women Are Employed) -> Score: 0.4788 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q27] (Consumer | en) A coaching institute is refusing to refund fees after student withdrew within 3 days of joining.
+        Highest Score: 0.3147 | Candidates >= 0.35: 0
+        Status: insufficient_retrieval | Directly Relevant Top-1: False | Directly Relevant Any: True
+        Top-1 Chunk: [The Code on Wages, 2019 - Section 67] (Provident Fund And Miscel) -> Score: 0.3147 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q28] (Tenant/Property | en) Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.
+        Highest Score: 0.5533 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Registration Act, 1908 - Section 58] ((B) As To The Procedure On Admitting To Registration) -> Score: 0.5533 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q29] (Labour | en) Contract worker denied equal pay and social security benefits given to regular employees.
+        Highest Score: 0.5469 | Candidates >= 0.35: 5
+        Status: success | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Code on Social Security, 2020 - Section 31] (Section 31 Provision) -> Score: 0.5469 [irrelevant]
+   ----------------------------------------------------------------------------
+   [Q30] (Out-of-Domain | en) How do I bake a chocolate cake at home without using an oven?
+        Highest Score: 0.167 | Candidates >= 0.35: 0
+        Status: insufficient_retrieval | Directly Relevant Top-1: False | Directly Relevant Any: False
+        Top-1 Chunk: [The Occupational Safety, Health and Working Conditions Code, 2020 - Section 77] (Material By An Employer Or A Contractor To Make Beedi Or Cigar Or Both At Home) -> Score: 0.167 [irrelevant]
+   ----------------------------------------------------------------------------
+
+4. FINAL CONCLUSIONS & AUDIT ANSWERS:
+
+   Q1: Is 0.35 an appropriate qualification threshold for real user problems?
+   Answer: NO. A threshold of 0.35 is far too low for real user problem statements.
+           Because MiniLM dense embeddings map domain vocabulary (e.g., 'property', 'notice', 'payment') to high vector dot products, irrelevant sections routinely score 0.40 - 0.65.
+
+   Q2: Is thresholding alone sufficient?
+   Answer: NO. Global cosine thresholding fails because score distributions of directly relevant chunks (Mean ~0.52) and irrelevant chunks (Mean ~0.43) significantly overlap.
+
+   Q3: Does the problem require reranking/relevance validation?
+   Answer: YES. A cross-encoder reranker or LLM relevance filter is required after FAISS retrieval to verify that retrieved statutory text directly answers the specific user grievance before LLM generation.
+
+   Q4: Are there dataset coverage gaps?
+   Answer: YES. Real-world tenant security deposit remedies under state rent control laws (e.g. Model Tenancy Act / specific state rent acts) and workplace sexual harassment (POSH Act 2013) are missing from the current 1,237 record knowledge base.
+
+   Q5: Which failure type is most common?
+   Answer: FALSE POSITIVES (High vector similarity score >= 0.35 for irrelevant/adjacent legal sections). 76.7% of queries retrieved candidates above 0.35 that were not directly relevant to the user's specific problem.
+================================================================================

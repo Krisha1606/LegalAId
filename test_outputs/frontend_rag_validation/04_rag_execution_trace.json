@@ -1,0 +1,307 @@
+[
+  {
+    "query_id": "Q1",
+    "query": "My employer has not paid my salary for two months.",
+    "faiss_candidates_retrieved": 20,
+    "reranker_evaluated": 20,
+    "qualified_chunks_count": 3,
+    "pipeline_status": "success",
+    "ollama_invoked": true,
+    "top_5_candidates": [
+      {
+        "rank": 1,
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 70",
+        "section_title": "Part Of Workers In Another Part Of The Establishment",
+        "faiss_score": -0.1391,
+        "rerank_score": -0.1391,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 39",
+        "section_title": "Sec. 1]",
+        "faiss_score": -1.1426,
+        "rerank_score": -1.1426,
+        "relevance_decision": "related_but_insufficient",
+        "is_qualified": false
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 39",
+        "section_title": "Sec. 1]",
+        "faiss_score": -1.4026,
+        "rerank_score": -1.4026,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 4,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 78",
+        "section_title": "Employee Or His Dependant, As The Case May Be",
+        "faiss_score": -1.8388,
+        "rerank_score": -1.8388,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 5,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 17",
+        "section_title": "Provided That Different Wage Periods May Be Fixed For Different Establishments",
+        "faiss_score": -2.1424,
+        "rerank_score": -2.1424,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": false
+      }
+    ]
+  },
+  {
+    "query_id": "Q2",
+    "query": "My employer terminated me without paying my wages.",
+    "faiss_candidates_retrieved": 20,
+    "reranker_evaluated": 20,
+    "qualified_chunks_count": 5,
+    "pipeline_status": "success",
+    "ollama_invoked": true,
+    "top_5_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 17",
+        "section_title": "Provided That Different Wage Periods May Be Fixed For Different Establishments",
+        "faiss_score": 0.5508,
+        "rerank_score": 0.5508,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 45",
+        "section_title": "Then, The Employer Shall Be Discharged Of His Liability To Pay Those Amounts",
+        "faiss_score": 0.3382,
+        "rerank_score": 0.3382,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 17",
+        "section_title": "Provided That Different Wage Periods May Be Fixed For Different Establishments",
+        "faiss_score": 0.1278,
+        "rerank_score": 0.1278,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 4,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 2",
+        "section_title": "Section 2 Provision",
+        "faiss_score": -0.7408,
+        "rerank_score": -0.7408,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 5,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 45",
+        "section_title": "Then, The Employer Shall Be Discharged Of His Liability To Pay Those Amounts",
+        "faiss_score": -0.8372,
+        "rerank_score": -0.8372,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      }
+    ]
+  },
+  {
+    "query_id": "Q3",
+    "query": "I was injured because of a defective product.",
+    "faiss_candidates_retrieved": 20,
+    "reranker_evaluated": 20,
+    "qualified_chunks_count": 5,
+    "pipeline_status": "success",
+    "ollama_invoked": true,
+    "top_5_candidates": [
+      {
+        "rank": 1,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 84",
+        "section_title": "Harm Caused To Him On Account Of A Defective Product",
+        "faiss_score": 2.4363,
+        "rerank_score": 2.4363,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 2,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 83",
+        "section_title": "Section 83 Provision",
+        "faiss_score": 1.0245,
+        "rerank_score": 1.0245,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 3,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 84",
+        "section_title": "Harm Caused To Him On Account Of A Defective Product",
+        "faiss_score": 1.0226,
+        "rerank_score": 1.0226,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 4,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 39",
+        "section_title": "Comp",
+        "faiss_score": -0.482,
+        "rerank_score": -0.482,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      },
+      {
+        "rank": 5,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(34)",
+        "section_title": "Product Liability",
+        "faiss_score": -1.4415,
+        "rerank_score": -1.4415,
+        "relevance_decision": "directly_relevant",
+        "is_qualified": true
+      }
+    ]
+  },
+  {
+    "query_id": "Q4",
+    "query": "My landlord has not returned my security deposit.",
+    "faiss_candidates_retrieved": 20,
+    "reranker_evaluated": 20,
+    "qualified_chunks_count": 0,
+    "pipeline_status": "insufficient_retrieval",
+    "ollama_invoked": false,
+    "top_5_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 126",
+        "section_title": "Sub-Section (6) Unless Notice Thereof Has Been Served On The Opposite Party",
+        "faiss_score": -6.9369,
+        "rerank_score": -6.9369,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 88",
+        "section_title": "Company",
+        "faiss_score": -7.7817,
+        "rerank_score": -7.7817,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 94",
+        "section_title": "Shall Be Such As May Be Prescribed By The State Government",
+        "faiss_score": -8.3446,
+        "rerank_score": -8.3446,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 4,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 56",
+        "section_title": "Custody",
+        "faiss_score": -9.2364,
+        "rerank_score": -9.2364,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 5,
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 83",
+        "section_title": "Deposit In Court",
+        "faiss_score": -10.268,
+        "rerank_score": -10.268,
+        "relevance_decision": "related_but_insufficient",
+        "is_qualified": false
+      }
+    ]
+  },
+  {
+    "query_id": "Q5",
+    "query": "What is the recipe for baking a chocolate cake?",
+    "faiss_candidates_retrieved": 20,
+    "reranker_evaluated": 20,
+    "qualified_chunks_count": 0,
+    "pipeline_status": "insufficient_retrieval",
+    "ollama_invoked": false,
+    "top_5_candidates": [
+      {
+        "rank": 1,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 107",
+        "section_title": "Its Prevention",
+        "faiss_score": -11.0296,
+        "rerank_score": -11.0296,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 2,
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 101",
+        "section_title": "Section 101 Provision",
+        "faiss_score": -11.0452,
+        "rerank_score": -11.0452,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 3,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 67",
+        "section_title": "Ines",
+        "faiss_score": -11.0619,
+        "rerank_score": -11.0619,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 4,
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 61",
+        "section_title": "Section 61 Provision",
+        "faiss_score": -11.0665,
+        "rerank_score": -11.0665,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      },
+      {
+        "rank": 5,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 108",
+        "section_title": "The Chief Inspector-Cum-Facilitator",
+        "faiss_score": -11.0808,
+        "rerank_score": -11.0808,
+        "relevance_decision": "irrelevant",
+        "is_qualified": false
+      }
+    ]
+  }
+]

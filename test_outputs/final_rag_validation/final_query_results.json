@@ -1,0 +1,686 @@
+{
+  "real_user_queries": [
+    {
+      "query_id": "Q01",
+      "query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+      "language": "en",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.3676,
+      "top_reranker_score": -9.1246,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Code on Social Security, 2020",
+      "retrieved_section": "Section 126",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 70.66,
+        "reranker_ms": 584.21,
+        "end_to_end_ms": 654.88
+      }
+    },
+    {
+      "query_id": "Q02",
+      "query": "My employer has not paid my salary for the last two months.",
+      "language": "en",
+      "domain": "Labour",
+      "top_faiss_score": 0.4049,
+      "top_reranker_score": -2.481,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Code on Wages, 2019",
+      "retrieved_section": "Section 39",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 17.74,
+        "reranker_ms": 521.56,
+        "end_to_end_ms": 539.3
+      }
+    },
+    {
+      "query_id": "Q03",
+      "query": "The online e-commerce seller delivered a defective smartphone and is refusing to issue a refund.",
+      "language": "en",
+      "domain": "Consumer",
+      "top_faiss_score": 0.4503,
+      "top_reranker_score": -0.8684,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "The Consumer Protection Act, 2019",
+      "retrieved_section": "Section 2(47)",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 17.86,
+        "reranker_ms": 470.85,
+        "end_to_end_ms": 488.71
+      }
+    },
+    {
+      "query_id": "Q04",
+      "query": "My landlord is threatening to evict me without giving any prior written notice.",
+      "language": "en",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.4063,
+      "top_reranker_score": -8.8894,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Transfer of Property Act, 1882",
+      "retrieved_section": "Section 132",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 20.62,
+        "reranker_ms": 581.23,
+        "end_to_end_ms": 601.86
+      }
+    },
+    {
+      "query_id": "Q05",
+      "query": "I was terminated from my job without any notice pay or severance compensation.",
+      "language": "en",
+      "domain": "Labour",
+      "top_faiss_score": 0.4083,
+      "top_reranker_score": -0.7719,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Code on Social Security, 2020",
+      "retrieved_section": "Section 2",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 21.41,
+        "reranker_ms": 474.57,
+        "end_to_end_ms": 495.99
+      }
+    },
+    {
+      "query_id": "Q06",
+      "query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+      "language": "en",
+      "domain": "Consumer",
+      "top_faiss_score": 0.392,
+      "top_reranker_score": -8.6647,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Consumer Protection Act, 2019",
+      "retrieved_section": "Section 2(46)",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 14.14,
+        "reranker_ms": 440.07,
+        "end_to_end_ms": 454.21
+      }
+    },
+    {
+      "query_id": "Q07",
+      "query": "मेरे मकान मालिक ने बिना किसी नोटिस के मुझे किराए के घर से निकालने की धमकी दी है।",
+      "language": "hi",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.4266,
+      "top_reranker_score": 7.6791,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "Consumer Protection (Mediation) Rules, 2020",
+      "retrieved_section": "Rule 5",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 28.73,
+        "reranker_ms": 1298.62,
+        "end_to_end_ms": 1327.36
+      }
+    },
+    {
+      "query_id": "Q08",
+      "query": "मेरे नियोक्ता ने पिछले दो महीने से मेरा वेतन नहीं दिया है और फोन नहीं उठा रहा है।",
+      "language": "hi",
+      "domain": "Labour",
+      "top_faiss_score": 0.3834,
+      "top_reranker_score": 7.4557,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "Consumer Protection (Direct Selling) Rules, 2021",
+      "retrieved_section": "Rule 2",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 18.96,
+        "reranker_ms": 1213.99,
+        "end_to_end_ms": 1232.96
+      }
+    },
+    {
+      "query_id": "Q09",
+      "query": "दुकानदार ने मुझे खराब टीवी बेचा और अब पैसे वापस करने से मना कर रहा है।",
+      "language": "hi",
+      "domain": "Consumer",
+      "top_faiss_score": 0.4525,
+      "top_reranker_score": 7.6776,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020",
+      "retrieved_section": "Rule 14",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 26.52,
+        "reranker_ms": 1478.74,
+        "end_to_end_ms": 1505.27
+      }
+    },
+    {
+      "query_id": "Q10",
+      "query": "Mere landlord ne mera security deposit wapas nahi kiya aur phone receive nahi kar raha.",
+      "language": "roman_hi",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.487,
+      "top_reranker_score": -10.9886,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+      "retrieved_section": "Section 16",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 27.01,
+        "reranker_ms": 617.55,
+        "end_to_end_ms": 644.57
+      }
+    },
+    {
+      "query_id": "Q11",
+      "query": "Company ne 2 mahine se salary nahi di aur resignation dene par experience letter stop kar diya.",
+      "language": "roman_hi",
+      "domain": "Labour",
+      "top_faiss_score": 0.4098,
+      "top_reranker_score": -11.2834,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Industrial Relations Code, 2020",
+      "retrieved_section": "Section 44",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 22.5,
+        "reranker_ms": 552.38,
+        "end_to_end_ms": 574.9
+      }
+    },
+    {
+      "query_id": "Q12",
+      "query": "Online shopping site ne fake product bhej diya aur return request reject kar di.",
+      "language": "roman_hi",
+      "domain": "Consumer",
+      "top_faiss_score": 0.4768,
+      "top_reranker_score": -10.9516,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "Consumer Protection (Direct Selling) Rules, 2021",
+      "retrieved_section": "Rule 2",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 20.28,
+        "reranker_ms": 992.44,
+        "end_to_end_ms": 1012.72
+      }
+    },
+    {
+      "query_id": "Q13",
+      "query": "My landlord increased the rent arbitrarily by 40% in middle of the tenancy term.",
+      "language": "en",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.521,
+      "top_reranker_score": -4.815,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+      "retrieved_section": "Section 10",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 19.49,
+        "reranker_ms": 592.26,
+        "end_to_end_ms": 611.77
+      }
+    },
+    {
+      "query_id": "Q14",
+      "query": "My company forced me to work 14 hours a day without paying any overtime allowance.",
+      "language": "en",
+      "domain": "Labour",
+      "top_faiss_score": 0.5221,
+      "top_reranker_score": -1.9833,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "The Code on Wages, 2019",
+      "retrieved_section": "Section 14",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 24.77,
+        "reranker_ms": 527.79,
+        "end_to_end_ms": 552.58
+      }
+    },
+    {
+      "query_id": "Q15",
+      "query": "Direct selling distributor promised guaranteed high returns and cheated me of my investment.",
+      "language": "en",
+      "domain": "Consumer",
+      "top_faiss_score": 0.4095,
+      "top_reranker_score": -4.8372,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "Consumer Protection (Direct Selling) Rules, 2021",
+      "retrieved_section": "Rule 5",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 27.57,
+        "reranker_ms": 1057.79,
+        "end_to_end_ms": 1085.37
+      }
+    },
+    {
+      "query_id": "Q16",
+      "query": "The buyer refused to register the property sale deed after taking the advance token amount.",
+      "language": "en",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.5547,
+      "top_reranker_score": -3.9402,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Registration Act, 1908",
+      "retrieved_section": "Section 71",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 23.74,
+        "reranker_ms": 501.54,
+        "end_to_end_ms": 525.29
+      }
+    },
+    {
+      "query_id": "Q17",
+      "query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+      "language": "en",
+      "domain": "Labour",
+      "top_faiss_score": 0.5048,
+      "top_reranker_score": -2.4152,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Code on Social Security, 2020",
+      "retrieved_section": "Section 53",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 19.06,
+        "reranker_ms": 510.44,
+        "end_to_end_ms": 529.51
+      }
+    },
+    {
+      "query_id": "Q18",
+      "query": "The hotel cancelled my confirmed online booking at the last minute and refused compensation.",
+      "language": "en",
+      "domain": "Consumer",
+      "top_faiss_score": 0.3448,
+      "top_reranker_score": -10.0237,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Consumer Protection Act, 2019",
+      "retrieved_section": "Section 2(47)",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 24.71,
+        "reranker_ms": 491.03,
+        "end_to_end_ms": 515.76
+      }
+    },
+    {
+      "query_id": "Q19",
+      "query": "मकान मालिक ने मेरा सिक्योरिटी डिपॉजिट रख लिया है और मरम्मत का झूठा खर्च बता रहा है।",
+      "language": "hi",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.4417,
+      "top_reranker_score": 6.8044,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "Consumer Protection (Direct Selling) Rules, 2021",
+      "retrieved_section": "Rule 2",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 22.87,
+        "reranker_ms": 1302.25,
+        "end_to_end_ms": 1325.13
+      }
+    },
+    {
+      "query_id": "Q20",
+      "query": "कारखाने में काम के दौरान दुर्घटना हो गई लेकिन मालिक इलाज का खर्चा देने से मना कर रहा है।",
+      "language": "hi",
+      "domain": "Labour",
+      "top_faiss_score": 0.4312,
+      "top_reranker_score": 7.7121,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "Consumer Protection (Direct Selling) Rules, 2021",
+      "retrieved_section": "Rule 7",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 27.9,
+        "reranker_ms": 1268.75,
+        "end_to_end_ms": 1296.67
+      }
+    },
+    {
+      "query_id": "Q21",
+      "query": "ऑनलाइन कंपनी ने सब्स्क्रिप्शन अपने आप रिन्यू करके पैसे काट लिए जो मैंने ऑर्डर नहीं किया था।",
+      "language": "hi",
+      "domain": "Consumer",
+      "top_faiss_score": 0.457,
+      "top_reranker_score": 7.2552,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "Consumer Protection (Mediation) Rules, 2020",
+      "retrieved_section": "Rule 2",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 21.87,
+        "reranker_ms": 1272.88,
+        "end_to_end_ms": 1294.76
+      }
+    },
+    {
+      "query_id": "Q22",
+      "query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+      "language": "roman_hi",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.4945,
+      "top_reranker_score": -9.9771,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+      "retrieved_section": "Section 18",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 21.83,
+        "reranker_ms": 809.74,
+        "end_to_end_ms": 831.58
+      }
+    },
+    {
+      "query_id": "Q23",
+      "query": "Boss ne maternity leave par jane se pehle job se nikala aur final settlement rok liya.",
+      "language": "roman_hi",
+      "domain": "Labour",
+      "top_faiss_score": 0.5784,
+      "top_reranker_score": -10.7583,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Code on Social Security, 2020",
+      "retrieved_section": "Section 69",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 14.88,
+        "reranker_ms": 566.94,
+        "end_to_end_ms": 581.83
+      }
+    },
+    {
+      "query_id": "Q24",
+      "query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+      "language": "roman_hi",
+      "domain": "Consumer",
+      "top_faiss_score": 0.4748,
+      "top_reranker_score": -11.3426,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "Consumer Protection (E-Commerce) Rules, 2020",
+      "retrieved_section": "Rule 5",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 21.41,
+        "reranker_ms": 556.45,
+        "end_to_end_ms": 577.88
+      }
+    },
+    {
+      "query_id": "Q25",
+      "query": "The landlord disconnected essential services like electricity and water supply to force eviction.",
+      "language": "en",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.4492,
+      "top_reranker_score": -1.4691,
+      "final_relevance_decision": "directly_relevant",
+      "retrieved_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+      "retrieved_section": "Section 24",
+      "is_directly_relevant": true,
+      "ollama_would_be_called": true,
+      "final_status": "success",
+      "latencies": {
+        "faiss_ms": 18.41,
+        "reranker_ms": 476.62,
+        "end_to_end_ms": 495.04
+      }
+    },
+    {
+      "query_id": "Q26",
+      "query": "Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry.",
+      "language": "en",
+      "domain": "Labour",
+      "top_faiss_score": 0.4788,
+      "top_reranker_score": -6.2606,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "retrieved_section": "Section 43",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 19.92,
+        "reranker_ms": 474.32,
+        "end_to_end_ms": 494.25
+      }
+    },
+    {
+      "query_id": "Q27",
+      "query": "A coaching institute is refusing to refund fees after student withdrew within 3 days of joining.",
+      "language": "en",
+      "domain": "Consumer",
+      "top_faiss_score": 0.3147,
+      "top_reranker_score": -4.1896,
+      "final_relevance_decision": "related_but_insufficient",
+      "retrieved_act": "The Consumer Protection Act, 2019",
+      "retrieved_section": "Section 2(47)",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 19.97,
+        "reranker_ms": 538.85,
+        "end_to_end_ms": 558.84
+      }
+    },
+    {
+      "query_id": "Q28",
+      "query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+      "language": "en",
+      "domain": "Tenant/Property",
+      "top_faiss_score": 0.5533,
+      "top_reranker_score": -3.6335,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Indian Stamp Act, 1899",
+      "retrieved_section": "Section 29",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 23.97,
+        "reranker_ms": 654.76,
+        "end_to_end_ms": 678.75
+      }
+    },
+    {
+      "query_id": "Q29",
+      "query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+      "language": "en",
+      "domain": "Labour",
+      "top_faiss_score": 0.5469,
+      "top_reranker_score": -1.1468,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Code on Social Security, 2020",
+      "retrieved_section": "Section 2",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 20.13,
+        "reranker_ms": 452.71,
+        "end_to_end_ms": 472.85
+      }
+    },
+    {
+      "query_id": "Q30",
+      "query": "How do I bake a chocolate cake at home without using an oven?",
+      "language": "en",
+      "domain": "Out-of-Domain",
+      "top_faiss_score": 0.167,
+      "top_reranker_score": -11.1375,
+      "final_relevance_decision": "irrelevant",
+      "retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "retrieved_section": "Section 107",
+      "is_directly_relevant": false,
+      "ollama_would_be_called": false,
+      "final_status": "insufficient_retrieval",
+      "latencies": {
+        "faiss_ms": 18.9,
+        "reranker_ms": 490.47,
+        "end_to_end_ms": 509.38
+      }
+    }
+  ],
+  "ground_truth_benchmark_queries": [
+    {
+      "query_id": "REAL_Q_01",
+      "query": "What is the territorial extent and commencement of the Consumer Protection Act, 2019?",
+      "expected_act": "The Consumer Protection Act, 2019",
+      "expected_section": "Section 1",
+      "rank_found": 1,
+      "reciprocal_rank": 1.0,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Consumer Protection Act, 2019",
+      "top_retrieved_section": "Section 1"
+    },
+    {
+      "query_id": "REAL_Q_02",
+      "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+      "expected_act": "The Consumer Protection Act, 2019",
+      "expected_section": "Section 2(7)",
+      "rank_found": 2,
+      "reciprocal_rank": 0.5,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Consumer Protection Act, 2019",
+      "top_retrieved_section": "Section 35"
+    },
+    {
+      "query_id": "REAL_Q_03",
+      "query": "How is a defect in goods defined under consumer protection law?",
+      "expected_act": "The Consumer Protection Act, 2019",
+      "expected_section": "Section 2(10)",
+      "rank_found": 1,
+      "reciprocal_rank": 1.0,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Consumer Protection Act, 2019",
+      "top_retrieved_section": "Section 2(10)"
+    },
+    {
+      "query_id": "REAL_Q_04",
+      "query": "What constitutes a deficiency of service for a service provider?",
+      "expected_act": "The Consumer Protection Act, 2019",
+      "expected_section": "Section 2(11)",
+      "rank_found": 3,
+      "reciprocal_rank": 0.3333,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Consumer Protection Act, 2019",
+      "top_retrieved_section": "Section 85"
+    },
+    {
+      "query_id": "REAL_Q_05",
+      "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+      "expected_act": "The Consumer Protection Act, 2019",
+      "expected_section": "Section 2(14)",
+      "rank_found": 0,
+      "reciprocal_rank": 0.0,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Consumer Protection Act, 2019",
+      "top_retrieved_section": "Section 2(16)"
+    },
+    {
+      "query_id": "REAL_Q_08",
+      "query": "Does the Code on Wages prohibit paying different wages to male and female employees for equal work?",
+      "expected_act": "The Code on Wages, 2019",
+      "expected_section": "Section 3",
+      "rank_found": 1,
+      "reciprocal_rank": 1.0,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Code on Wages, 2019",
+      "top_retrieved_section": "Section 3"
+    },
+    {
+      "query_id": "REAL_Q_09",
+      "query": "What factors must the government consider when fixing minimum wage rates for workers?",
+      "expected_act": "The Code on Wages, 2019",
+      "expected_section": "Section 6",
+      "rank_found": 1,
+      "reciprocal_rank": 1.0,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Code on Wages, 2019",
+      "top_retrieved_section": "Section 6"
+    },
+    {
+      "query_id": "REAL_Q_10",
+      "query": "What is the role and powers of conciliation officers in industrial disputes?",
+      "expected_act": "The Industrial Relations Code, 2020",
+      "expected_section": "Section 4",
+      "rank_found": 1,
+      "reciprocal_rank": 1.0,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Industrial Relations Code, 2020",
+      "top_retrieved_section": "Section 43"
+    },
+    {
+      "query_id": "REAL_Q_11",
+      "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+      "expected_act": "The Code on Social Security, 2020",
+      "expected_section": "Section 6",
+      "rank_found": 0,
+      "reciprocal_rank": 0.0,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Code on Social Security, 2020",
+      "top_retrieved_section": "Section 4"
+    },
+    {
+      "query_id": "REAL_Q_12",
+      "query": "What safety equipment and precautions must factory employers provide to workers?",
+      "expected_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "expected_section": "Section 6",
+      "rank_found": 0,
+      "reciprocal_rank": 0.0,
+      "rerank_status": "success",
+      "top_retrieved_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "top_retrieved_section": "Section 136"
+    }
+  ]
+}

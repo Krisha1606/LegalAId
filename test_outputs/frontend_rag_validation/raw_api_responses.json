@@ -1,0 +1,237 @@
+[
+  {
+    "query_id": "Q1",
+    "query": "My employer has not paid my salary for two months.",
+    "http_status": 200,
+    "latency_ms": 85308.46,
+    "request_payload": {
+      "text": "My employer has not paid my salary for two months.",
+      "output_language": "en"
+    },
+    "response_body": {
+      "language": {
+        "input": "en",
+        "output": "en"
+      },
+      "normalized_text": "My employer has not paid my salary for two months.",
+      "rights_explanation": "The available legal context does not provide specific provisions addressing non-payment of salary for two months. The sections cited are related to retrenchment and wage payment periods but do not directly address the issue of unpaid salaries.\n\nHowever, it is important to note that under the applicable labor laws in India, such as the Payment of Wages Act, 1936, employers are required to pay wages on time to their employees. If your employer has not paid your salary for two months, you may consider seeking legal advice or approaching the appropriate labor authorities.\n\nRelevant retrieved Act and Section citations:\n- The Code on Wages, 2019\n  - Section 17\n- The Industrial Relations Code, 2020\n  - Section 70 (not directly applicable to unpaid salaries)\n- The Code on Wages, 2019\n  - Section 39",
+      "applicable_laws": [
+        {
+          "act": "The Industrial Relations Code, 2020",
+          "section": "Section 70",
+          "explanation": "Part Of Workers In Another Part Of The Establishment",
+          "source": "https://labour.gov.in"
+        },
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 39",
+          "explanation": "Sec. 1]",
+          "source": "https://labour.gov.in"
+        },
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 17",
+          "explanation": "Provided That Different Wage Periods May Be Fixed For Different Establishments",
+          "source": "https://labour.gov.in"
+        }
+      ],
+      "recommended_actions": [
+        "The Code on Wages, 2019",
+        "The Industrial Relations Code, 2020",
+        "Section 70 (not directly applicable to unpaid salaries)",
+        "The Code on Wages, 2019"
+      ],
+      "document": null,
+      "disclaimer": "This information is provided for general informational and educational purposes only and does not constitute legal advice. Please consult a qualified legal professional for advice regarding your specific circumstances."
+    },
+    "summary": {
+      "input_language": "en",
+      "output_language": "en",
+      "applicable_laws_count": 3,
+      "recommended_actions_count": 4,
+      "rights_explanation_preview": "The available legal context does not provide specific provisions addressing non-payment of salary for two months. The sections cited are related to retrenchment and wage payment pe...",
+      "is_insufficient_fallback": false
+    }
+  },
+  {
+    "query_id": "Q2",
+    "query": "My employer terminated me without paying my wages.",
+    "http_status": 200,
+    "latency_ms": 112087.02,
+    "request_payload": {
+      "text": "My employer terminated me without paying my wages.",
+      "output_language": "en"
+    },
+    "response_body": {
+      "language": {
+        "input": "en",
+        "output": "en"
+      },
+      "normalized_text": "My employer terminated me without paying my wages.",
+      "rights_explanation": "According to Section 17 of The Code on Wages, 2019, your employer is required to pay you within two working days if they have dismissed or removed you from service. Therefore, if your employer terminated your employment without paying your wages, you are entitled to receive the unpaid wages within this period.\n\nSection 45 of The Code on Wages, 2019 also states that if an employer fails to pay the wages as required by Section 17 or any other relevant section, a certificate can be issued by an authority. This certificate allows the Collector or District Magistrate to recover the unpaid wages from your employer.\n\nRelevant Act and Section Citations:\n- The Code on Wages, 2019, Section 17\n- The Code on Wages, 2019, Section 45",
+      "applicable_laws": [
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 17",
+          "explanation": "Provided That Different Wage Periods May Be Fixed For Different Establishments",
+          "source": "https://labour.gov.in"
+        },
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 45",
+          "explanation": "Then, The Employer Shall Be Discharged Of His Liability To Pay Those Amounts",
+          "source": "https://labour.gov.in"
+        },
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 2",
+          "explanation": "Section 2 Provision",
+          "source": "https://labour.gov.in"
+        }
+      ],
+      "recommended_actions": [
+        "The Code on Wages, 2019, Section 17",
+        "The Code on Wages, 2019, Section 45"
+      ],
+      "document": null,
+      "disclaimer": "This information is provided for general informational and educational purposes only and does not constitute legal advice. Please consult a qualified legal professional for advice regarding your specific circumstances."
+    },
+    "summary": {
+      "input_language": "en",
+      "output_language": "en",
+      "applicable_laws_count": 3,
+      "recommended_actions_count": 2,
+      "rights_explanation_preview": "According to Section 17 of The Code on Wages, 2019, your employer is required to pay you within two working days if they have dismissed or removed you from service. Therefore, if y...",
+      "is_insufficient_fallback": false
+    }
+  },
+  {
+    "query_id": "Q3",
+    "query": "I was injured because of a defective product.",
+    "http_status": 200,
+    "latency_ms": 42751.23,
+    "request_payload": {
+      "text": "I was injured because of a defective product.",
+      "output_language": "en"
+    },
+    "response_body": {
+      "language": {
+        "input": "en",
+        "output": "en"
+      },
+      "normalized_text": "I was injured because of a defective product.",
+      "rights_explanation": "According to The Consumer Protection Act, 2019, Section 84, if you were injured due to a defective product, the manufacturer of that product may be liable for your harm. This liability can arise from several circumstances including:\n- The presence of a manufacturing defect in the product.\n- Defective design of the product.\n- Deviation from specified manufacturing standards.\n- Failure of the product to meet express warranties.\n- Absence of adequate instructions or warnings regarding correct usage that could prevent injury.\n\nThis section establishes the manufacturer's liability even if they can prove they were not negligent or fraudulent in making any express warranty about the product. However, for further details on what actions you may take and the specific remedies available, it is advisable to consult a legal professional.\n\nRelevant Act and Section Citations:\n- The Consumer Protection Act, 2019\n- Section 84 - Harm Caused To Him On Account Of A Defective Product",
+      "applicable_laws": [
+        {
+          "act": "The Consumer Protection Act, 2019",
+          "section": "Section 84",
+          "explanation": "Harm Caused To Him On Account Of A Defective Product",
+          "source": "https://www.indiacode.nic.in/handle/123456789/15256"
+        },
+        {
+          "act": "The Consumer Protection Act, 2019",
+          "section": "Section 83",
+          "explanation": "Section 83 Provision",
+          "source": "https://www.indiacode.nic.in/handle/123456789/15256"
+        },
+        {
+          "act": "The Consumer Protection Act, 2019",
+          "section": "Section 39",
+          "explanation": "Comp",
+          "source": "https://www.indiacode.nic.in/handle/123456789/15256"
+        },
+        {
+          "act": "The Consumer Protection Act, 2019",
+          "section": "Section 2(34)",
+          "explanation": "Product Liability",
+          "source": "https://www.indiacode.nic.in/handle/123456789/15256"
+        }
+      ],
+      "recommended_actions": [
+        "The presence of a manufacturing defect in the product.",
+        "Defective design of the product.",
+        "Deviation from specified manufacturing standards.",
+        "Failure of the product to meet express warranties.",
+        "Absence of adequate instructions or warnings regarding correct usage that could prevent injury."
+      ],
+      "document": null,
+      "disclaimer": "This information is provided for general informational and educational purposes only and does not constitute legal advice. Please consult a qualified legal professional for advice regarding your specific circumstances."
+    },
+    "summary": {
+      "input_language": "en",
+      "output_language": "en",
+      "applicable_laws_count": 4,
+      "recommended_actions_count": 5,
+      "rights_explanation_preview": "According to The Consumer Protection Act, 2019, Section 84, if you were injured due to a defective product, the manufacturer of that product may be liable for your harm. This liabi...",
+      "is_insufficient_fallback": false
+    }
+  },
+  {
+    "query_id": "Q4",
+    "query": "My landlord has not returned my security deposit.",
+    "http_status": 200,
+    "latency_ms": 709.35,
+    "request_payload": {
+      "text": "My landlord has not returned my security deposit.",
+      "output_language": "en"
+    },
+    "response_body": {
+      "language": {
+        "input": "en",
+        "output": "en"
+      },
+      "normalized_text": "My landlord has not returned my security deposit.",
+      "rights_explanation": "I could not find sufficiently relevant legal information in the available legal knowledge base to answer this question reliably.",
+      "applicable_laws": [],
+      "recommended_actions": [
+        "Preserve all relevant documentation, receipts, contracts, or notices.",
+        "Send a formal legal notice detailing your claim and seeking redress.",
+        "Approach the appropriate legal forum, tribunal, or consumer commission if unresolved."
+      ],
+      "document": null,
+      "disclaimer": "This information is provided for general informational and educational purposes only and does not constitute legal advice. Please consult a qualified legal professional for advice regarding your specific circumstances."
+    },
+    "summary": {
+      "input_language": "en",
+      "output_language": "en",
+      "applicable_laws_count": 0,
+      "recommended_actions_count": 3,
+      "rights_explanation_preview": "I could not find sufficiently relevant legal information in the available legal knowledge base to answer this question reliably....",
+      "is_insufficient_fallback": true
+    }
+  },
+  {
+    "query_id": "Q5",
+    "query": "What is the recipe for baking a chocolate cake?",
+    "http_status": 200,
+    "latency_ms": 821.3,
+    "request_payload": {
+      "text": "What is the recipe for baking a chocolate cake?",
+      "output_language": "en"
+    },
+    "response_body": {
+      "language": {
+        "input": "en",
+        "output": "en"
+      },
+      "normalized_text": "What is the recipe for baking a chocolate cake?",
+      "rights_explanation": "I could not find sufficiently relevant legal information in the available legal knowledge base to answer this question reliably.",
+      "applicable_laws": [],
+      "recommended_actions": [
+        "Preserve all relevant documentation, receipts, contracts, or notices.",
+        "Send a formal legal notice detailing your claim and seeking redress.",
+        "Approach the appropriate legal forum, tribunal, or consumer commission if unresolved."
+      ],
+      "document": null,
+      "disclaimer": "This information is provided for general informational and educational purposes only and does not constitute legal advice. Please consult a qualified legal professional for advice regarding your specific circumstances."
+    },
+    "summary": {
+      "input_language": "en",
+      "output_language": "en",
+      "applicable_laws_count": 0,
+      "recommended_actions_count": 3,
+      "rights_explanation_preview": "I could not find sufficiently relevant legal information in the available legal knowledge base to answer this question reliably....",
+      "is_insufficient_fallback": true
+    }
+  }
+]

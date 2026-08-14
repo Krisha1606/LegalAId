@@ -7,6 +7,6 @@ class Settings(BaseSettings):
     port: int = 8000
     debug: bool = True
     
-    model_config = SettingsConfigDict(env_file=".env")
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 settings = Settings()

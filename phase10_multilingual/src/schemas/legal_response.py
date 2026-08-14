@@ -1,6 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import List, Optional
-from src.schemas.language import LanguageCode
+from phase10_multilingual.src.schemas.language import LanguageCode
 
 class ApplicableLaw(BaseModel):
     act: str = Field(..., description="Name of the Act")

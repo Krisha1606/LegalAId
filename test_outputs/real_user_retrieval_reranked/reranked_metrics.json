@@ -1,0 +1,16 @@
+{
+  "total_queries_tested": 30,
+  "metrics": {
+    "directly_relevant_top1_pct": 20.0,
+    "directly_relevant_top3_pct": 26.67,
+    "directly_relevant_top5_pct": 30.0,
+    "directly_relevant_any_pct": 30.0,
+    "false_positive_rate_pct": 0.0,
+    "false_negative_rate_pct": 63.33,
+    "insufficient_retrieval_precision_pct": 100.0,
+    "insufficient_retrieval_recall_pct": 100.0,
+    "average_reranking_latency_ms": 577.53
+  },
+  "false_positives_count": 0,
+  "false_negatives_count": 19
+}
