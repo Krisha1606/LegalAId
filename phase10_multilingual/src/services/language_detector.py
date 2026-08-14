@@ -1,5 +1,5 @@
-from src.adapters.translation_provider import TranslationProvider
-from src.schemas.language import LanguageCode
+from phase10_multilingual.src.adapters.translation_provider import TranslationProvider
+from phase10_multilingual.src.schemas.language import LanguageCode
 
 class LanguageDetector:
     def __init__(self, provider: TranslationProvider):

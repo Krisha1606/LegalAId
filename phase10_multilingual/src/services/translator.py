@@ -1,6 +1,6 @@
-from src.adapters.translation_provider import TranslationProvider
-from src.schemas.language import LanguageCode
-from src.services.entity_protector import EntityProtector
+from phase10_multilingual.src.adapters.translation_provider import TranslationProvider
+from phase10_multilingual.src.schemas.language import LanguageCode
+from phase10_multilingual.src.services.entity_protector import EntityProtector
 
 class Translator:
     def __init__(self, provider: TranslationProvider, entity_protector: EntityProtector):

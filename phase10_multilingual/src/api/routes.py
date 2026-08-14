@@ -1,35 +1,44 @@
-from fastapi import APIRouter, HTTPException, Depends
-from src.schemas.legal_response import MultilingualProcessRequest, MultilingualProcessResponse
-from src.schemas.document import DocumentTranslationRequest, DocumentTranslationResponse
+from fastapi import APIRouter, Depends, HTTPException
 
-# Dependable instances (In a real app, use dependency injection properly)
-from src.config.settings import settings
-from src.adapters.translation_provider import MockTranslationProvider, LLMTranslationProvider
-from src.adapters.mock_legal_engine import MockLegalEngine
-from src.services.entity_protector import EntityProtector
-from src.services.glossary import GlossaryService
-from src.services.language_detector import LanguageDetector
-from src.services.normalizer import Normalizer
-from src.services.translator import Translator
-from src.services.multilingual_processor import MultilingualProcessor
-from src.services.document_language_service import DocumentLanguageService
+from phase10_multilingual.src.adapters.real_legal_engine import RealLegalEngineAdapter
+from phase10_multilingual.src.adapters.translation_provider import (
+    LLMTranslationProvider,
+    MockTranslationProvider,
+)
+from phase10_multilingual.src.config.settings import settings
+from phase10_multilingual.src.schemas.document import (
+    DocumentTranslationRequest,
+    DocumentTranslationResponse,
+)
+from phase10_multilingual.src.schemas.legal_response import (
+    MultilingualProcessRequest,
+    MultilingualProcessResponse,
+)
+from phase10_multilingual.src.services.document_language_service import DocumentLanguageService
+from phase10_multilingual.src.services.entity_protector import EntityProtector
+from phase10_multilingual.src.services.glossary import GlossaryService
+from phase10_multilingual.src.services.language_detector import LanguageDetector
+from phase10_multilingual.src.services.multilingual_processor import MultilingualProcessor
+from phase10_multilingual.src.services.normalizer import Normalizer
+from phase10_multilingual.src.services.translator import Translator
 
 router = APIRouter()
+
 
 def get_processor():
     if settings.translation_provider == "llm" and settings.openai_api_key:
         provider = LLMTranslationProvider(api_key=settings.openai_api_key)
     else:
         provider = MockTranslationProvider()
-        
+
     entity_protector = EntityProtector()
     glossary = GlossaryService()
-    legal_engine = MockLegalEngine()
-    
+    legal_engine = RealLegalEngineAdapter()
+
     detector = LanguageDetector(provider)
     normalizer = Normalizer(provider)
     translator = Translator(provider, entity_protector)
-    
+
     return MultilingualProcessor(detector, normalizer, translator, glossary, legal_engine)
 
 def get_document_service():

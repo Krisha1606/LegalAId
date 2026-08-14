@@ -1,4 +1,4 @@
-from src.adapters.translation_provider import TranslationProvider
+from phase10_multilingual.src.adapters.translation_provider import TranslationProvider
 
 class Normalizer:
     def __init__(self, provider: TranslationProvider):

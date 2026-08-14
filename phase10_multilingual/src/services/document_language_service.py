@@ -1,5 +1,9 @@
-from src.services.translator import Translator
-from src.schemas.document import DocumentTranslationRequest, DocumentTranslationResponse, DocumentSchema
+from phase10_multilingual.src.schemas.document import (
+    DocumentSchema,
+    DocumentTranslationRequest,
+    DocumentTranslationResponse,
+)
+from phase10_multilingual.src.services.translator import Translator
 
 class DocumentLanguageService:
     def __init__(self, translator: Translator):

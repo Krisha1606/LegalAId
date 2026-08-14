@@ -1,11 +1,12 @@
+import json
+import logging
 from abc import ABC, abstractmethod
 from typing import Optional
-from openai import AsyncOpenAI
-import logging
-import json
-from src.schemas.language import LanguageCode
+
+from phase10_multilingual.src.schemas.language import LanguageCode
 
 logger = logging.getLogger(__name__)
+
 
 class TranslationProvider(ABC):
     @abstractmethod
@@ -20,6 +21,7 @@ class TranslationProvider(ABC):
     @abstractmethod
     async def normalize_to_english(self, text: str) -> str:
         pass
+
 
 class MockTranslationProvider(TranslationProvider):
     async def translate(self, text: str, source_language: LanguageCode, target_language: LanguageCode) -> str:
@@ -38,17 +40,22 @@ class MockTranslationProvider(TranslationProvider):
 
     async def normalize_to_english(self, text: str) -> str:
         text_lower = text.lower()
-        if "salary" in text_lower:
+        if "salary" in text_lower or "वेतन" in text_lower or "सैलरी" in text_lower:
             return "My employer has not paid my salary."
-        if "deposit" in text_lower:
+        if "deposit" in text_lower or "डिपॉजिट" in text_lower or "मकान मालिक" in text_lower:
             return "My landlord has not returned my security deposit."
-        if "defective" in text_lower or "refund" in text_lower:
+        if "defective" in text_lower or "refund" in text_lower or "खराब" in text_lower:
             return "The seller refused to refund me for a defective phone."
         return text
 
+
 class LLMTranslationProvider(TranslationProvider):
     def __init__(self, api_key: str):
-        self.client = AsyncOpenAI(api_key=api_key)
+        try:
+            from openai import AsyncOpenAI
+            self.client = AsyncOpenAI(api_key=api_key)
+        except ImportError as e:
+            raise RuntimeError("openai package is required for LLMTranslationProvider") from e
         self.model = "gpt-4o-mini"
         
     async def translate(self, text: str, source_language: LanguageCode, target_language: LanguageCode) -> str:

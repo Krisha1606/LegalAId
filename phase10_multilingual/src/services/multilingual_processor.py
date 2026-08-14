@@ -1,10 +1,11 @@
-from src.adapters.mock_legal_engine import MockLegalEngine
-from src.services.language_detector import LanguageDetector
-from src.services.normalizer import Normalizer
-from src.services.translator import Translator
-from src.services.glossary import GlossaryService
-from src.schemas.legal_response import MultilingualProcessRequest, MultilingualProcessResponse, LanguageInfo
-from src.schemas.language import LanguageCode
+from typing import Any
+from phase10_multilingual.src.adapters.mock_legal_engine import MockLegalEngine
+from phase10_multilingual.src.services.language_detector import LanguageDetector
+from phase10_multilingual.src.services.normalizer import Normalizer
+from phase10_multilingual.src.services.translator import Translator
+from phase10_multilingual.src.services.glossary import GlossaryService
+from phase10_multilingual.src.schemas.legal_response import MultilingualProcessRequest, MultilingualProcessResponse, LanguageInfo
+from phase10_multilingual.src.schemas.language import LanguageCode
 import logging
 
 logger = logging.getLogger(__name__)
@@ -15,7 +16,7 @@ class MultilingualProcessor:
                  normalizer: Normalizer,
                  translator: Translator,
                  glossary: GlossaryService,
-                 legal_engine: MockLegalEngine):
+                 legal_engine: Any):
         self.detector = detector
         self.normalizer = normalizer
         self.translator = translator

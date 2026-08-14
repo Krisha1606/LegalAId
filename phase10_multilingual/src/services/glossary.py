@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from src.schemas.language import LanguageCode
+from phase10_multilingual.src.schemas.language import LanguageCode
 
 class GlossaryService:
     def __init__(self):
