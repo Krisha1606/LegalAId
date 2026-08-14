@@ -1,0 +1,26 @@
+{
+  "legal_notice": {
+    "en": "Legal Notice",
+    "hi": "कानूनी नोटिस"
+  },
+  "applicable_law": {
+    "en": "Applicable Law",
+    "hi": "लागू कानून"
+  },
+  "section": {
+    "en": "Section",
+    "hi": "धारा"
+  },
+  "rights": {
+    "en": "Your Rights",
+    "hi": "आपके अधिकार"
+  },
+  "disclaimer": {
+    "en": "This information is provided for general informational and educational purposes only and does not constitute legal advice. Please consult a qualified legal professional for advice regarding your specific circumstances.",
+    "hi": "यह जानकारी केवल सामान्य सूचना और शैक्षिक उद्देश्यों के लिए प्रदान की गई है और इसे कानूनी सलाह नहीं माना जाना चाहिए। अपनी विशेष परिस्थितियों के संबंध में सलाह के लिए योग्य कानूनी पेशेवर से परामर्श करें।"
+  },
+  "recommended_actions": {
+    "en": "Recommended Actions",
+    "hi": "अनुशंसित कार्रवाई"
+  }
+}
