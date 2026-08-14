@@ -1,0 +1,34 @@
+{
+  "total_queries": 30,
+  "faiss_alone": {
+    "top1_pct": 43.33,
+    "top3_pct": 53.33,
+    "top5_pct": 70.0,
+    "mrr": 0.5194,
+    "avg_latency_ms": 13.88
+  },
+  "bm25_lexical_alone": {
+    "top1_pct": 43.33,
+    "top3_pct": 60.0,
+    "top5_pct": 70.0,
+    "avg_latency_ms": 2.56
+  },
+  "hybrid_fusion": {
+    "top1_pct": 56.67,
+    "top3_pct": 66.67,
+    "top5_pct": 70.0,
+    "mrr": 0.625,
+    "avg_latency_ms": 15.74
+  },
+  "calibrated_reranked_pipeline": {
+    "top1_pct": 46.67,
+    "top3_pct": 46.67,
+    "top5_pct": 46.67,
+    "mrr": 0.4667,
+    "safe_rejection_rate_pct": 53.33,
+    "llm_qualification_rate_pct": 46.67,
+    "false_positive_rate_pct": 20.0,
+    "avg_reranking_latency_ms": 397.36,
+    "avg_end_to_end_latency_ms": 411.24
+  }
+}

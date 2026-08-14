@@ -36,6 +36,15 @@ class EntityProtector:
             re.compile(r'\b\d+\b')
         ]
 
+    def _idx_to_code(self, n: int) -> str:
+        res = ""
+        while True:
+            res = chr(ord('A') + (n % 26)) + res
+            n = n // 26 - 1
+            if n < 0:
+                break
+        return res
+
     def protect(self, text: str) -> Tuple[str, Dict[str, str]]:
         if not text:
             return text, {}
@@ -53,7 +62,8 @@ class EntityProtector:
                     if ent == entity:
                         return ph
                         
-                placeholder = f"__PROTECTED_ENTITY_{placeholder_idx}__"
+                code = self._idx_to_code(placeholder_idx)
+                placeholder = f"_X_ENT_{code}_X_"
                 mapping[placeholder] = entity
                 placeholder_idx += 1
                 return placeholder
@@ -69,4 +79,8 @@ class EntityProtector:
         restored_text = text
         for placeholder, entity in mapping.items():
             restored_text = restored_text.replace(placeholder, entity)
+            code = placeholder.replace("_X_ENT_", "").replace("_X_", "")
+            alt_pattern = re.compile(rf'(?:_X_ENT_{code}(?:_X_|_X|_|\b)?|__PROTECTED_ENTITY_{code}__)', re.IGNORECASE)
+            restored_text = alt_pattern.sub(entity, restored_text)
+
         return restored_text

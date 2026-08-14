@@ -44,9 +44,10 @@ export const Results = () => {
     setGeneratingDoc(true);
     try {
       const response = await documentApi.generateDocument({
-        type: 'legal_notice',
-        language: result?.language?.output || 'en',
-        context: requestState.text
+        query: requestState.text,
+        analysis: result,
+        document_type: 'auto',
+        language: result?.language?.output || 'en'
       });
       navigate(`/documents/${response.data.id}`);
     } catch (err) {
@@ -174,6 +175,22 @@ export const Results = () => {
           )}
         </div>
       </div>
+
+      {/* Statutory Citations */}
+      {result.citations && result.citations.length > 0 && (
+        <div className="bg-white rounded-[2rem] shadow-xl border border-gray-100 overflow-hidden">
+          <div className="px-8 py-6 border-b border-gray-100 bg-gray-50/50 flex items-center">
+            <FileText className="w-7 h-7 text-[#1a1a1a] mr-3" />
+            <h2 className="text-xl font-bold text-[#1a1a1a]">Statutory Citations</h2>
+          </div>
+          <div className="p-8 text-[#52525b] text-base leading-relaxed font-mono space-y-2">
+            {result.citations.map((cite, idx) => (
+              <div key={idx} className="p-3 bg-gray-50 rounded-xl border border-gray-100">{cite}</div>
+            ))}
+          </div>
+        </div>
+      )}
+
 
       {/* Generate Document Action */}
       <div className="bg-white rounded-[2rem] shadow-xl border border-gray-100 p-12 text-center flex flex-col items-center">

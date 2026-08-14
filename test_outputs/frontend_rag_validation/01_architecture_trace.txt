@@ -1,0 +1,80 @@
+================================================================================
+LEGALAID END-TO-END PRODUCTION ARCHITECTURE TRACE
+================================================================================
+
+1. USER INTERACTION:
+   - User types legal problem statement in React UI at http://localhost:5173/assistant
+   - Component: frontend/src/pages/LegalAssistant/LegalAssistant.jsx
+   - User clicks 'Analyze My Situation' button.
+   - React Router navigates to '/results' passing state:
+     {
+       text: "<user query>",
+       input_language: "auto",
+       output_language: "en"
+     }
+
+2. FRONTEND API CLIENT:
+   - Component: frontend/src/pages/Results/Results.jsx
+   - Invokes legalApi.processQuery(requestState) in frontend/src/services/api/legalApi.js
+   - Formats request body: { text: payload.text, output_language: payload.output_language || 'en' }
+   - Dispatches via Axios client (frontend/src/services/api/client.js)
+   - Route: POST http://localhost:8000/api/language/process
+   - (Proxied via Vite dev server proxy at port 5173 -> http://localhost:8000)
+
+3. FASTAPI SERVER DISPATCH:
+   - Entrypoint: phase10_multilingual/src/main.py (Uvicorn running on 127.0.0.1:8000)
+   - Route handler: phase10_multilingual/src/api/routes.py -> @router.post("/process")
+   - Dependency injection: get_processor() initializes:
+       * MockTranslationProvider / LLMTranslationProvider
+       * LanguageDetector
+       * Normalizer
+       * Translator + EntityProtector
+       * GlossaryService
+       * RealLegalEngineAdapter (phase10_multilingual/src/adapters/real_legal_engine.py)
+
+4. MULTILINGUAL PROCESSING LAYER:
+   - Class: MultilingualProcessor (phase10_multilingual/src/services/multilingual_processor.py)
+   - Step 4.1: LanguageDetector.detect(text) -> detects input language (e.g., 'en', 'hi', 'roman_hi')
+   - Step 4.2: Normalizer.normalize(text) -> normalizes non-English text to standard English
+   - Step 4.3: RealLegalEngineAdapter.get_response(normalized_text)
+
+5. RAG RETRIEVAL & RERANKING ENGINE:
+   - Class: RealLegalEngineAdapter -> calls LegalGenerator.generate(normalized_text)
+   - Step 5.1: First-Stage Retrieval (src/retriever.py - LegalRetriever)
+       * Embeds query using sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+       * Performs exact inner-product vector search on 3,240 FAISS IndexFlatIP vectors
+       * Retrieves Top-N candidate chunks (default Top-20) from storage/legal_index/index.faiss
+       * Reconstructs full metadata from storage/legal_index/metadata.json
+   - Step 5.2: Second-Stage Reranking (src/reranker.py - LegalReranker)
+       * Uses cross-encoder/ms-marco-MiniLM-L-6-v2
+       * Computes cross-attention logit scores for all (query, chunk_context) pairs
+       * Evaluates relevance classification: directly_relevant / related_but_insufficient / irrelevant
+       * Strict safety gate: Ollama LLM is called ONLY if directly_relevant chunks exist (qualified_chunks > 0)
+       * If qualified_chunks == 0, returns status='insufficient_retrieval' and bypasses LLM safely.
+
+6. GROUNDED LLM GENERATION LAYER:
+   - Class: LegalGenerator (src/generator.py) + OllamaClient
+   - PromptBuilder constructs strictly grounded prompt containing only retrieved statutory text
+   - Dispatches prompt to local Ollama service (model: qwen2.5:7b, timeout: 300s)
+   - Returns GroundedResponse with answer, citations, and source traceability.
+
+7. RESPONSE TRANSFORMATION & LOCALIZATION:
+   - RealLegalEngineAdapter transforms GroundedResponse -> LegalEngineResponse:
+       * rights_explanation: Generated plain-language rights text
+       * applicable_laws: List of { act, section, explanation, source }
+       * recommended_actions: Extracted concrete action steps
+       * citations: Formal statutory citations (e.g., 'The Code on Wages, 2019, Section 17')
+       * disclaimer: Standard legal disclaimer
+   - MultilingualProcessor localizes rights explanation and actions back to target output language
+   - FastAPI returns HTTP 200 JSON with MultilingualProcessResponse schema.
+
+8. FRONTEND RENDERING:
+   - Results.jsx receives response.data
+   - Renders:
+       * 'Your Rights' Card -> response.data.rights_explanation
+       * 'Applicable Law' Cards -> response.data.applicable_laws (act, section badge, explanation)
+       * 'What You Can Do' Ordered List -> response.data.recommended_actions
+       * 'Statutory Citations' Card -> response.data.citations
+       * 'Disclaimer' Warning -> response.data.disclaimer
+       * 'Generate Legal Notice' Button -> triggers documentApi.generateDocument()
+================================================================================

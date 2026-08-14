@@ -1,0 +1,182 @@
+[
+  {
+    "id": "Q01",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "My landlord has not returned my security deposit after I moved out of the apartment."
+  },
+  {
+    "id": "Q02",
+    "domain": "Labour",
+    "language": "en",
+    "query": "My employer has not paid my salary for the last two months."
+  },
+  {
+    "id": "Q03",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "The online e-commerce seller delivered a defective smartphone and is refusing to issue a refund."
+  },
+  {
+    "id": "Q04",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "My landlord is threatening to evict me without giving any prior written notice."
+  },
+  {
+    "id": "Q05",
+    "domain": "Labour",
+    "language": "en",
+    "query": "I was terminated from my job without any notice pay or severance compensation."
+  },
+  {
+    "id": "Q06",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent."
+  },
+  {
+    "id": "Q07",
+    "domain": "Tenant/Property",
+    "language": "hi",
+    "query": "मेरे मकान मालिक ने बिना किसी नोटिस के मुझे किराए के घर से निकालने की धमकी दी है।"
+  },
+  {
+    "id": "Q08",
+    "domain": "Labour",
+    "language": "hi",
+    "query": "मेरे नियोक्ता ने पिछले दो महीने से मेरा वेतन नहीं दिया है और फोन नहीं उठा रहा है।"
+  },
+  {
+    "id": "Q09",
+    "domain": "Consumer",
+    "language": "hi",
+    "query": "दुकानदार ने मुझे खराब टीवी बेचा और अब पैसे वापस करने से मना कर रहा है।"
+  },
+  {
+    "id": "Q10",
+    "domain": "Tenant/Property",
+    "language": "roman_hi",
+    "query": "Mere landlord ne mera security deposit wapas nahi kiya aur phone receive nahi kar raha."
+  },
+  {
+    "id": "Q11",
+    "domain": "Labour",
+    "language": "roman_hi",
+    "query": "Company ne 2 mahine se salary nahi di aur resignation dene par experience letter stop kar diya."
+  },
+  {
+    "id": "Q12",
+    "domain": "Consumer",
+    "language": "roman_hi",
+    "query": "Online shopping site ne fake product bhej diya aur return request reject kar di."
+  },
+  {
+    "id": "Q13",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "My landlord increased the rent arbitrarily by 40% in middle of the tenancy term."
+  },
+  {
+    "id": "Q14",
+    "domain": "Labour",
+    "language": "en",
+    "query": "My company forced me to work 14 hours a day without paying any overtime allowance."
+  },
+  {
+    "id": "Q15",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "Direct selling distributor promised guaranteed high returns and cheated me of my investment."
+  },
+  {
+    "id": "Q16",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "The buyer refused to register the property sale deed after taking the advance token amount."
+  },
+  {
+    "id": "Q17",
+    "domain": "Labour",
+    "language": "en",
+    "query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service."
+  },
+  {
+    "id": "Q18",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "The hotel cancelled my confirmed online booking at the last minute and refused compensation."
+  },
+  {
+    "id": "Q19",
+    "domain": "Tenant/Property",
+    "language": "hi",
+    "query": "मकान मालिक ने मेरा सिक्योरिटी डिपॉजिट रख लिया है और मरम्मत का झूठा खर्च बता रहा है।"
+  },
+  {
+    "id": "Q20",
+    "domain": "Labour",
+    "language": "hi",
+    "query": "कारखाने में काम के दौरान दुर्घटना हो गई लेकिन मालिक इलाज का खर्चा देने से मना कर रहा है।"
+  },
+  {
+    "id": "Q21",
+    "domain": "Consumer",
+    "language": "hi",
+    "query": "ऑनलाइन कंपनी ने सब्स्क्रिप्शन अपने आप रिन्यू करके पैसे काट लिए जो मैंने ऑर्डर नहीं किया था।"
+  },
+  {
+    "id": "Q22",
+    "domain": "Tenant/Property",
+    "language": "roman_hi",
+    "query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya."
+  },
+  {
+    "id": "Q23",
+    "domain": "Labour",
+    "language": "roman_hi",
+    "query": "Boss ne maternity leave par jane se pehle job se nikala aur final settlement rok liya."
+  },
+  {
+    "id": "Q24",
+    "domain": "Consumer",
+    "language": "roman_hi",
+    "query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya."
+  },
+  {
+    "id": "Q25",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "The landlord disconnected essential services like electricity and water supply to force eviction."
+  },
+  {
+    "id": "Q26",
+    "domain": "Labour",
+    "language": "en",
+    "query": "Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry."
+  },
+  {
+    "id": "Q27",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "A coaching institute is refusing to refund fees after student withdrew within 3 days of joining."
+  },
+  {
+    "id": "Q28",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court."
+  },
+  {
+    "id": "Q29",
+    "domain": "Labour",
+    "language": "en",
+    "query": "Contract worker denied equal pay and social security benefits given to regular employees."
+  },
+  {
+    "id": "Q30",
+    "domain": "Out-of-Domain",
+    "language": "en",
+    "query": "How do I bake a chocolate cake at home without using an oven?"
+  }
+]

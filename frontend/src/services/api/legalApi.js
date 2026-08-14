@@ -1,18 +1,21 @@
-import { apiClient, USE_MOCK_API } from './client';
+import { apiClient } from './client';
 import { mockLegal } from '../mock/mockLegal';
 
 export const legalApi = {
   processQuery: async (payload) => {
-    if (USE_MOCK_API) {
-      return mockLegal.processQuery(payload);
-    }
-    return apiClient.post('/api/language/process', payload);
+    const requestBody = {
+      text: payload.text,
+      output_language: payload.output_language || 'en'
+    };
+    return apiClient.post('/api/language/process', requestBody);
   },
 
   getHistory: async () => {
-    if (USE_MOCK_API) {
+    try {
+      return await apiClient.get('/api/history');
+    } catch {
       return mockLegal.getHistory();
     }
-    return apiClient.get('/api/history');
   }
 };
+

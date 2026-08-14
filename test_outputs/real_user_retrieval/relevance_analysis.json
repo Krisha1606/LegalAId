@@ -1,0 +1,273 @@
+{
+  "total_queries_tested": 30,
+  "metrics": {
+    "percentage_with_at_least_one_directly_relevant": 50.0,
+    "percentage_directly_relevant_top1": 36.67,
+    "percentage_directly_relevant_top3": 46.67,
+    "percentage_all_retrieved_candidates_irrelevant": 46.67,
+    "percentage_should_trigger_insufficient_retrieval": 50.0,
+    "false_positive_count": 13,
+    "false_negative_count": 13
+  },
+  "score_distribution": {
+    "relevant_scores_count": 40,
+    "relevant_score_mean": 0.4475,
+    "relevant_score_min": 0.2817,
+    "relevant_score_max": 0.5784,
+    "irrelevant_scores_count": 110,
+    "irrelevant_score_mean": 0.4028,
+    "irrelevant_score_min": 0.114,
+    "irrelevant_score_max": 0.5533
+  },
+  "false_positive_threshold_cases": [
+    {
+      "id": "Q01",
+      "domain": "Tenant/Property",
+      "query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+      "normalized_query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+      "highest_score": 0.3676,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Transfer of Property Act, 1882",
+      "top_1_section": "Section 83",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q06",
+      "domain": "Consumer",
+      "query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+      "normalized_query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+      "highest_score": 0.392,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Consumer Protection Act, 2019",
+      "top_1_section": "Section 2(47)",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q07",
+      "domain": "Tenant/Property",
+      "query": "मेरे मकान मालिक ने बिना किसी नोटिस के मुझे किराए के घर से निकालने की धमकी दी है।",
+      "normalized_query": "My landlord has not returned my security deposit.",
+      "highest_score": 0.3855,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Code on Social Security, 2020",
+      "top_1_section": "Section 126",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q10",
+      "domain": "Tenant/Property",
+      "query": "Mere landlord ne mera security deposit wapas nahi kiya aur phone receive nahi kar raha.",
+      "normalized_query": "My landlord has not returned my security deposit.",
+      "highest_score": 0.3855,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Code on Social Security, 2020",
+      "top_1_section": "Section 126",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q17",
+      "domain": "Labour",
+      "query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+      "normalized_query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+      "highest_score": 0.5048,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Code on Social Security, 2020",
+      "top_1_section": "Section 56",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q19",
+      "domain": "Tenant/Property",
+      "query": "मकान मालिक ने मेरा सिक्योरिटी डिपॉजिट रख लिया है और मरम्मत का झूठा खर्च बता रहा है।",
+      "normalized_query": "My landlord has not returned my security deposit.",
+      "highest_score": 0.3855,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Code on Social Security, 2020",
+      "top_1_section": "Section 126",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q20",
+      "domain": "Labour",
+      "query": "कारखाने में काम के दौरान दुर्घटना हो गई लेकिन मालिक इलाज का खर्चा देने से मना कर रहा है।",
+      "normalized_query": "कारखाने में काम के दौरान दुर्घटना हो गई लेकिन मालिक इलाज का खर्चा देने से मना कर रहा है।",
+      "highest_score": 0.4312,
+      "candidates_above_0_35": 5,
+      "top_1_act": "Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020",
+      "top_1_section": "Rule 4",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q21",
+      "domain": "Consumer",
+      "query": "ऑनलाइन कंपनी ने सब्स्क्रिप्शन अपने आप रिन्यू करके पैसे काट लिए जो मैंने ऑर्डर नहीं किया था।",
+      "normalized_query": "ऑनलाइन कंपनी ने सब्स्क्रिप्शन अपने आप रिन्यू करके पैसे काट लिए जो मैंने ऑर्डर नहीं किया था।",
+      "highest_score": 0.457,
+      "candidates_above_0_35": 5,
+      "top_1_act": "Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020",
+      "top_1_section": "Rule 4",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q22",
+      "domain": "Tenant/Property",
+      "query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+      "normalized_query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+      "highest_score": 0.4945,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+      "top_1_section": "Section 40",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q24",
+      "domain": "Consumer",
+      "query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+      "normalized_query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+      "highest_score": 0.4748,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "top_1_section": "Section 2",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q26",
+      "domain": "Labour",
+      "query": "Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry.",
+      "normalized_query": "Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry.",
+      "highest_score": 0.4788,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Code on Social Security, 2020",
+      "top_1_section": "Section 72",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q28",
+      "domain": "Tenant/Property",
+      "query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+      "normalized_query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+      "highest_score": 0.5533,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Registration Act, 1908",
+      "top_1_section": "Section 58",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    },
+    {
+      "id": "Q29",
+      "domain": "Labour",
+      "query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+      "normalized_query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+      "highest_score": 0.5469,
+      "candidates_above_0_35": 5,
+      "top_1_act": "The Code on Social Security, 2020",
+      "top_1_section": "Section 31",
+      "reason": "Retrieved candidates pass 0.35 similarity threshold but do not contain directly applicable legal provisions."
+    }
+  ],
+  "false_negative_cases": [
+    {
+      "id": "Q01",
+      "domain": "Tenant/Property",
+      "query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+      "normalized_query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+      "highest_score": 0.3676,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q06",
+      "domain": "Consumer",
+      "query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+      "normalized_query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+      "highest_score": 0.392,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q07",
+      "domain": "Tenant/Property",
+      "query": "मेरे मकान मालिक ने बिना किसी नोटिस के मुझे किराए के घर से निकालने की धमकी दी है।",
+      "normalized_query": "My landlord has not returned my security deposit.",
+      "highest_score": 0.3855,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q10",
+      "domain": "Tenant/Property",
+      "query": "Mere landlord ne mera security deposit wapas nahi kiya aur phone receive nahi kar raha.",
+      "normalized_query": "My landlord has not returned my security deposit.",
+      "highest_score": 0.3855,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q17",
+      "domain": "Labour",
+      "query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+      "normalized_query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+      "highest_score": 0.5048,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q18",
+      "domain": "Consumer",
+      "query": "The hotel cancelled my confirmed online booking at the last minute and refused compensation.",
+      "normalized_query": "The hotel cancelled my confirmed online booking at the last minute and refused compensation.",
+      "highest_score": 0.3448,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q19",
+      "domain": "Tenant/Property",
+      "query": "मकान मालिक ने मेरा सिक्योरिटी डिपॉजिट रख लिया है और मरम्मत का झूठा खर्च बता रहा है।",
+      "normalized_query": "My landlord has not returned my security deposit.",
+      "highest_score": 0.3855,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q20",
+      "domain": "Labour",
+      "query": "कारखाने में काम के दौरान दुर्घटना हो गई लेकिन मालिक इलाज का खर्चा देने से मना कर रहा है।",
+      "normalized_query": "कारखाने में काम के दौरान दुर्घटना हो गई लेकिन मालिक इलाज का खर्चा देने से मना कर रहा है।",
+      "highest_score": 0.4312,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q21",
+      "domain": "Consumer",
+      "query": "ऑनलाइन कंपनी ने सब्स्क्रिप्शन अपने आप रिन्यू करके पैसे काट लिए जो मैंने ऑर्डर नहीं किया था।",
+      "normalized_query": "ऑनलाइन कंपनी ने सब्स्क्रिप्शन अपने आप रिन्यू करके पैसे काट लिए जो मैंने ऑर्डर नहीं किया था।",
+      "highest_score": 0.457,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q22",
+      "domain": "Tenant/Property",
+      "query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+      "normalized_query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+      "highest_score": 0.4945,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q24",
+      "domain": "Consumer",
+      "query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+      "normalized_query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+      "highest_score": 0.4748,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q28",
+      "domain": "Tenant/Property",
+      "query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+      "normalized_query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+      "highest_score": 0.5533,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    },
+    {
+      "id": "Q29",
+      "domain": "Labour",
+      "query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+      "normalized_query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+      "highest_score": 0.5469,
+      "reason": "Relevant legal provisions exist in the 1,237 KB dataset, but semantic similarity search failed to score them >= 0.35 or rank them in Top-5."
+    }
+  ]
+}

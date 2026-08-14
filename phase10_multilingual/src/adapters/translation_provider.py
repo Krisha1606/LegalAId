@@ -26,7 +26,41 @@ class TranslationProvider(ABC):
 class MockTranslationProvider(TranslationProvider):
     async def translate(self, text: str, source_language: LanguageCode, target_language: LanguageCode) -> str:
         if target_language == LanguageCode.HI:
-            return f"[Hindi Translation of: {text}]"
+            if not text or not text.strip():
+                return text
+            import urllib.request
+            import urllib.parse
+            import json
+
+            encoded_text = urllib.parse.quote(text.strip())
+            url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=hi&dt=t&q={encoded_text}"
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            try:
+                with urllib.request.urlopen(req, timeout=5) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                    translated_parts = [part[0] for part in data[0] if part and part[0]]
+                    res = "".join(translated_parts).strip()
+                    if res:
+                        return res
+            except Exception:
+                pass
+
+            # Fallback to Ollama if network unavailable
+            try:
+                from src.config import config
+                ollama_url = f"{config.OLLAMA_BASE_URL}/api/generate"
+                prompt = f"Translate the following legal text into fluent Hindi (Devanagari). Return ONLY the Hindi translation without explanation or quotes:\n\n{text}"
+                payload = {"model": config.OLLAMA_MODEL, "prompt": prompt, "stream": False}
+                ollama_req = urllib.request.Request(ollama_url, data=json.dumps(payload).encode("utf-8"), headers={"Content-Type": "application/json"})
+                with urllib.request.urlopen(ollama_req, timeout=10) as resp:
+                    ollama_data = json.loads(resp.read().decode("utf-8"))
+                    res = ollama_data.get("response", "").strip()
+                    if res:
+                        return res
+            except Exception:
+                pass
+
+            return text
         return text
 
     async def detect_language(self, text: str) -> dict:

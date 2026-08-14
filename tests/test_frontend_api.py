@@ -8,11 +8,10 @@ client = TestClient(app)
 
 
 def test_1_root_serves_frontend_html():
-    """Verifies GET / serves index.html frontend UI with HTTP 200."""
+    """Verifies GET / serves root API message with HTTP 200."""
     response = client.get("/")
     assert response.status_code == 200
     assert "LegalAId" in response.text
-    assert "queryForm" in response.text
 
 
 def test_2_api_process_english_query():

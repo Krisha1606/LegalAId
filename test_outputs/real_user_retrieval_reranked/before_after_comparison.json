@@ -1,0 +1,34 @@
+{
+  "metric_comparison": [
+    {
+      "metric": "Directly Relevant Top-1",
+      "baseline_faiss": "36.67%",
+      "phase11_reranked": "20.0%",
+      "net_change": "-16.67%"
+    },
+    {
+      "metric": "Directly Relevant Top-3",
+      "baseline_faiss": "46.67%",
+      "phase11_reranked": "26.67%",
+      "net_change": "-20.0%"
+    },
+    {
+      "metric": "Directly Relevant Top-5",
+      "baseline_faiss": "50.0%",
+      "phase11_reranked": "30.0%",
+      "net_change": "-20.0%"
+    },
+    {
+      "metric": "False Positive Rate (Bypassing LLM when Irrelevant)",
+      "baseline_faiss": "50.0% (43.3% sent to LLM)",
+      "phase11_reranked": "0.0% (0.0% sent to LLM)",
+      "net_change": "-43.3% (100% Elimination of False Positive Generation Calls)"
+    },
+    {
+      "metric": "Insufficient Retrieval Precision",
+      "baseline_faiss": "50.0%",
+      "phase11_reranked": "100.0%",
+      "net_change": "+50.0%"
+    }
+  ]
+}

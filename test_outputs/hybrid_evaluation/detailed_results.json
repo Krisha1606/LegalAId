@@ -1,0 +1,1202 @@
+[
+  {
+    "query_id": "Q01",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+    "normalized_query": "My landlord has not returned my security deposit after I moved out of the apartment.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 126",
+        "section_title": "Sub-Section (6) Unless Notice Thereof Has Been Served On The Opposite Party",
+        "composite_score": 0.3857150746963138,
+        "rerank_score": -9.599075317382812,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 83",
+        "section_title": "Deposit In Court",
+        "composite_score": 0.29737222706455313,
+        "rerank_score": -10.16642951965332,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 25",
+        "section_title": "Landlord Not To Cut Off Or Withhold Essential Supply Or Service",
+        "composite_score": 0.23796343743270218,
+        "rerank_score": -8.141900062561035,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q02",
+    "domain": "Labour",
+    "language": "en",
+    "query": "My employer has not paid my salary for the last two months.",
+    "normalized_query": "My employer has not paid my salary for the last two months.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 70",
+        "section_title": "Part Of Workers In Another Part Of The Establishment",
+        "composite_score": 0.5282088837338723,
+        "rerank_score": -3.4644670486450195,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 39",
+        "section_title": "Sec. 1]",
+        "composite_score": 0.5091694609078853,
+        "rerank_score": -3.296679973602295,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 39",
+        "section_title": "Sec. 1]",
+        "composite_score": 0.4801245881852801,
+        "rerank_score": -3.9895687103271484,
+        "decision": "directly_relevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q03",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "The online e-commerce seller delivered a defective smartphone and is refusing to issue a refund.",
+    "normalized_query": "The online e-commerce seller delivered a defective smartphone and is refusing to issue a refund.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(47)",
+        "section_title": "Unfair Trade Practice",
+        "composite_score": 0.7884500735912056,
+        "rerank_score": -1.1960430145263672,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 83",
+        "section_title": "Section 83 Provision",
+        "composite_score": 0.4081139280613417,
+        "rerank_score": -6.268199920654297,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 84",
+        "section_title": "Harm Caused To Him On Account Of A Defective Product",
+        "composite_score": 0.4033156124786424,
+        "rerank_score": -8.297307014465332,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q04",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "My landlord is threatening to evict me without giving any prior written notice.",
+    "normalized_query": "My landlord is threatening to evict me without giving any prior written notice.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 79",
+        "section_title": "Postponement Of Prior Mortgagee",
+        "composite_score": 0.35896124849681427,
+        "rerank_score": -9.058770179748535,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 16",
+        "section_title": "15A. Landlord'S Permission Necessary For Giving On Licence",
+        "composite_score": 0.3336527082860591,
+        "rerank_score": -7.186821937561035,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 93",
+        "section_title": "The Mortgage In Respect Of Which The Right Is C",
+        "composite_score": 0.30986230663799846,
+        "rerank_score": -5.462356090545654,
+        "decision": "related_but_insufficient"
+      }
+    ]
+  },
+  {
+    "query_id": "Q05",
+    "domain": "Labour",
+    "language": "en",
+    "query": "I was terminated from my job without any notice pay or severance compensation.",
+    "normalized_query": "I was terminated from my job without any notice pay or severance compensation.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 2",
+        "section_title": "Section 2 Provision",
+        "composite_score": 0.495263687333582,
+        "rerank_score": -1.540687084197998,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 20",
+        "section_title": "Prescribed Authority",
+        "composite_score": 0.44802490300014897,
+        "rerank_score": -9.614880561828613,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 84",
+        "section_title": "Effect Government Was Furnished To The Person Commencing The Proceedings",
+        "composite_score": 0.4089561711147161,
+        "rerank_score": -10.069997787475586,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q06",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+    "normalized_query": "An e-commerce website used dark pattern hidden fees to charge my credit card without my consent.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(46)",
+        "section_title": "Unfair Contract",
+        "composite_score": 0.3493438728789725,
+        "rerank_score": -9.17563533782959,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(47)",
+        "section_title": "Unfair Trade Practice",
+        "composite_score": 0.2777906005114511,
+        "rerank_score": -11.142005920410156,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "Guidelines for Prevention and Regulation of Dark Patterns, 2023",
+        "section": "Regulation 2",
+        "section_title": ", 2023",
+        "composite_score": 0.2757791685418537,
+        "rerank_score": -6.215686798095703,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q07",
+    "domain": "Tenant/Property",
+    "language": "hi",
+    "query": "\u092e\u0947\u0930\u0947 \u092e\u0915\u093e\u0928 \u092e\u093e\u0932\u093f\u0915 \u0928\u0947 \u092c\u093f\u0928\u093e \u0915\u093f\u0938\u0940 \u0928\u094b\u091f\u093f\u0938 \u0915\u0947 \u092e\u0941\u091d\u0947 \u0915\u093f\u0930\u093e\u090f \u0915\u0947 \u0918\u0930 \u0938\u0947 \u0928\u093f\u0915\u093e\u0932\u0928\u0947 \u0915\u0940 \u0927\u092e\u0915\u0940 \u0926\u0940 \u0939\u0948\u0964",
+    "normalized_query": "My landlord has not returned my security deposit.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 126",
+        "section_title": "Sub-Section (6) Unless Notice Thereof Has Been Served On The Opposite Party",
+        "composite_score": 0.39128167304188954,
+        "rerank_score": -8.094581604003906,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 88",
+        "section_title": "Company",
+        "composite_score": 0.34431864026977493,
+        "rerank_score": -8.141756057739258,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 94",
+        "section_title": "Shall Be Such As May Be Prescribed By The State Government",
+        "composite_score": 0.3180330679745136,
+        "rerank_score": -10.471128463745117,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q08",
+    "domain": "Labour",
+    "language": "hi",
+    "query": "\u092e\u0947\u0930\u0947 \u0928\u093f\u092f\u094b\u0915\u094d\u0924\u093e \u0928\u0947 \u092a\u093f\u091b\u0932\u0947 \u0926\u094b \u092e\u0939\u0940\u0928\u0947 \u0938\u0947 \u092e\u0947\u0930\u093e \u0935\u0947\u0924\u0928 \u0928\u0939\u0940\u0902 \u0926\u093f\u092f\u093e \u0939\u0948 \u0914\u0930 \u092b\u094b\u0928 \u0928\u0939\u0940\u0902 \u0909\u0920\u093e \u0930\u0939\u093e \u0939\u0948\u0964",
+    "normalized_query": "My employer has not paid my salary.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 60",
+        "section_title": "Been Paid Shall Be On The Employer",
+        "composite_score": 0.8049033031313032,
+        "rerank_score": 0.8709203004837036,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 37",
+        "section_title": "Taken Into Account",
+        "composite_score": 0.6780121492633506,
+        "rerank_score": -0.1752600073814392,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 26",
+        "section_title": "Ayment Of Bonus",
+        "composite_score": 0.6117105672488866,
+        "rerank_score": -1.3416849374771118,
+        "decision": "directly_relevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q09",
+    "domain": "Consumer",
+    "language": "hi",
+    "query": "\u0926\u0941\u0915\u093e\u0928\u0926\u093e\u0930 \u0928\u0947 \u092e\u0941\u091d\u0947 \u0916\u0930\u093e\u092c \u091f\u0940\u0935\u0940 \u092c\u0947\u091a\u093e \u0914\u0930 \u0905\u092c \u092a\u0948\u0938\u0947 \u0935\u093e\u092a\u0938 \u0915\u0930\u0928\u0947 \u0938\u0947 \u092e\u0928\u093e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948\u0964",
+    "normalized_query": "The seller refused to refund me for a defective phone.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(47)",
+        "section_title": "Unfair Trade Practice",
+        "composite_score": 0.8051183675163746,
+        "rerank_score": 1.1315771341323853,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 84",
+        "section_title": "Harm Caused To Him On Account Of A Defective Product",
+        "composite_score": 0.40147051409235585,
+        "rerank_score": -7.84193754196167,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 84",
+        "section_title": "Harm Caused To Him On Account Of A Defective Product",
+        "composite_score": 0.3779261451616966,
+        "rerank_score": -6.381521224975586,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q10",
+    "domain": "Tenant/Property",
+    "language": "roman_hi",
+    "query": "Mere landlord ne mera security deposit wapas nahi kiya aur phone receive nahi kar raha.",
+    "normalized_query": "My landlord has not returned my security deposit.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 126",
+        "section_title": "Sub-Section (6) Unless Notice Thereof Has Been Served On The Opposite Party",
+        "composite_score": 0.39128167304188954,
+        "rerank_score": -8.094581604003906,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 88",
+        "section_title": "Company",
+        "composite_score": 0.34431864026977493,
+        "rerank_score": -8.141756057739258,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 94",
+        "section_title": "Shall Be Such As May Be Prescribed By The State Government",
+        "composite_score": 0.3180330679745136,
+        "rerank_score": -10.471128463745117,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q11",
+    "domain": "Labour",
+    "language": "roman_hi",
+    "query": "Company ne 2 mahine se salary nahi di aur resignation dene par experience letter stop kar diya.",
+    "normalized_query": "My employer has not paid my salary.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 60",
+        "section_title": "Been Paid Shall Be On The Employer",
+        "composite_score": 0.8049033031313032,
+        "rerank_score": 0.8709203004837036,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 37",
+        "section_title": "Taken Into Account",
+        "composite_score": 0.6780121492633506,
+        "rerank_score": -0.1752600073814392,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 26",
+        "section_title": "Ayment Of Bonus",
+        "composite_score": 0.6117105672488866,
+        "rerank_score": -1.3416849374771118,
+        "decision": "directly_relevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q12",
+    "domain": "Consumer",
+    "language": "roman_hi",
+    "query": "Online shopping site ne fake product bhej diya aur return request reject kar di.",
+    "normalized_query": "Online shopping site ne fake product bhej diya aur return request reject kar di.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(7)",
+        "section_title": "Consumer",
+        "composite_score": 0.36996512468389203,
+        "rerank_score": -11.389484405517578,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(37)",
+        "section_title": "Product Seller",
+        "composite_score": 0.36638163156992937,
+        "rerank_score": -11.36251163482666,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(17)",
+        "section_title": "Electronic Service Provider",
+        "composite_score": 0.330058881624415,
+        "rerank_score": -11.323543548583984,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q13",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "My landlord increased the rent arbitrarily by 40% in middle of the tenancy term.",
+    "normalized_query": "My landlord increased the rent arbitrarily by 40% in middle of the tenancy term.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 11",
+        "section_title": "10E. Increase In Rent On Account Of Payment Of Increased Ground Rent, Etc",
+        "composite_score": 0.5807828613584999,
+        "rerank_score": -4.077977180480957,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 9",
+        "section_title": "Cases Where Rent To Be Deemed And Not To Be Deemed To Be Increased",
+        "composite_score": 0.5423621149537327,
+        "rerank_score": -4.104936599731445,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 10",
+        "section_title": "Increase In Rent On Account Of Improvement, Etc., Excepted",
+        "composite_score": 0.5245461119831574,
+        "rerank_score": -4.0404815673828125,
+        "decision": "directly_relevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q14",
+    "domain": "Labour",
+    "language": "en",
+    "query": "My company forced me to work 14 hours a day without paying any overtime allowance.",
+    "normalized_query": "My company forced me to work 14 hours a day without paying any overtime allowance.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 27",
+        "section_title": "So Deprived",
+        "composite_score": 0.6462023082495568,
+        "rerank_score": -3.029350996017456,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 28",
+        "section_title": "Hours Of Overtime",
+        "composite_score": 0.5544629119375329,
+        "rerank_score": -3.065255641937256,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 27",
+        "section_title": "So Deprived",
+        "composite_score": 0.4915783789311473,
+        "rerank_score": -3.0842905044555664,
+        "decision": "directly_relevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q15",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "Direct selling distributor promised guaranteed high returns and cheated me of my investment.",
+    "normalized_query": "Direct selling distributor promised guaranteed high returns and cheated me of my investment.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(13)",
+        "section_title": "Direct Selling",
+        "composite_score": 0.5023480489875519,
+        "rerank_score": -4.587093353271484,
+        "decision": "related_but_insufficient"
+      },
+      {
+        "rank": 2,
+        "act": "Consumer Protection (Direct Selling) Rules, 2021",
+        "section": "Rule 6",
+        "section_title": "Rule 6 Provision",
+        "composite_score": 0.43766217936765034,
+        "rerank_score": -6.050170421600342,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "Consumer Protection (Direct Selling) Rules, 2021",
+        "section": "Rule 11",
+        "section_title": "[ Ii\u2014  3(I)]    :  9",
+        "composite_score": 0.43708585196876243,
+        "rerank_score": -6.1894307136535645,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q16",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "The buyer refused to register the property sale deed after taking the advance token amount.",
+    "normalized_query": "The buyer refused to register the property sale deed after taking the advance token amount.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 55",
+        "section_title": "Contract For Sale",
+        "composite_score": 0.3997100530121697,
+        "rerank_score": -7.66375732421875,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Registration Act, 1908",
+        "section": "Section 71",
+        "section_title": "Of Refusal To Register",
+        "composite_score": 0.39434687800905854,
+        "rerank_score": -3.875751495361328,
+        "decision": "related_but_insufficient"
+      },
+      {
+        "rank": 3,
+        "act": "The Specific Relief Act, 1963",
+        "section": "Section 28",
+        "section_title": "When Rescission May Be Adjudged Or Refused",
+        "composite_score": 0.3611953772668446,
+        "rerank_score": -6.131204605102539,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q17",
+    "domain": "Labour",
+    "language": "en",
+    "query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+    "normalized_query": "The factory owner refused to pay statutory gratuity and provident fund after 10 years of service.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 53",
+        "section_title": "Ra Tuity",
+        "composite_score": 0.4712469190843841,
+        "rerank_score": -2.4933807849884033,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 67",
+        "section_title": "Provident Fund And Miscel",
+        "composite_score": 0.4269763800743919,
+        "rerank_score": -4.939247131347656,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 57",
+        "section_title": "Modify, Or Reverse The Decision Of The Competent Authority",
+        "composite_score": 0.407728038816025,
+        "rerank_score": -6.122028350830078,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q18",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "The hotel cancelled my confirmed online booking at the last minute and refused compensation.",
+    "normalized_query": "The hotel cancelled my confirmed online booking at the last minute and refused compensation.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Limitation Act, 1963",
+        "section": "Section 55",
+        "section_title": "Is Refused",
+        "composite_score": 0.3189413993409669,
+        "rerank_score": -6.16752815246582,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Specific Relief Act, 1963",
+        "section": "Section 42",
+        "section_title": "Injunction When Refused",
+        "composite_score": 0.2852247765206593,
+        "rerank_score": -9.939998626708984,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Specific Relief Act, 1963",
+        "section": "Section 33",
+        "section_title": "What Instruments May Be Partially Cancelled",
+        "composite_score": 0.2502955114874413,
+        "rerank_score": -9.709773063659668,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q19",
+    "domain": "Tenant/Property",
+    "language": "hi",
+    "query": "\u092e\u0915\u093e\u0928 \u092e\u093e\u0932\u093f\u0915 \u0928\u0947 \u092e\u0947\u0930\u093e \u0938\u093f\u0915\u094d\u092f\u094b\u0930\u093f\u091f\u0940 \u0921\u093f\u092a\u0949\u091c\u093f\u091f \u0930\u0916 \u0932\u093f\u092f\u093e \u0939\u0948 \u0914\u0930 \u092e\u0930\u092e\u094d\u092e\u0924 \u0915\u093e \u091d\u0942\u0920\u093e \u0916\u0930\u094d\u091a \u092c\u0924\u093e \u0930\u0939\u093e \u0939\u0948\u0964",
+    "normalized_query": "My landlord has not returned my security deposit.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 126",
+        "section_title": "Sub-Section (6) Unless Notice Thereof Has Been Served On The Opposite Party",
+        "composite_score": 0.39128167304188954,
+        "rerank_score": -8.094581604003906,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 88",
+        "section_title": "Company",
+        "composite_score": 0.34431864026977493,
+        "rerank_score": -8.141756057739258,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 94",
+        "section_title": "Shall Be Such As May Be Prescribed By The State Government",
+        "composite_score": 0.3180330679745136,
+        "rerank_score": -10.471128463745117,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q20",
+    "domain": "Labour",
+    "language": "hi",
+    "query": "\u0915\u093e\u0930\u0916\u093e\u0928\u0947 \u092e\u0947\u0902 \u0915\u093e\u092e \u0915\u0947 \u0926\u094c\u0930\u093e\u0928 \u0926\u0941\u0930\u094d\u0918\u091f\u0928\u093e \u0939\u094b \u0917\u0908 \u0932\u0947\u0915\u093f\u0928 \u092e\u093e\u0932\u093f\u0915 \u0907\u0932\u093e\u091c \u0915\u093e \u0916\u0930\u094d\u091a\u093e \u0926\u0947\u0928\u0947 \u0938\u0947 \u092e\u0928\u093e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948\u0964",
+    "normalized_query": "\u0915\u093e\u0930\u0916\u093e\u0928\u0947 \u092e\u0947\u0902 \u0915\u093e\u092e \u0915\u0947 \u0926\u094c\u0930\u093e\u0928 \u0926\u0941\u0930\u094d\u0918\u091f\u0928\u093e \u0939\u094b \u0917\u0908 \u0932\u0947\u0915\u093f\u0928 \u092e\u093e\u0932\u093f\u0915 \u0907\u0932\u093e\u091c \u0915\u093e \u0916\u0930\u094d\u091a\u093e \u0926\u0947\u0928\u0947 \u0938\u0947 \u092e\u0928\u093e \u0915\u0930 \u0930\u0939\u093e \u0939\u0948\u0964",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020",
+        "section": "Rule 4",
+        "section_title": "Rule 4 Provision",
+        "composite_score": 0.5508987659799789,
+        "rerank_score": 7.343562126159668,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020",
+        "section": "Rule 1",
+        "section_title": ", :-",
+        "composite_score": 0.5453438798642956,
+        "rerank_score": 6.567854881286621,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "Consumer Protection (Direct Selling) Rules, 2021",
+        "section": "Rule 3",
+        "section_title": "Rule 3 Provision",
+        "composite_score": 0.5444934938832932,
+        "rerank_score": 7.330828666687012,
+        "decision": "directly_relevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q21",
+    "domain": "Consumer",
+    "language": "hi",
+    "query": "\u0911\u0928\u0932\u093e\u0907\u0928 \u0915\u0902\u092a\u0928\u0940 \u0928\u0947 \u0938\u092c\u094d\u0938\u094d\u0915\u094d\u0930\u093f\u092a\u094d\u0936\u0928 \u0905\u092a\u0928\u0947 \u0906\u092a \u0930\u093f\u0928\u094d\u092f\u0942 \u0915\u0930\u0915\u0947 \u092a\u0948\u0938\u0947 \u0915\u093e\u091f \u0932\u093f\u090f \u091c\u094b \u092e\u0948\u0902\u0928\u0947 \u0911\u0930\u094d\u0921\u0930 \u0928\u0939\u0940\u0902 \u0915\u093f\u092f\u093e \u0925\u093e\u0964",
+    "normalized_query": "\u0911\u0928\u0932\u093e\u0907\u0928 \u0915\u0902\u092a\u0928\u0940 \u0928\u0947 \u0938\u092c\u094d\u0938\u094d\u0915\u094d\u0930\u093f\u092a\u094d\u0936\u0928 \u0905\u092a\u0928\u0947 \u0906\u092a \u0930\u093f\u0928\u094d\u092f\u0942 \u0915\u0930\u0915\u0947 \u092a\u0948\u0938\u0947 \u0915\u093e\u091f \u0932\u093f\u090f \u091c\u094b \u092e\u0948\u0902\u0928\u0947 \u0911\u0930\u094d\u0921\u0930 \u0928\u0939\u0940\u0902 \u0915\u093f\u092f\u093e \u0925\u093e\u0964",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020",
+        "section": "Rule 4",
+        "section_title": "Rule 4 Provision",
+        "composite_score": 0.5598610288365518,
+        "rerank_score": 5.910685062408447,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "Consumer Protection (Qualification for appointment... of State and District Commission) Rules, 2020",
+        "section": "Rule 1",
+        "section_title": ", :-",
+        "composite_score": 0.5407964363473083,
+        "rerank_score": 4.86297082901001,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "Central Consumer Protection Authority (Allocation and Transaction of Business) Regulations, 2020",
+        "section": "Regulation 2",
+        "section_title": "Regulation 2 Provision",
+        "composite_score": 0.5386410151901777,
+        "rerank_score": 6.240414142608643,
+        "decision": "directly_relevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q22",
+    "domain": "Tenant/Property",
+    "language": "roman_hi",
+    "query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+    "normalized_query": "Landlord ne bina koi valid reason ghar khali karne ka notice bhej diya.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 16",
+        "section_title": "15A. Landlord'S Permission Necessary For Giving On Licence",
+        "composite_score": 0.49243851759177887,
+        "rerank_score": -9.385663032531738,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 23",
+        "section_title": "Ordinance, 1959",
+        "composite_score": 0.39855300826990764,
+        "rerank_score": -10.368345260620117,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 18",
+        "section_title": "The Order And The State Government May Pass Such Order As It Deems Fit.]",
+        "composite_score": 0.38869269146635405,
+        "rerank_score": -9.591172218322754,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q23",
+    "domain": "Labour",
+    "language": "roman_hi",
+    "query": "Boss ne maternity leave par jane se pehle job se nikala aur final settlement rok liya.",
+    "normalized_query": "Boss ne maternity leave par jane se pehle job se nikala aur final settlement rok liya.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 66",
+        "section_title": "Act, 1951",
+        "composite_score": 0.384207423430354,
+        "rerank_score": -10.928237915039062,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 54",
+        "section_title": "Rate Of Wages",
+        "composite_score": 0.36310762224485127,
+        "rerank_score": -11.435949325561523,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 69",
+        "section_title": "Dismissed, Shall Be Final",
+        "composite_score": 0.34696289730579366,
+        "rerank_score": -10.136579513549805,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q24",
+    "domain": "Consumer",
+    "language": "roman_hi",
+    "query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+    "normalized_query": "Service center ne mobile repair ke naam par parts chori kar liye aur extra bill bana diya.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Limitation Act, 1963",
+        "section": "Section 36",
+        "section_title": "Three Years. The Date Of The Bill Or Note",
+        "composite_score": 0.25004971237106205,
+        "rerank_score": -11.492841720581055,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Limitation Act, 1963",
+        "section": "Section 33",
+        "section_title": "Three Years. When The Bill Is Presented",
+        "composite_score": 0.17657634486797477,
+        "rerank_score": -11.460526466369629,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Limitation Act, 1963",
+        "section": "Section 42",
+        "section_title": "Bill",
+        "composite_score": 0.16942670150128442,
+        "rerank_score": -11.453603744506836,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q25",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "The landlord disconnected essential services like electricity and water supply to force eviction.",
+    "normalized_query": "The landlord disconnected essential services like electricity and water supply to force eviction.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 24",
+        "section_title": "23A. Tenant Entitled To Supply Of Electricity At His Cost",
+        "composite_score": 0.7878218028211262,
+        "rerank_score": -1.3933475017547607,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 25",
+        "section_title": "Landlord Not To Cut Off Or Withhold Essential Supply Or Service",
+        "composite_score": 0.654605389919162,
+        "rerank_score": -2.263601303100586,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 23",
+        "section_title": "Ordinance, 1959",
+        "composite_score": 0.39546853424703493,
+        "rerank_score": -7.475335121154785,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q26",
+    "domain": "Labour",
+    "language": "en",
+    "query": "Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry.",
+    "normalized_query": "Female employee facing workplace sexual harassment and HR is refusing to initiate enquiry.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 30",
+        "section_title": "(D) Conviction For Sexual Harassment",
+        "composite_score": 0.25749532028570116,
+        "rerank_score": -6.4582695960998535,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 111",
+        "section_title": "Sec. 1]",
+        "composite_score": 0.25694217219998067,
+        "rerank_score": -5.865835189819336,
+        "decision": "related_but_insufficient"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Wages, 2019",
+        "section": "Section 30",
+        "section_title": "(D) Conviction For Sexual Harassment",
+        "composite_score": 0.24715708316809293,
+        "rerank_score": -6.71340274810791,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q27",
+    "domain": "Consumer",
+    "language": "en",
+    "query": "A coaching institute is refusing to refund fees after student withdrew within 3 days of joining.",
+    "normalized_query": "A coaching institute is refusing to refund fees after student withdrew within 3 days of joining.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(47)",
+        "section_title": "Unfair Trade Practice",
+        "composite_score": 0.45172030888424636,
+        "rerank_score": -5.290985107421875,
+        "decision": "related_but_insufficient"
+      },
+      {
+        "rank": 2,
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 79",
+        "section_title": "To The Worker Are Offered For The Alternative Appointment Also",
+        "composite_score": 0.2528719386388648,
+        "rerank_score": -9.251853942871094,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 51",
+        "section_title": "Application Made By Any Of The Parties Within Thirty Days Of Such Order",
+        "composite_score": 0.23604309662708156,
+        "rerank_score": -10.274260520935059,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q28",
+    "domain": "Tenant/Property",
+    "language": "en",
+    "query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+    "normalized_query": "Unregistered lease agreement dispute regarding stamp duty and admissibility as evidence in court.",
+    "faiss_top1_relevant": true,
+    "hybrid_top1_relevant": true,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Indian Stamp Act, 1899",
+        "section": "Section 29",
+        "section_title": "E.\u2014Duty By Whom Payable",
+        "composite_score": 0.44528417222215183,
+        "rerank_score": -4.091856002807617,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Indian Stamp Act, 1899",
+        "section": "Section 35",
+        "section_title": "Special Provision As To Unstamped Receipts",
+        "composite_score": 0.40934072632275137,
+        "rerank_score": -4.046866416931152,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Indian Stamp Act, 1899",
+        "section": "Section 66",
+        "section_title": "Penalty For Refusal To Give Receipt, And For Devices To Evade Duty On Receipts",
+        "composite_score": 0.320590255476048,
+        "rerank_score": -6.8296709060668945,
+        "decision": "irrelevant"
+      }
+    ]
+  },
+  {
+    "query_id": "Q29",
+    "domain": "Labour",
+    "language": "en",
+    "query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+    "normalized_query": "Contract worker denied equal pay and social security benefits given to regular employees.",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": true,
+    "pipeline_status": "success",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 2",
+        "section_title": "The First Schedule In Respect Of That Chapter",
+        "composite_score": 0.4554549593744671,
+        "rerank_score": -4.597270488739014,
+        "decision": "directly_relevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 2",
+        "section_title": "Employer",
+        "composite_score": 0.37733246593666525,
+        "rerank_score": -3.2614517211914062,
+        "decision": "related_but_insufficient"
+      },
+      {
+        "rank": 3,
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 85",
+        "section_title": "Section 85 Provision",
+        "composite_score": 0.3627817116470808,
+        "rerank_score": -3.4616808891296387,
+        "decision": "related_but_insufficient"
+      }
+    ]
+  },
+  {
+    "query_id": "Q30",
+    "domain": "Out-of-Domain",
+    "language": "en",
+    "query": "How do I bake a chocolate cake at home without using an oven?",
+    "normalized_query": "How do I bake a chocolate cake at home without using an oven?",
+    "faiss_top1_relevant": false,
+    "hybrid_top1_relevant": false,
+    "reranked_top1_relevant": false,
+    "pipeline_status": "insufficient_retrieval",
+    "top_candidates": [
+      {
+        "rank": 1,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 77",
+        "section_title": "Material By An Employer Or A Contractor To Make Beedi Or Cigar Or Both At Home",
+        "composite_score": 0.30596828403724985,
+        "rerank_score": -11.175373077392578,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 2,
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 77",
+        "section_title": "Material By An Employer Or A Contractor To Make Beedi Or Cigar Or Both At Home",
+        "composite_score": 0.2803418402258159,
+        "rerank_score": -11.124595642089844,
+        "decision": "irrelevant"
+      },
+      {
+        "rank": 3,
+        "act": "The Indian Stamp Act, 1899",
+        "section": "Section 10",
+        "section_title": "B.\u2014Of Stamps And The Mode Of Using Them",
+        "composite_score": 0.25006437134791654,
+        "rerank_score": -11.234390258789062,
+        "decision": "irrelevant"
+      }
+    ]
+  }
+]

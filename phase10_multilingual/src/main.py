@@ -25,6 +25,7 @@ app.add_middleware(
 )
 
 app.include_router(router, prefix="/api/language", tags=["Language Processing"])
+app.include_router(router, prefix="/api/documents", tags=["Document Processing"])
 
 # Mount static frontend web UI
 static_dir = Path(__file__).resolve().parent.parent / "static"

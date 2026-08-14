@@ -1,0 +1,213 @@
+[
+  {
+    "label": "Query A (Unpaid Salary)",
+    "query": "My employer has not paid my salary for two months.",
+    "faiss": {
+      "top_act": "The Code on Wages, 2019",
+      "top_section": "Section 17",
+      "top_score": 0.4399,
+      "latency_ms": 529.89
+    },
+    "reranker": {
+      "top_act": "The Industrial Relations Code, 2020",
+      "top_section": "Section 70",
+      "top_score": -0.1391,
+      "decision": "directly_relevant",
+      "qualified_count": 3,
+      "status": "success",
+      "latency_ms": 1054.08
+    },
+    "engine": {
+      "ollama_called": true,
+      "applicable_laws": [
+        {
+          "act": "The Industrial Relations Code, 2020",
+          "section": "Section 70",
+          "explanation": "Part Of Workers In Another Part Of The Establishment",
+          "source": "https://labour.gov.in"
+        },
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 39",
+          "explanation": "Sec. 1]",
+          "source": "https://labour.gov.in"
+        },
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 17",
+          "explanation": "Provided That Different Wage Periods May Be Fixed For Different Establishments",
+          "source": "https://labour.gov.in"
+        }
+      ],
+      "rights_explanation": "The available legal context does not directly address the issue of unpaid salary for two months. The provided sections mainly deal with conditions related to retrenchment and wage payment periods under different circumstances.\n\nThe Industrial Relations Code, 2020 (Section 70) focuses on the process of retrenching workers who have served at least one year, requiring notice or compensation in lieu thereof.\n\nThe Code on Wages, 2019 (Section 39 and Section 17) discusses bonus payments and wage payment periods but does not specifically cover unpaid salary situations directly. \n\nGiven the lack of relevant provisions concerning unpaid salary, it is important to refer to other sections of the code or possibly the Payment of Wages Act, 1936, which might provide more direct legal recourse in this situation.\n\nFor detailed advice, you should consult a legal professional familiar with Indian labor law.\n\nRelevant Sections:\n- The Industrial Relations Code, 2020 - Section 70\n- The Code on Wages, 2019 - Sections 39 and 17",
+      "recommended_actions": [
+        "The Industrial Relations Code, 2020 - Section 70",
+        "The Code on Wages, 2019 - Sections 39 and 17"
+      ],
+      "latency_ms": 52127.99
+    }
+  },
+  {
+    "label": "Query B (Security Deposit)",
+    "query": "My landlord has not returned my security deposit.",
+    "faiss": {
+      "top_act": "The Code on Social Security, 2020",
+      "top_section": "Section 126",
+      "top_score": 0.3855,
+      "latency_ms": 30.63
+    },
+    "reranker": {
+      "top_act": "The Code on Social Security, 2020",
+      "top_section": "Section 126",
+      "top_score": -6.9369,
+      "decision": "irrelevant",
+      "qualified_count": 0,
+      "status": "insufficient_retrieval",
+      "latency_ms": 902.34
+    },
+    "engine": {
+      "ollama_called": false,
+      "applicable_laws": [],
+      "rights_explanation": "I could not find sufficiently relevant legal information in the available legal knowledge base to answer this question reliably.",
+      "recommended_actions": [
+        "Preserve all relevant documentation, receipts, contracts, or notices.",
+        "Send a formal legal notice detailing your claim and seeking redress.",
+        "Approach the appropriate legal forum, tribunal, or consumer commission if unresolved."
+      ],
+      "latency_ms": 992.17
+    }
+  },
+  {
+    "label": "Query C (Defective Product)",
+    "query": "I was injured because of a defective product.",
+    "faiss": {
+      "top_act": "The Consumer Protection Act, 2019",
+      "top_section": "Section 84",
+      "top_score": 0.5049,
+      "latency_ms": 124.82
+    },
+    "reranker": {
+      "top_act": "The Consumer Protection Act, 2019",
+      "top_section": "Section 84",
+      "top_score": 2.4363,
+      "decision": "directly_relevant",
+      "qualified_count": 5,
+      "status": "success",
+      "latency_ms": 1798.26
+    },
+    "engine": {
+      "ollama_called": true,
+      "applicable_laws": [
+        {
+          "act": "The Consumer Protection Act, 2019",
+          "section": "Section 84",
+          "explanation": "Harm Caused To Him On Account Of A Defective Product",
+          "source": "https://www.indiacode.nic.in/handle/123456789/15256"
+        },
+        {
+          "act": "The Consumer Protection Act, 2019",
+          "section": "Section 83",
+          "explanation": "Section 83 Provision",
+          "source": "https://www.indiacode.nic.in/handle/123456789/15256"
+        },
+        {
+          "act": "The Consumer Protection Act, 2019",
+          "section": "Section 39",
+          "explanation": "Comp",
+          "source": "https://www.indiacode.nic.in/handle/123456789/15256"
+        },
+        {
+          "act": "The Consumer Protection Act, 2019",
+          "section": "Section 2(34)",
+          "explanation": "Product Liability",
+          "source": "https://www.indiacode.nic.in/handle/123456789/15256"
+        }
+      ],
+      "rights_explanation": "Based on the legal context provided from The Consumer Protection Act, 2019:\n\nUnder Section 84 of the act, if you were injured due to a defective product, the manufacturer of that product may be liable for your harm. This liability exists even if the manufacturer can prove they were not negligent or fraudulent in making any express warranty about the product.\n\nThe relevant Act and Section citations are:\n- **Act**: The Consumer Protection Act, 2019\n- **Section**: Section 84 - Harm Caused To Him On Account Of A Defective Product",
+      "recommended_actions": [
+        "Act**: The Consumer Protection Act, 2019",
+        "Section**: Section 84 - Harm Caused To Him On Account Of A Defective Product"
+      ],
+      "latency_ms": 139541.43
+    }
+  },
+  {
+    "label": "Query D (Terminated without wages)",
+    "query": "My employer terminated me without paying my wages.",
+    "faiss": {
+      "top_act": "The Code on Wages, 2019",
+      "top_section": "Section 20",
+      "top_score": 0.4373,
+      "latency_ms": 42.08
+    },
+    "reranker": {
+      "top_act": "The Code on Wages, 2019",
+      "top_section": "Section 17",
+      "top_score": 0.5508,
+      "decision": "directly_relevant",
+      "qualified_count": 5,
+      "status": "success",
+      "latency_ms": 1073.7
+    },
+    "engine": {
+      "ollama_called": true,
+      "applicable_laws": [
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 17",
+          "explanation": "Provided That Different Wage Periods May Be Fixed For Different Establishments",
+          "source": "https://labour.gov.in"
+        },
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 45",
+          "explanation": "Then, The Employer Shall Be Discharged Of His Liability To Pay Those Amounts",
+          "source": "https://labour.gov.in"
+        },
+        {
+          "act": "The Code on Wages, 2019",
+          "section": "Section 2",
+          "explanation": "Section 2 Provision",
+          "source": "https://labour.gov.in"
+        }
+      ],
+      "rights_explanation": "According to Section 17 of The Code on Wages, 2019, your employer is required to pay you within two working days after termination of employment. Since you have not received your wages post-termination, this indicates a potential violation of the law.\n\nSection 45 of The Code on Wages, 2019, outlines the procedure for recovering unpaid wages if an employer fails to comply with Section 17. Specifically, if your employer has not paid your wages upon termination, you may approach the appropriate authority who will issue a certificate of recovery to the Collector or District Magistrate. They are then responsible for recovering the unpaid amount as arrears.\n\nPlease refer to Sections 17 and 45 of The Code on Wages, 2019.\n\nAct: The Code on Wages, 2019\nSection: Section 17\nSection: Section 45",
+      "recommended_actions": [
+        "Preserve all relevant documentation, receipts, contracts, or notices.",
+        "Send a formal legal notice detailing your claim and seeking redress.",
+        "Approach the appropriate legal forum, tribunal, or consumer commission if unresolved."
+      ],
+      "latency_ms": 47349.81
+    }
+  },
+  {
+    "label": "Query E (Chocolate Cake)",
+    "query": "What is the recipe for baking a chocolate cake?",
+    "faiss": {
+      "top_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "top_section": "Section 55",
+      "top_score": 0.1386,
+      "latency_ms": 49.79
+    },
+    "reranker": {
+      "top_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+      "top_section": "Section 107",
+      "top_score": -11.0296,
+      "decision": "irrelevant",
+      "qualified_count": 0,
+      "status": "insufficient_retrieval",
+      "latency_ms": 1067.57
+    },
+    "engine": {
+      "ollama_called": false,
+      "applicable_laws": [],
+      "rights_explanation": "I could not find sufficiently relevant legal information in the available legal knowledge base to answer this question reliably.",
+      "recommended_actions": [
+        "Preserve all relevant documentation, receipts, contracts, or notices.",
+        "Send a formal legal notice detailing your claim and seeking redress.",
+        "Approach the appropriate legal forum, tribunal, or consumer commission if unresolved."
+      ],
+      "latency_ms": 823.85
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "ground_truth_benchmark_10_queries": {
+    "section_level_top1_pct": 50.0,
+    "section_level_top3_pct": 70.0,
+    "section_level_top5_pct": 70.0,
+    "mrr": 0.5833
+  },
+  "real_user_problem_30_queries": {
+    "directly_relevant_top1_pct": 30.0,
+    "directly_relevant_top3_pct": 30.0,
+    "directly_relevant_top5_pct": 30.0,
+    "safe_rejection_rate_pct": 66.67,
+    "queries_qualified_for_ollama_pct": 33.33,
+    "false_positive_generation_rate_pct": 0.0
+  },
+  "performance_latencies_ms": {
+    "avg_faiss_latency_ms": 23.26,
+    "avg_reranking_latency_ms": 725.73,
+    "avg_end_to_end_latency_ms": 749.0
+  }
+}

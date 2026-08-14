@@ -1,0 +1,35 @@
+================================================================================
+FRONTEND API CLIENT TRACE & VERIFICATION
+================================================================================
+
+1. AXIOS CLIENT CONFIGURATION (frontend/src/services/api/client.js):
+   - Base URL: http://localhost:8000
+   - Vite Proxy: /api -> http://localhost:8000
+   - Headers: { "Content-Type": "application/json" }
+   - Auth Interceptor: Bearer token from localStorage (optional)
+
+2. FRONTEND LEGAL API FUNCTION (frontend/src/services/api/legalApi.js):
+   - Function: legalApi.processQuery(payload)
+   - Request Method: POST
+   - Endpoint: /api/language/process
+   - Request Body Sent by React:
+     {
+       "text": "My employer has not paid my salary for two months.",
+       "output_language": "en"
+     }
+
+3. LIVE HTTP RESPONSE RECEIVED BY FRONTEND:
+   - HTTP Status: 200 OK
+   - Response Schema: MultilingualProcessResponse
+   - Response Fields Received:
+     * language: { "input": "en", "output": "en" }
+     * normalized_text: "My employer has not paid my salary for two months."
+     * rights_explanation: Verified non-empty grounded legal rights text
+     * applicable_laws: Array of legal provisions with act, section, explanation
+     * recommended_actions: Array of actionable next steps
+     * disclaimer: Statutory educational disclaimer
+
+4. VERIFICATION RESULT:
+   - React state receives exact JSON without transformation errors.
+   - Axios response.data is correctly passed to Results.jsx setResult(response.data).
+================================================================================

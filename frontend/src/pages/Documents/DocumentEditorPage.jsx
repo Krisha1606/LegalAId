@@ -10,12 +10,13 @@ export const DocumentEditorPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   
-  const [document, setDocument] = useState(null);
+  const [docData, setDocData] = useState(null);
   const [content, setContent] = useState('');
   const [originalContent, setOriginalContent] = useState('');
   
   const [isLoading, setIsLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
+  const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
@@ -23,7 +24,7 @@ export const DocumentEditorPage = () => {
     const fetchDocument = async () => {
       try {
         const response = await documentApi.getDocument(id);
-        setDocument(response.data);
+        setDocData(response.data);
         setContent(response.data.content);
         setOriginalContent(response.data.content);
       } catch (err) {
@@ -63,10 +64,65 @@ export const DocumentEditorPage = () => {
     }
   };
 
-  const handleGeneratePDF = () => {
-    // PDF generation is requested not to be mocked with a fake backend.
-    // Instead show an alert/error message that it will be available later.
-    alert("PDF generation will be available when the document service is connected.");
+  const handleGeneratePDF = async () => {
+    if (!id && !content) {
+      setError('Document content not found.');
+      return;
+    }
+
+    setIsGeneratingPDF(true);
+    setError('');
+    try {
+      // If content was modified, save it first so PDF reflects current edits
+      if (id && content !== originalContent) {
+        try {
+          await documentApi.updateDocument(id, content);
+          setOriginalContent(content);
+        } catch (saveErr) {
+          console.warn('Auto-save before PDF failed, continuing with direct content:', saveErr);
+        }
+      }
+
+      let response;
+      if (id) {
+        try {
+          response = await documentApi.downloadPDF(id);
+        } catch (downloadErr) {
+          console.warn('Direct ID download failed, falling back to direct PDF generator:', downloadErr);
+        }
+      }
+
+      if (!response || !response.data) {
+        // Direct stream generation using current editor content
+        response = await documentApi.generatePDFDirect({
+          content,
+          document_type: docData?.type || 'legal_notice',
+          template_title: docData?.template_title || 'Legal Notice'
+        });
+      }
+
+      const blob = response.data instanceof Blob ? response.data : new Blob([response.data], { type: 'application/pdf' });
+      const downloadUrl = window.URL.createObjectURL(blob);
+      const link = window.document.createElement('a');
+      link.style.display = 'none';
+      link.href = downloadUrl;
+      link.download = `${docData?.type || 'legal_notice'}_${id ? id.substring(0, 8) : 'doc'}.pdf`;
+      window.document.body.appendChild(link);
+      link.click();
+      setTimeout(() => {
+        if (link.parentNode) {
+          link.parentNode.removeChild(link);
+        }
+        window.URL.revokeObjectURL(downloadUrl);
+      }, 1000);
+      setSuccess('PDF generated and downloaded successfully.');
+      setTimeout(() => setSuccess(''), 3000);
+    } catch (err) {
+      console.error('PDF generation error:', err);
+      setError('Failed to generate and download PDF. Please try again.');
+    } finally {
+      setIsGeneratingPDF(false);
+    }
   };
 
   if (isLoading) {
@@ -77,7 +133,7 @@ export const DocumentEditorPage = () => {
     );
   }
 
-  if (error && !document) {
+  if (error && !docData) {
     return (
       <div className="max-w-3xl mx-auto px-4 py-12">
         <ErrorMessage message={error} />
@@ -101,8 +157,8 @@ export const DocumentEditorPage = () => {
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Generated Legal Document</h1>
           <div className="text-sm text-gray-500 mt-1 flex space-x-4">
-            <span>Type: <span className="font-medium capitalize">{document?.type?.replace('_', ' ')}</span></span>
-            <span>Language: <span className="font-medium">{document?.language === 'hi' ? 'Hindi' : 'English'}</span></span>
+            <span>Type: <span className="font-medium capitalize">{docData?.type?.replace('_', ' ')}</span></span>
+            <span>Language: <span className="font-medium">{docData?.language === 'hi' ? 'Hindi' : 'English'}</span></span>
           </div>
         </div>
       </div>
@@ -141,6 +197,8 @@ export const DocumentEditorPage = () => {
 
           <Button 
             onClick={handleGeneratePDF}
+            isLoading={isGeneratingPDF}
+            disabled={isGeneratingPDF}
             className="flex items-center px-6 py-2 bg-[#1a1a1a] hover:bg-black text-white rounded-xl font-bold shadow-md shadow-black/5"
           >
             <FileDown size={18} className="mr-2" />
