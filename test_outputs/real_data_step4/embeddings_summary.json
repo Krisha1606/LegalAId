@@ -1,0 +1,18 @@
+{
+  "step": "real_data_step4_embeddings",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "total_chunks": 3240,
+  "total_embedded_chunks": 3240,
+  "matrix_shape": [
+    3240,
+    384
+  ],
+  "embedding_dimension": 384,
+  "dtype": "float32",
+  "has_nan": false,
+  "has_inf": false,
+  "l2_normalized": true,
+  "norm_min": 1.0,
+  "norm_max": 1.0,
+  "status": "SUCCESS"
+}

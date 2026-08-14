@@ -1,0 +1,881 @@
+{
+  "step": "step5_retrieval_evaluation",
+  "total_queries": 15,
+  "top1_accuracy_pct": 93.33,
+  "top3_recall_pct": 100.0,
+  "top5_recall_pct": 100.0,
+  "domain_summary": {
+    "Consumer": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 100.0,
+      "top3_recall_pct": 100.0,
+      "top5_recall_pct": 100.0
+    },
+    "Labour": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 100.0,
+      "top3_recall_pct": 100.0,
+      "top5_recall_pct": 100.0
+    },
+    "Tenant/Rental": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 80.0,
+      "top3_recall_pct": 100.0,
+      "top5_recall_pct": 100.0
+    }
+  },
+  "failed_top1_queries_count": 1,
+  "failed_queries": [
+    {
+      "query_id": "Q_TEN_04",
+      "query": "My landlord changed the main door locks and threw out my belongings without giving notice or court order.",
+      "expected_domain": "Tenant/Rental",
+      "expected_chunk_id": "DUMMY-TEN-004-chunk-0",
+      "actual_rank": 3,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-TEN-003-chunk-0",
+          "score": 0.4027,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 15"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-TEN-006-chunk-0",
+          "score": 0.3418,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 18"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-TEN-004-chunk-0",
+          "score": 0.3267,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-TEN-002-chunk-0",
+          "score": 0.3158,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 10"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-001-chunk-0",
+          "score": 0.3072,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 08"
+        }
+      ]
+    }
+  ],
+  "query_details": [
+    {
+      "query_id": "Q_CONS_01",
+      "query": "I bought a defective smartphone and the seller refuses to replace it or give me a refund.",
+      "expected_domain": "Consumer",
+      "expected_chunk_id": "DUMMY-CONS-001-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-CONS-001-chunk-0",
+          "score": 0.493,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 12"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-CONS-004-chunk-0",
+          "score": 0.375,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 30"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-CONS-003-chunk-0",
+          "score": 0.3332,
+          "domain": "Consumer",
+          "act": "Dummy Digital Commerce Code, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-CONS-002-chunk-0",
+          "score": 0.2811,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 14"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-CONS-005-chunk-0",
+          "score": 0.2388,
+          "domain": "Consumer",
+          "act": "Dummy Financial Services Consumer Code, 2024",
+          "section": "Dummy Section 09"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_CONS_02",
+      "query": "An online store advertised a discount price but charged me full price at checkout.",
+      "expected_domain": "Consumer",
+      "expected_chunk_id": "DUMMY-CONS-002-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "insufficient_retrieval",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-CONS-002-chunk-0",
+          "score": 0.3047,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 14"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-CONS-005-chunk-0",
+          "score": 0.2902,
+          "domain": "Consumer",
+          "act": "Dummy Financial Services Consumer Code, 2024",
+          "section": "Dummy Section 09"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-CONS-003-chunk-0",
+          "score": 0.2847,
+          "domain": "Consumer",
+          "act": "Dummy Digital Commerce Code, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-CONS-001-chunk-0",
+          "score": 0.246,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 12"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-CONS-006-chunk-0",
+          "score": 0.175,
+          "domain": "Consumer",
+          "act": "Dummy Food Safety and Standards Regulation, 2024",
+          "section": "Dummy Section 18"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_CONS_03",
+      "query": "My e-commerce order was delayed by three weeks without any explanation from the shopping platform.",
+      "expected_domain": "Consumer",
+      "expected_chunk_id": "DUMMY-CONS-003-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-CONS-003-chunk-0",
+          "score": 0.5118,
+          "domain": "Consumer",
+          "act": "Dummy Digital Commerce Code, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-CONS-001-chunk-0",
+          "score": 0.2993,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 12"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-CONS-006-chunk-0",
+          "score": 0.2569,
+          "domain": "Consumer",
+          "act": "Dummy Food Safety and Standards Regulation, 2024",
+          "section": "Dummy Section 18"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-CONS-005-chunk-0",
+          "score": 0.2311,
+          "domain": "Consumer",
+          "act": "Dummy Financial Services Consumer Code, 2024",
+          "section": "Dummy Section 09"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-CONS-002-chunk-0",
+          "score": 0.2289,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 14"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_CONS_04",
+      "query": "The manufacturer cancelled my laptop warranty because a local technician cleaned the dust inside.",
+      "expected_domain": "Consumer",
+      "expected_chunk_id": "DUMMY-CONS-004-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-CONS-004-chunk-0",
+          "score": 0.485,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 30"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-CONS-001-chunk-0",
+          "score": 0.3248,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 12"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-CONS-002-chunk-0",
+          "score": 0.2072,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 14"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-CONS-006-chunk-0",
+          "score": 0.2004,
+          "domain": "Consumer",
+          "act": "Dummy Food Safety and Standards Regulation, 2024",
+          "section": "Dummy Section 18"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-CONS-003-chunk-0",
+          "score": 0.1996,
+          "domain": "Consumer",
+          "act": "Dummy Digital Commerce Code, 2024",
+          "section": "Dummy Section 21"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_CONS_05",
+      "query": "My mobile network auto-renewed an expensive monthly pack without taking my consent.",
+      "expected_domain": "Consumer",
+      "expected_chunk_id": "DUMMY-CONS-005-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-CONS-005-chunk-0",
+          "score": 0.4189,
+          "domain": "Consumer",
+          "act": "Dummy Financial Services Consumer Code, 2024",
+          "section": "Dummy Section 09"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-TEN-005-chunk-0",
+          "score": 0.2564,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 25"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-TEN-002-chunk-0",
+          "score": 0.236,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 10"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-CONS-004-chunk-0",
+          "score": 0.2337,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 30"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-006-chunk-0",
+          "score": 0.2332,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 18"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_LAB_01",
+      "query": "My boss has not paid my monthly salary for the past two months.",
+      "expected_domain": "Labour",
+      "expected_chunk_id": "DUMMY-LAB-001-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-LAB-001-chunk-0",
+          "score": 0.4202,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 07"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-LAB-005-chunk-0",
+          "score": 0.363,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 33"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-LAB-004-chunk-0",
+          "score": 0.284,
+          "domain": "Labour",
+          "act": "Dummy Maternity Benefits Protection Code, 2024",
+          "section": "Dummy Section 04"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-TEN-002-chunk-0",
+          "score": 0.2353,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 10"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-LAB-002-chunk-0",
+          "score": 0.2113,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 15"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_LAB_02",
+      "query": "I am forced to work 12 hours every day but my employer pays me normal hourly rate.",
+      "expected_domain": "Labour",
+      "expected_chunk_id": "DUMMY-LAB-002-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-LAB-002-chunk-0",
+          "score": 0.5462,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 15"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-LAB-001-chunk-0",
+          "score": 0.4573,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 07"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-LAB-005-chunk-0",
+          "score": 0.368,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 33"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-LAB-004-chunk-0",
+          "score": 0.2729,
+          "domain": "Labour",
+          "act": "Dummy Maternity Benefits Protection Code, 2024",
+          "section": "Dummy Section 04"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-LAB-006-chunk-0",
+          "score": 0.2716,
+          "domain": "Labour",
+          "act": "Dummy Equal Remuneration Code, 2024",
+          "section": "Dummy Section 03"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_LAB_03",
+      "query": "Factory management refuses to provide safety helmets and boots on hazardous construction sites.",
+      "expected_domain": "Labour",
+      "expected_chunk_id": "DUMMY-LAB-003-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-LAB-003-chunk-0",
+          "score": 0.4288,
+          "domain": "Labour",
+          "act": "Dummy Workplace Health and Safety Act, 2024",
+          "section": "Dummy Section 22"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-CONS-006-chunk-0",
+          "score": 0.1937,
+          "domain": "Consumer",
+          "act": "Dummy Food Safety and Standards Regulation, 2024",
+          "section": "Dummy Section 18"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-LAB-005-chunk-0",
+          "score": 0.193,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 33"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-CONS-004-chunk-0",
+          "score": 0.1929,
+          "domain": "Consumer",
+          "act": "Dummy Consumer Rights Act, 2024",
+          "section": "Dummy Section 30"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-005-chunk-0",
+          "score": 0.1926,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 25"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_LAB_04",
+      "query": "My company fired me after I submitted my 26-week paid maternity leave request.",
+      "expected_domain": "Labour",
+      "expected_chunk_id": "DUMMY-LAB-004-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-LAB-004-chunk-0",
+          "score": 0.5349,
+          "domain": "Labour",
+          "act": "Dummy Maternity Benefits Protection Code, 2024",
+          "section": "Dummy Section 04"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-LAB-005-chunk-0",
+          "score": 0.3883,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 33"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-LAB-001-chunk-0",
+          "score": 0.263,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 07"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-LAB-006-chunk-0",
+          "score": 0.1992,
+          "domain": "Labour",
+          "act": "Dummy Equal Remuneration Code, 2024",
+          "section": "Dummy Section 03"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-LAB-002-chunk-0",
+          "score": 0.157,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 15"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_LAB_05",
+      "query": "I was terminated on the spot without 30 days notice or severance compensation after two years of work.",
+      "expected_domain": "Labour",
+      "expected_chunk_id": "DUMMY-LAB-005-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-LAB-005-chunk-0",
+          "score": 0.6515,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 33"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-LAB-004-chunk-0",
+          "score": 0.3917,
+          "domain": "Labour",
+          "act": "Dummy Maternity Benefits Protection Code, 2024",
+          "section": "Dummy Section 04"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-LAB-001-chunk-0",
+          "score": 0.3135,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 07"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-LAB-002-chunk-0",
+          "score": 0.2467,
+          "domain": "Labour",
+          "act": "Dummy Fair Employment and Wages Act, 2024",
+          "section": "Dummy Section 15"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-001-chunk-0",
+          "score": 0.2302,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 08"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_TEN_01",
+      "query": "My landlord is refusing to return my security deposit after I moved out of the apartment.",
+      "expected_domain": "Tenant/Rental",
+      "expected_chunk_id": "DUMMY-TEN-001-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-TEN-001-chunk-0",
+          "score": 0.568,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 08"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-TEN-006-chunk-0",
+          "score": 0.343,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 18"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-TEN-004-chunk-0",
+          "score": 0.334,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-TEN-003-chunk-0",
+          "score": 0.3264,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 15"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-002-chunk-0",
+          "score": 0.3159,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 10"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_TEN_02",
+      "query": "The house owner increased my rent by 30 percent in the middle of my 11-month rental lease.",
+      "expected_domain": "Tenant/Rental",
+      "expected_chunk_id": "DUMMY-TEN-002-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-TEN-002-chunk-0",
+          "score": 0.5717,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 10"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-TEN-003-chunk-0",
+          "score": 0.3402,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 15"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-TEN-004-chunk-0",
+          "score": 0.3004,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-TEN-006-chunk-0",
+          "score": 0.2977,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 18"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-001-chunk-0",
+          "score": 0.2897,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 08"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_TEN_03",
+      "query": "The roof of my rented house is leaking heavily and the landlord refuses to fix it.",
+      "expected_domain": "Tenant/Rental",
+      "expected_chunk_id": "DUMMY-TEN-003-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-TEN-003-chunk-0",
+          "score": 0.456,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 15"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-TEN-005-chunk-0",
+          "score": 0.2825,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 25"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-TEN-004-chunk-0",
+          "score": 0.2462,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-TEN-002-chunk-0",
+          "score": 0.2432,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 10"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-006-chunk-0",
+          "score": 0.2427,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 18"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_TEN_04",
+      "query": "My landlord changed the main door locks and threw out my belongings without giving notice or court order.",
+      "expected_domain": "Tenant/Rental",
+      "expected_chunk_id": "DUMMY-TEN-004-chunk-0",
+      "actual_rank": 3,
+      "in_top1": false,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-TEN-003-chunk-0",
+          "score": 0.4027,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 15"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-TEN-006-chunk-0",
+          "score": 0.3418,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 18"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-TEN-004-chunk-0",
+          "score": 0.3267,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-TEN-002-chunk-0",
+          "score": 0.3158,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 10"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-001-chunk-0",
+          "score": 0.3072,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 08"
+        }
+      ]
+    },
+    {
+      "query_id": "Q_TEN_05",
+      "query": "The landlord disconnected my electricity and water connection to force me to leave the house.",
+      "expected_domain": "Tenant/Rental",
+      "expected_chunk_id": "DUMMY-TEN-005-chunk-0",
+      "actual_rank": 1,
+      "in_top1": true,
+      "in_top3": true,
+      "in_top5": true,
+      "status": "success",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "DUMMY-TEN-005-chunk-0",
+          "score": 0.4891,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 25"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "DUMMY-TEN-003-chunk-0",
+          "score": 0.3189,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 15"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "DUMMY-TEN-004-chunk-0",
+          "score": 0.2806,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 21"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "DUMMY-TEN-006-chunk-0",
+          "score": 0.2781,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 18"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "DUMMY-TEN-001-chunk-0",
+          "score": 0.2418,
+          "domain": "Tenant/Rental",
+          "act": "Dummy Model Tenancy Act, 2024",
+          "section": "Dummy Section 08"
+        }
+      ]
+    }
+  ],
+  "execution_status": "SUCCESS"
+}

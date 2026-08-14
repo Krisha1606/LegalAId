@@ -1,0 +1,52 @@
+{
+  "step": "step6_real_data_retrieval_audit",
+  "vector_store": "storage\\legal_index",
+  "queries_file": "data\\real_test_queries.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "faiss_ntotal": 3240,
+  "global_metrics": {
+    "total_queries": 15,
+    "top1_accuracy_pct": 40.0,
+    "top3_recall_pct": 53.33,
+    "top5_recall_pct": 60.0,
+    "mrr": 0.4722,
+    "mean_expected_rank": 1.67,
+    "retrieval_success_rate_pct": 100.0,
+    "insufficient_retrieval_rate_pct": 0.0,
+    "failed_top1_count": 9,
+    "failed_top3_count": 7,
+    "failed_top5_count": 6,
+    "not_retrieved_count": 6
+  },
+  "domain_metrics": {
+    "consumer": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 40.0,
+      "top3_recall_pct": 60.0,
+      "top5_recall_pct": 60.0,
+      "mrr": 0.5,
+      "mean_expected_rank": 1.33,
+      "retrieval_success_rate_pct": 100.0
+    },
+    "labour": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 40.0,
+      "top3_recall_pct": 40.0,
+      "top5_recall_pct": 40.0,
+      "mrr": 0.4,
+      "mean_expected_rank": 1.0,
+      "retrieval_success_rate_pct": 100.0
+    },
+    "tenant_property": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 40.0,
+      "top3_recall_pct": 60.0,
+      "top5_recall_pct": 80.0,
+      "mrr": 0.5167,
+      "mean_expected_rank": 2.25,
+      "retrieval_success_rate_pct": 100.0
+    }
+  },
+  "ground_truth_valid": true,
+  "status": "PASS"
+}

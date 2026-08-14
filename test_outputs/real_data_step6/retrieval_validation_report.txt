@@ -1,0 +1,42 @@
+================================================================================
+LEGALAID REAL DATA RETRIEVAL AUDIT REPORT (PHASE 6)
+================================================================================
+Vector Store          : storage\legal_index (ntotal = 3240)
+Queries Path          : data\real_test_queries.json (15 Queries)
+Embedding Model       : sentence-transformers/all-MiniLM-L6-v2 (384-dim)
+--------------------------------------------------------------------------------
+GLOBAL METRICS:
+  Total Queries          : 15
+  Top-1 Accuracy         : 40.0%
+  Top-3 Recall           : 53.33%
+  Top-5 Recall           : 60.0%
+  Mean Reciprocal Rank   : 0.4722
+  Mean Expected Rank     : 1.67
+  Retrieval Success Rate : 100.0%
+  Insufficient Rate      : 0.0%
+--------------------------------------------------------------------------------
+DOMAIN METRICS:
+  [consumer] (5 queries):
+    Top-1 Accuracy : 40.0%
+    Top-3 Recall   : 60.0%
+    Top-5 Recall   : 60.0%
+    MRR            : 0.5
+    Mean Rank      : 1.33
+  [labour] (5 queries):
+    Top-1 Accuracy : 40.0%
+    Top-3 Recall   : 40.0%
+    Top-5 Recall   : 40.0%
+    MRR            : 0.4
+    Mean Rank      : 1.0
+  [tenant_property] (5 queries):
+    Top-1 Accuracy : 40.0%
+    Top-3 Recall   : 60.0%
+    Top-5 Recall   : 80.0%
+    MRR            : 0.5167
+    Mean Rank      : 2.25
+================================================================================
+GROUND TRUTH & CHUNKING VERIFICATION:
+  - 15/15 Ground Truth Chunk IDs verified to exist in FAISS index metadata.
+  - 0 Ground Truth mapping bugs detected.
+  - Non-Top-1 errors classified: Sibling chunk splits and related provisions in same Act.
+================================================================================

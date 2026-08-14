@@ -1,0 +1,25 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.1.1, pluggy-1.6.0 -- D:\LegalAId\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\LegalAId
+plugins: anyio-4.14.2
+collecting ... collected 14 items
+
+tests/test_generator.py::test_1_generator_initialization PASSED          [  7%]
+tests/test_generator.py::test_2_ollama_client_initialization PASSED      [ 14%]
+tests/test_generator.py::test_3_config_model_loading PASSED              [ 21%]
+tests/test_generator.py::test_4_prompt_builder_creation PASSED           [ 28%]
+tests/test_generator.py::test_5_to_10_prompt_builder_content PASSED      [ 35%]
+tests/test_generator.py::test_11_empty_query_rejected PASSED             [ 42%]
+tests/test_generator.py::test_12_whitespace_query_rejected PASSED        [ 50%]
+tests/test_generator.py::test_13_14_successful_retrieval_calls_ollama PASSED [ 57%]
+tests/test_generator.py::test_15_unqualified_chunks_not_treated_as_authoritative PASSED [ 64%]
+tests/test_generator.py::test_16_17_insufficient_retrieval_does_not_call_ollama PASSED [ 71%]
+tests/test_generator.py::test_18_successful_ollama_response_status PASSED [ 78%]
+tests/test_generator.py::test_19_ollama_failure_returns_generation_error PASSED [ 85%]
+tests/test_generator.py::test_20_21_source_metadata_and_chunk_id_preserved PASSED [ 92%]
+tests/test_generator.py::test_22_to_dict_serialization PASSED            [100%]
+
+============================= 14 passed in 11.56s =============================
+
+Exit Code: 0

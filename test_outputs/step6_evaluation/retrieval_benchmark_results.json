@@ -1,0 +1,560 @@
+{
+  "step": "step6_retrieval_benchmark",
+  "benchmark_config": {
+    "top_k": 5,
+    "similarity_threshold": 0.35,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "faiss_vector_count": 18,
+    "queries_file": "D:\\LegalAId\\data\\dummy_test_queries.json"
+  },
+  "global_metrics": {
+    "total_queries": 15,
+    "top1_accuracy_pct": 93.33,
+    "top3_recall_pct": 100.0,
+    "top5_recall_pct": 100.0,
+    "mrr": 0.9556,
+    "mean_expected_rank": 1.13,
+    "retrieval_success_rate_pct": 93.33,
+    "insufficient_retrieval_rate_pct": 6.67,
+    "failed_top1_count": 1,
+    "failed_top3_count": 0,
+    "failed_top5_count": 0,
+    "not_retrieved_count": 0
+  },
+  "domain_metrics": {
+    "Consumer": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 100.0,
+      "top3_recall_pct": 100.0,
+      "top5_recall_pct": 100.0,
+      "mrr": 1.0,
+      "mean_expected_rank": 1.0,
+      "retrieval_success_rate_pct": 80.0,
+      "insufficient_retrieval_rate_pct": 20.0,
+      "failed_top1_count": 0,
+      "failed_top3_count": 0,
+      "failed_top5_count": 0,
+      "not_retrieved_count": 0
+    },
+    "Labour": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 100.0,
+      "top3_recall_pct": 100.0,
+      "top5_recall_pct": 100.0,
+      "mrr": 1.0,
+      "mean_expected_rank": 1.0,
+      "retrieval_success_rate_pct": 100.0,
+      "insufficient_retrieval_rate_pct": 0.0,
+      "failed_top1_count": 0,
+      "failed_top3_count": 0,
+      "failed_top5_count": 0,
+      "not_retrieved_count": 0
+    },
+    "Tenant/Rental": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 80.0,
+      "top3_recall_pct": 100.0,
+      "top5_recall_pct": 100.0,
+      "mrr": 0.8667,
+      "mean_expected_rank": 1.4,
+      "retrieval_success_rate_pct": 100.0,
+      "insufficient_retrieval_rate_pct": 0.0,
+      "failed_top1_count": 1,
+      "failed_top3_count": 0,
+      "failed_top5_count": 0,
+      "not_retrieved_count": 0
+    }
+  },
+  "failure_analysis": {
+    "failed_top1_count": 1,
+    "failed_top3_count": 0,
+    "failed_top5_count": 0,
+    "not_retrieved_count": 0,
+    "failed_top1_queries": [
+      {
+        "query_id": "Q_TEN_04",
+        "query": "My landlord changed the main door locks and threw out my belongings without giving notice or court order.",
+        "expected_domain": "Tenant/Rental",
+        "expected_issue": "Forced eviction without proper notice or court order",
+        "expected_chunk_id": "DUMMY-TEN-004-chunk-0",
+        "status": "success",
+        "actual_rank": 3,
+        "top1_hit": false,
+        "top3_hit": true,
+        "top5_hit": true,
+        "reciprocal_rank": 0.3333,
+        "best_score": 0.4027,
+        "expected_chunk_score": 0.3267,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "DUMMY-TEN-003-chunk-0",
+          "DUMMY-TEN-006-chunk-0",
+          "DUMMY-TEN-004-chunk-0",
+          "DUMMY-TEN-002-chunk-0",
+          "DUMMY-TEN-001-chunk-0"
+        ],
+        "retrieved_scores": [
+          0.4027,
+          0.3418,
+          0.3267,
+          0.3158,
+          0.3072
+        ]
+      }
+    ],
+    "not_retrieved_queries": []
+  },
+  "query_evaluations": [
+    {
+      "query_id": "Q_CONS_01",
+      "query": "I bought a defective smartphone and the seller refuses to replace it or give me a refund.",
+      "expected_domain": "Consumer",
+      "expected_issue": "Defective product replacement and full refund rights",
+      "expected_chunk_id": "DUMMY-CONS-001-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.493,
+      "expected_chunk_score": 0.493,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-CONS-001-chunk-0",
+        "DUMMY-CONS-004-chunk-0",
+        "DUMMY-CONS-003-chunk-0",
+        "DUMMY-CONS-002-chunk-0",
+        "DUMMY-CONS-005-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.493,
+        0.375,
+        0.3332,
+        0.2811,
+        0.2388
+      ]
+    },
+    {
+      "query_id": "Q_CONS_02",
+      "query": "An online store advertised a discount price but charged me full price at checkout.",
+      "expected_domain": "Consumer",
+      "expected_issue": "Misleading advertising and deceptive price claims",
+      "expected_chunk_id": "DUMMY-CONS-002-chunk-0",
+      "status": "insufficient_retrieval",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.3047,
+      "expected_chunk_score": 0.3047,
+      "expected_chunk_qualified": false,
+      "retrieved_chunk_ids": [
+        "DUMMY-CONS-002-chunk-0",
+        "DUMMY-CONS-005-chunk-0",
+        "DUMMY-CONS-003-chunk-0",
+        "DUMMY-CONS-001-chunk-0",
+        "DUMMY-CONS-006-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.3047,
+        0.2902,
+        0.2847,
+        0.246,
+        0.175
+      ]
+    },
+    {
+      "query_id": "Q_CONS_03",
+      "query": "My e-commerce order was delayed by three weeks without any explanation from the shopping platform.",
+      "expected_domain": "Consumer",
+      "expected_issue": "Deficiency of service in e-commerce logistics and non-delivery",
+      "expected_chunk_id": "DUMMY-CONS-003-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.5118,
+      "expected_chunk_score": 0.5118,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-CONS-003-chunk-0",
+        "DUMMY-CONS-001-chunk-0",
+        "DUMMY-CONS-006-chunk-0",
+        "DUMMY-CONS-005-chunk-0",
+        "DUMMY-CONS-002-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.5118,
+        0.2993,
+        0.2569,
+        0.2311,
+        0.2289
+      ]
+    },
+    {
+      "query_id": "Q_CONS_04",
+      "query": "The manufacturer cancelled my laptop warranty because a local technician cleaned the dust inside.",
+      "expected_domain": "Consumer",
+      "expected_issue": "Warranty void claims based on unauthorized third-party repairs",
+      "expected_chunk_id": "DUMMY-CONS-004-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.485,
+      "expected_chunk_score": 0.485,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-CONS-004-chunk-0",
+        "DUMMY-CONS-001-chunk-0",
+        "DUMMY-CONS-002-chunk-0",
+        "DUMMY-CONS-006-chunk-0",
+        "DUMMY-CONS-003-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.485,
+        0.3248,
+        0.2072,
+        0.2004,
+        0.1996
+      ]
+    },
+    {
+      "query_id": "Q_CONS_05",
+      "query": "My mobile network auto-renewed an expensive monthly pack without taking my consent.",
+      "expected_domain": "Consumer",
+      "expected_issue": "Hidden charges and un-consented subscription billing",
+      "expected_chunk_id": "DUMMY-CONS-005-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.4189,
+      "expected_chunk_score": 0.4189,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-CONS-005-chunk-0",
+        "DUMMY-TEN-005-chunk-0",
+        "DUMMY-TEN-002-chunk-0",
+        "DUMMY-CONS-004-chunk-0",
+        "DUMMY-TEN-006-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.4189,
+        0.2564,
+        0.236,
+        0.2337,
+        0.2332
+      ]
+    },
+    {
+      "query_id": "Q_LAB_01",
+      "query": "My boss has not paid my monthly salary for the past two months.",
+      "expected_domain": "Labour",
+      "expected_issue": "Unpaid salary and illegal withholding of earned wages",
+      "expected_chunk_id": "DUMMY-LAB-001-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.4202,
+      "expected_chunk_score": 0.4202,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-LAB-001-chunk-0",
+        "DUMMY-LAB-005-chunk-0",
+        "DUMMY-LAB-004-chunk-0",
+        "DUMMY-TEN-002-chunk-0",
+        "DUMMY-LAB-002-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.4202,
+        0.363,
+        0.284,
+        0.2353,
+        0.2113
+      ]
+    },
+    {
+      "query_id": "Q_LAB_02",
+      "query": "I am forced to work 12 hours every day but my employer pays me normal hourly rate.",
+      "expected_domain": "Labour",
+      "expected_issue": "Overtime work performed without double-rate compensation",
+      "expected_chunk_id": "DUMMY-LAB-002-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.5462,
+      "expected_chunk_score": 0.5462,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-LAB-002-chunk-0",
+        "DUMMY-LAB-001-chunk-0",
+        "DUMMY-LAB-005-chunk-0",
+        "DUMMY-LAB-004-chunk-0",
+        "DUMMY-LAB-006-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.5462,
+        0.4573,
+        0.368,
+        0.2729,
+        0.2716
+      ]
+    },
+    {
+      "query_id": "Q_LAB_03",
+      "query": "Factory management refuses to provide safety helmets and boots on hazardous construction sites.",
+      "expected_domain": "Labour",
+      "expected_issue": "Unsafe working conditions and lack of mandatory safety equipment",
+      "expected_chunk_id": "DUMMY-LAB-003-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.4288,
+      "expected_chunk_score": 0.4288,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-LAB-003-chunk-0",
+        "DUMMY-CONS-006-chunk-0",
+        "DUMMY-LAB-005-chunk-0",
+        "DUMMY-CONS-004-chunk-0",
+        "DUMMY-TEN-005-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.4288,
+        0.1937,
+        0.193,
+        0.1929,
+        0.1926
+      ]
+    },
+    {
+      "query_id": "Q_LAB_04",
+      "query": "My company fired me after I submitted my 26-week paid maternity leave request.",
+      "expected_domain": "Labour",
+      "expected_issue": "Denial of paid maternity leave and benefit entitlement",
+      "expected_chunk_id": "DUMMY-LAB-004-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.5349,
+      "expected_chunk_score": 0.5349,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-LAB-004-chunk-0",
+        "DUMMY-LAB-005-chunk-0",
+        "DUMMY-LAB-001-chunk-0",
+        "DUMMY-LAB-006-chunk-0",
+        "DUMMY-LAB-002-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.5349,
+        0.3883,
+        0.263,
+        0.1992,
+        0.157
+      ]
+    },
+    {
+      "query_id": "Q_LAB_05",
+      "query": "I was terminated on the spot without 30 days notice or severance compensation after two years of work.",
+      "expected_domain": "Labour",
+      "expected_issue": "Abrupt termination of employment without contractual notice or severance",
+      "expected_chunk_id": "DUMMY-LAB-005-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.6515,
+      "expected_chunk_score": 0.6515,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-LAB-005-chunk-0",
+        "DUMMY-LAB-004-chunk-0",
+        "DUMMY-LAB-001-chunk-0",
+        "DUMMY-LAB-002-chunk-0",
+        "DUMMY-TEN-001-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.6515,
+        0.3917,
+        0.3135,
+        0.2467,
+        0.2302
+      ]
+    },
+    {
+      "query_id": "Q_TEN_01",
+      "query": "My landlord is refusing to return my security deposit after I moved out of the apartment.",
+      "expected_domain": "Tenant/Rental",
+      "expected_issue": "Unlawful retention of rental security deposit by landlord",
+      "expected_chunk_id": "DUMMY-TEN-001-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.568,
+      "expected_chunk_score": 0.568,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-TEN-001-chunk-0",
+        "DUMMY-TEN-006-chunk-0",
+        "DUMMY-TEN-004-chunk-0",
+        "DUMMY-TEN-003-chunk-0",
+        "DUMMY-TEN-002-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.568,
+        0.343,
+        0.334,
+        0.3264,
+        0.3159
+      ]
+    },
+    {
+      "query_id": "Q_TEN_02",
+      "query": "The house owner increased my rent by 30 percent in the middle of my 11-month rental lease.",
+      "expected_domain": "Tenant/Rental",
+      "expected_issue": "Unilateral and arbitrary increase in monthly rent during lease period",
+      "expected_chunk_id": "DUMMY-TEN-002-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.5717,
+      "expected_chunk_score": 0.5717,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-TEN-002-chunk-0",
+        "DUMMY-TEN-003-chunk-0",
+        "DUMMY-TEN-004-chunk-0",
+        "DUMMY-TEN-006-chunk-0",
+        "DUMMY-TEN-001-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.5717,
+        0.3402,
+        0.3004,
+        0.2977,
+        0.2897
+      ]
+    },
+    {
+      "query_id": "Q_TEN_03",
+      "query": "The roof of my rented house is leaking heavily and the landlord refuses to fix it.",
+      "expected_domain": "Tenant/Rental",
+      "expected_issue": "Landlord refusing essential structural repairs and maintenance",
+      "expected_chunk_id": "DUMMY-TEN-003-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.456,
+      "expected_chunk_score": 0.456,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-TEN-003-chunk-0",
+        "DUMMY-TEN-005-chunk-0",
+        "DUMMY-TEN-004-chunk-0",
+        "DUMMY-TEN-002-chunk-0",
+        "DUMMY-TEN-006-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.456,
+        0.2825,
+        0.2462,
+        0.2432,
+        0.2427
+      ]
+    },
+    {
+      "query_id": "Q_TEN_04",
+      "query": "My landlord changed the main door locks and threw out my belongings without giving notice or court order.",
+      "expected_domain": "Tenant/Rental",
+      "expected_issue": "Forced eviction without proper notice or court order",
+      "expected_chunk_id": "DUMMY-TEN-004-chunk-0",
+      "status": "success",
+      "actual_rank": 3,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 0.3333,
+      "best_score": 0.4027,
+      "expected_chunk_score": 0.3267,
+      "expected_chunk_qualified": false,
+      "retrieved_chunk_ids": [
+        "DUMMY-TEN-003-chunk-0",
+        "DUMMY-TEN-006-chunk-0",
+        "DUMMY-TEN-004-chunk-0",
+        "DUMMY-TEN-002-chunk-0",
+        "DUMMY-TEN-001-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.4027,
+        0.3418,
+        0.3267,
+        0.3158,
+        0.3072
+      ]
+    },
+    {
+      "query_id": "Q_TEN_05",
+      "query": "The landlord disconnected my electricity and water connection to force me to leave the house.",
+      "expected_domain": "Tenant/Rental",
+      "expected_issue": "Cut-off of water or electricity supply by landlord to force tenant exit",
+      "expected_chunk_id": "DUMMY-TEN-005-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.4891,
+      "expected_chunk_score": 0.4891,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "DUMMY-TEN-005-chunk-0",
+        "DUMMY-TEN-003-chunk-0",
+        "DUMMY-TEN-004-chunk-0",
+        "DUMMY-TEN-006-chunk-0",
+        "DUMMY-TEN-001-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.4891,
+        0.3189,
+        0.2806,
+        0.2781,
+        0.2418
+      ]
+    }
+  ],
+  "execution_status": "SUCCESS"
+}

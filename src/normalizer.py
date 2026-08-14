@@ -1,3 +1,5 @@
+import hashlib
+import re
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -192,7 +194,12 @@ def normalize_document(raw_record: dict[str, Any]) -> NormalizedLegalDocument:
     doc_id = str(raw_record.get("id", "")).strip()
     if not doc_id:
         # Generate canonical ID if missing
-        doc_id = f"SEC-{section.replace(' ', '')}"
+        dom_slug = re.sub(r"[^A-Za-z0-9]", "", domain).upper()[:4] or "LEG"
+        act_slug = re.sub(r"[^A-Za-z0-9]", "", act).upper()[:12] or "ACT"
+        sec_slug = re.sub(r"[^A-Za-z0-9]", "", section).upper()[:15] or "SEC"
+        text_key = f"{domain}|{act}|{section}|{legal_text}"
+        text_hash = hashlib.md5(text_key.encode("utf-8")).hexdigest()[:6]
+        doc_id = f"{dom_slug}-{act_slug}-{sec_slug}-{text_hash}"
 
     issue = str(raw_record.get("issue", "")).strip() or section_title
     act_name = str(raw_record.get("act_name", "")).strip() or act

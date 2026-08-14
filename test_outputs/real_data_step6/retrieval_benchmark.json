@@ -1,0 +1,980 @@
+{
+  "step": "step6_retrieval_benchmark",
+  "benchmark_config": {
+    "top_k": 5,
+    "similarity_threshold": 0.35,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "faiss_vector_count": 3240,
+    "queries_file": "D:\\LegalAId\\data\\real_test_queries.json"
+  },
+  "global_metrics": {
+    "total_queries": 15,
+    "top1_accuracy_pct": 40.0,
+    "top3_recall_pct": 53.33,
+    "top5_recall_pct": 60.0,
+    "mrr": 0.4722,
+    "mean_expected_rank": 1.67,
+    "retrieval_success_rate_pct": 100.0,
+    "insufficient_retrieval_rate_pct": 0.0,
+    "failed_top1_count": 9,
+    "failed_top3_count": 7,
+    "failed_top5_count": 6,
+    "not_retrieved_count": 6
+  },
+  "domain_metrics": {
+    "consumer": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 40.0,
+      "top3_recall_pct": 60.0,
+      "top5_recall_pct": 60.0,
+      "mrr": 0.5,
+      "mean_expected_rank": 1.33,
+      "retrieval_success_rate_pct": 100.0,
+      "insufficient_retrieval_rate_pct": 0.0,
+      "failed_top1_count": 3,
+      "failed_top3_count": 2,
+      "failed_top5_count": 2,
+      "not_retrieved_count": 2
+    },
+    "labour": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 40.0,
+      "top3_recall_pct": 40.0,
+      "top5_recall_pct": 40.0,
+      "mrr": 0.4,
+      "mean_expected_rank": 1.0,
+      "retrieval_success_rate_pct": 100.0,
+      "insufficient_retrieval_rate_pct": 0.0,
+      "failed_top1_count": 3,
+      "failed_top3_count": 3,
+      "failed_top5_count": 3,
+      "not_retrieved_count": 3
+    },
+    "tenant_property": {
+      "total_queries": 5,
+      "top1_accuracy_pct": 40.0,
+      "top3_recall_pct": 60.0,
+      "top5_recall_pct": 80.0,
+      "mrr": 0.5167,
+      "mean_expected_rank": 2.25,
+      "retrieval_success_rate_pct": 100.0,
+      "insufficient_retrieval_rate_pct": 0.0,
+      "failed_top1_count": 3,
+      "failed_top3_count": 2,
+      "failed_top5_count": 1,
+      "not_retrieved_count": 1
+    }
+  },
+  "failure_analysis": {
+    "failed_top1_count": 9,
+    "failed_top3_count": 7,
+    "failed_top5_count": 6,
+    "not_retrieved_count": 6,
+    "failed_top1_queries": [
+      {
+        "query_id": "REAL_Q_01",
+        "query": "What is the territorial extent and commencement of the Consumer Protection Act, 2019?",
+        "expected_domain": "consumer",
+        "expected_issue": "Consumer Protection Act short title and commencement",
+        "expected_chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+        "status": "success",
+        "actual_rank": 2,
+        "top1_hit": false,
+        "top3_hit": true,
+        "top5_hit": true,
+        "reciprocal_rank": 0.5,
+        "best_score": 0.7823,
+        "expected_chunk_score": 0.7741,
+        "expected_chunk_qualified": true,
+        "retrieved_chunk_ids": [
+          "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-2",
+          "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+          "CONS-THECONSUMERP-SECTION56-78b44d-chunk-0",
+          "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-1",
+          "CONS-THECONSUMERP-SECTION58-5eac0d-chunk-1"
+        ],
+        "retrieved_scores": [
+          0.7823,
+          0.7741,
+          0.7603,
+          0.7593,
+          0.7562
+        ]
+      },
+      {
+        "query_id": "REAL_Q_02",
+        "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+        "expected_domain": "consumer",
+        "expected_issue": "Definition of consumer",
+        "expected_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.781,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "CONS-THECONSUMERP-SECTION27-c01b79-chunk-1",
+          "CONS-THECONSUMERP-SECTION227-ce4a31-chunk-0",
+          "CONS-THECONSUMERP-SECTION58-5eac0d-chunk-1",
+          "CONS-THECONSUMERP-SECTION29-557c14-chunk-1",
+          "CONS-THECONSUMERP-SECTION35-2a352d-chunk-1"
+        ],
+        "retrieved_scores": [
+          0.781,
+          0.778,
+          0.7634,
+          0.7579,
+          0.7573
+        ]
+      },
+      {
+        "query_id": "REAL_Q_05",
+        "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+        "expected_domain": "consumer",
+        "expected_issue": "Definition of e-commerce",
+        "expected_chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.7252,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "CONS-THECONSUMERP-SECTION216-793550-chunk-0",
+          "CONS-THECONSUMERP-SECTION27-c01b79-chunk-3",
+          "CONS-THECONSUMERP-SECTION94-6e98fb-chunk-0",
+          "CONS-THECONSUMERP-SECTION217-a9ba7e-chunk-0",
+          "CONS-THECONSUMERP-SECTION237-3324d4-chunk-1"
+        ],
+        "retrieved_scores": [
+          0.7252,
+          0.6192,
+          0.6052,
+          0.6043,
+          0.5966
+        ]
+      },
+      {
+        "query_id": "REAL_Q_10",
+        "query": "What is the role and powers of conciliation officers in industrial disputes?",
+        "expected_domain": "labour",
+        "expected_issue": "Appointment of conciliation officers",
+        "expected_chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.6541,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "LABO-THEINDUSTRIA-SECTION43-e7e64f-chunk-0",
+          "LABO-THEINDUSTRIA-SECTION49-7aec73-chunk-4",
+          "LABO-THEINDUSTRIA-SECTION53-b472c2-chunk-1",
+          "LABO-THEINDUSTRIA-SECTION53-b472c2-chunk-0",
+          "LABO-THEINDUSTRIA-SECTION49-7aec73-chunk-3"
+        ],
+        "retrieved_scores": [
+          0.6541,
+          0.6538,
+          0.5969,
+          0.5952,
+          0.5941
+        ]
+      },
+      {
+        "query_id": "REAL_Q_11",
+        "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+        "expected_domain": "labour",
+        "expected_issue": "Constitution of Employees Provident Fund Board",
+        "expected_chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.7455,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "LABO-THECODEONSOC-SECTION4-376a34-chunk-0",
+          "LABO-THECODEONSOC-SECTION4-376a34-chunk-3",
+          "LABO-THECODEONSOC-SECTION4-376a34-chunk-4",
+          "LABO-THECODEONSOC-SECTION155-3ada45-chunk-3",
+          "LABO-THECODEONSOC-SECTION156-ec2aa4-chunk-5"
+        ],
+        "retrieved_scores": [
+          0.7455,
+          0.7313,
+          0.7308,
+          0.6824,
+          0.679
+        ]
+      },
+      {
+        "query_id": "REAL_Q_12",
+        "query": "What safety equipment and precautions must factory employers provide to workers?",
+        "expected_domain": "labour",
+        "expected_issue": "Duties of employer for safety at workplace",
+        "expected_chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.6547,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-4",
+          "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-19",
+          "LABO-THEOCCUPATIO-SECTION84-46dfe4-chunk-0",
+          "LABO-THEOCCUPATIO-SECTION8-a0cea1-chunk-7",
+          "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-22"
+        ],
+        "retrieved_scores": [
+          0.6547,
+          0.6188,
+          0.6149,
+          0.6134,
+          0.6054
+        ]
+      },
+      {
+        "query_id": "REAL_Q_14",
+        "query": "What are the legal requirements for creating a lease of immovable property?",
+        "expected_domain": "tenant_property",
+        "expected_issue": "Definition of lease of immovable property",
+        "expected_chunk_id": "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+        "status": "success",
+        "actual_rank": 4,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": true,
+        "reciprocal_rank": 0.25,
+        "best_score": 0.6977,
+        "expected_chunk_score": 0.5811,
+        "expected_chunk_qualified": true,
+        "retrieved_chunk_ids": [
+          "TENA-THETRANSFERO-SECTION107-36ecb8-chunk-0",
+          "TENA-THETRANSFERO-SECTION107-36ecb8-chunk-1",
+          "TENA-THETRANSFERO-SECTION116-a3af55-chunk-0",
+          "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+          "TENA-THETRANSFERO-SECTION104-d9e451-chunk-0"
+        ],
+        "retrieved_scores": [
+          0.6977,
+          0.6649,
+          0.5892,
+          0.5811,
+          0.575
+        ]
+      },
+      {
+        "query_id": "REAL_Q_16",
+        "query": "How can a rightful property owner recover possession of immovable property?",
+        "expected_domain": "tenant_property",
+        "expected_issue": "Recovery of specific immovable property",
+        "expected_chunk_id": "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+        "status": "success",
+        "actual_rank": 3,
+        "top1_hit": false,
+        "top3_hit": true,
+        "top5_hit": true,
+        "reciprocal_rank": 0.3333,
+        "best_score": 0.5725,
+        "expected_chunk_score": 0.5487,
+        "expected_chunk_qualified": true,
+        "retrieved_chunk_ids": [
+          "TENA-THELIMITATIO-SECTION65-40c8d7-chunk-0",
+          "TENA-THELIMITATIO-SECTION92-c829f0-chunk-0",
+          "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+          "TENA-THELIMITATIO-SECTION91-3dc091-chunk-0",
+          "TENA-THESPECIFICR-SECTION6-25edf4-chunk-0"
+        ],
+        "retrieved_scores": [
+          0.5725,
+          0.5512,
+          0.5487,
+          0.5468,
+          0.5361
+        ]
+      },
+      {
+        "query_id": "REAL_Q_17",
+        "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+        "expected_domain": "tenant_property",
+        "expected_issue": "No eviction if tenant pays rent",
+        "expected_chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.4145,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "TENA-THEBOMBAYREN-SECTION18-f6c809-chunk-3",
+          "TENA-THETRANSFERO-SECTION116-a3af55-chunk-1",
+          "TENA-THEBOMBAYREN-SECTION23-66637a-chunk-0",
+          "TENA-THELIMITATIO-SECTION37-9a7d84-chunk-0",
+          "TENA-THEBOMBAYREN-SECTION38-f9d38e-chunk-0"
+        ],
+        "retrieved_scores": [
+          0.4145,
+          0.4133,
+          0.4103,
+          0.4041,
+          0.4021
+        ]
+      }
+    ],
+    "not_retrieved_queries": [
+      {
+        "query_id": "REAL_Q_02",
+        "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+        "expected_domain": "consumer",
+        "expected_issue": "Definition of consumer",
+        "expected_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.781,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "CONS-THECONSUMERP-SECTION27-c01b79-chunk-1",
+          "CONS-THECONSUMERP-SECTION227-ce4a31-chunk-0",
+          "CONS-THECONSUMERP-SECTION58-5eac0d-chunk-1",
+          "CONS-THECONSUMERP-SECTION29-557c14-chunk-1",
+          "CONS-THECONSUMERP-SECTION35-2a352d-chunk-1"
+        ],
+        "retrieved_scores": [
+          0.781,
+          0.778,
+          0.7634,
+          0.7579,
+          0.7573
+        ]
+      },
+      {
+        "query_id": "REAL_Q_05",
+        "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+        "expected_domain": "consumer",
+        "expected_issue": "Definition of e-commerce",
+        "expected_chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.7252,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "CONS-THECONSUMERP-SECTION216-793550-chunk-0",
+          "CONS-THECONSUMERP-SECTION27-c01b79-chunk-3",
+          "CONS-THECONSUMERP-SECTION94-6e98fb-chunk-0",
+          "CONS-THECONSUMERP-SECTION217-a9ba7e-chunk-0",
+          "CONS-THECONSUMERP-SECTION237-3324d4-chunk-1"
+        ],
+        "retrieved_scores": [
+          0.7252,
+          0.6192,
+          0.6052,
+          0.6043,
+          0.5966
+        ]
+      },
+      {
+        "query_id": "REAL_Q_10",
+        "query": "What is the role and powers of conciliation officers in industrial disputes?",
+        "expected_domain": "labour",
+        "expected_issue": "Appointment of conciliation officers",
+        "expected_chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.6541,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "LABO-THEINDUSTRIA-SECTION43-e7e64f-chunk-0",
+          "LABO-THEINDUSTRIA-SECTION49-7aec73-chunk-4",
+          "LABO-THEINDUSTRIA-SECTION53-b472c2-chunk-1",
+          "LABO-THEINDUSTRIA-SECTION53-b472c2-chunk-0",
+          "LABO-THEINDUSTRIA-SECTION49-7aec73-chunk-3"
+        ],
+        "retrieved_scores": [
+          0.6541,
+          0.6538,
+          0.5969,
+          0.5952,
+          0.5941
+        ]
+      },
+      {
+        "query_id": "REAL_Q_11",
+        "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+        "expected_domain": "labour",
+        "expected_issue": "Constitution of Employees Provident Fund Board",
+        "expected_chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.7455,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "LABO-THECODEONSOC-SECTION4-376a34-chunk-0",
+          "LABO-THECODEONSOC-SECTION4-376a34-chunk-3",
+          "LABO-THECODEONSOC-SECTION4-376a34-chunk-4",
+          "LABO-THECODEONSOC-SECTION155-3ada45-chunk-3",
+          "LABO-THECODEONSOC-SECTION156-ec2aa4-chunk-5"
+        ],
+        "retrieved_scores": [
+          0.7455,
+          0.7313,
+          0.7308,
+          0.6824,
+          0.679
+        ]
+      },
+      {
+        "query_id": "REAL_Q_12",
+        "query": "What safety equipment and precautions must factory employers provide to workers?",
+        "expected_domain": "labour",
+        "expected_issue": "Duties of employer for safety at workplace",
+        "expected_chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.6547,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-4",
+          "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-19",
+          "LABO-THEOCCUPATIO-SECTION84-46dfe4-chunk-0",
+          "LABO-THEOCCUPATIO-SECTION8-a0cea1-chunk-7",
+          "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-22"
+        ],
+        "retrieved_scores": [
+          0.6547,
+          0.6188,
+          0.6149,
+          0.6134,
+          0.6054
+        ]
+      },
+      {
+        "query_id": "REAL_Q_17",
+        "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+        "expected_domain": "tenant_property",
+        "expected_issue": "No eviction if tenant pays rent",
+        "expected_chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0",
+        "status": "success",
+        "actual_rank": null,
+        "top1_hit": false,
+        "top3_hit": false,
+        "top5_hit": false,
+        "reciprocal_rank": 0.0,
+        "best_score": 0.4145,
+        "expected_chunk_score": null,
+        "expected_chunk_qualified": false,
+        "retrieved_chunk_ids": [
+          "TENA-THEBOMBAYREN-SECTION18-f6c809-chunk-3",
+          "TENA-THETRANSFERO-SECTION116-a3af55-chunk-1",
+          "TENA-THEBOMBAYREN-SECTION23-66637a-chunk-0",
+          "TENA-THELIMITATIO-SECTION37-9a7d84-chunk-0",
+          "TENA-THEBOMBAYREN-SECTION38-f9d38e-chunk-0"
+        ],
+        "retrieved_scores": [
+          0.4145,
+          0.4133,
+          0.4103,
+          0.4041,
+          0.4021
+        ]
+      }
+    ]
+  },
+  "query_evaluations": [
+    {
+      "query_id": "REAL_Q_01",
+      "query": "What is the territorial extent and commencement of the Consumer Protection Act, 2019?",
+      "expected_domain": "consumer",
+      "expected_issue": "Consumer Protection Act short title and commencement",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+      "status": "success",
+      "actual_rank": 2,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 0.5,
+      "best_score": 0.7823,
+      "expected_chunk_score": 0.7741,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-2",
+        "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+        "CONS-THECONSUMERP-SECTION56-78b44d-chunk-0",
+        "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-1",
+        "CONS-THECONSUMERP-SECTION58-5eac0d-chunk-1"
+      ],
+      "retrieved_scores": [
+        0.7823,
+        0.7741,
+        0.7603,
+        0.7593,
+        0.7562
+      ]
+    },
+    {
+      "query_id": "REAL_Q_02",
+      "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+      "expected_domain": "consumer",
+      "expected_issue": "Definition of consumer",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0",
+      "status": "success",
+      "actual_rank": null,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top5_hit": false,
+      "reciprocal_rank": 0.0,
+      "best_score": 0.781,
+      "expected_chunk_score": null,
+      "expected_chunk_qualified": false,
+      "retrieved_chunk_ids": [
+        "CONS-THECONSUMERP-SECTION27-c01b79-chunk-1",
+        "CONS-THECONSUMERP-SECTION227-ce4a31-chunk-0",
+        "CONS-THECONSUMERP-SECTION58-5eac0d-chunk-1",
+        "CONS-THECONSUMERP-SECTION29-557c14-chunk-1",
+        "CONS-THECONSUMERP-SECTION35-2a352d-chunk-1"
+      ],
+      "retrieved_scores": [
+        0.781,
+        0.778,
+        0.7634,
+        0.7579,
+        0.7573
+      ]
+    },
+    {
+      "query_id": "REAL_Q_03",
+      "query": "How is a defect in goods defined under consumer protection law?",
+      "expected_domain": "consumer",
+      "expected_issue": "Definition of defect in goods",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION210-7aa357-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.7827,
+      "expected_chunk_score": 0.7827,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "CONS-THECONSUMERP-SECTION210-7aa357-chunk-0",
+        "CONS-THECONSUMERP-SECTION39-8dd768-chunk-1",
+        "CONS-THECONSUMERP-SECTION38-1e43ef-chunk-1",
+        "CONS-THECONSUMERP-SECTION247-2face6-chunk-2",
+        "CONS-THECONSUMERP-SECTION39-8dd768-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.7827,
+        0.7353,
+        0.7089,
+        0.7015,
+        0.6968
+      ]
+    },
+    {
+      "query_id": "REAL_Q_04",
+      "query": "What constitutes a deficiency of service for a service provider?",
+      "expected_domain": "consumer",
+      "expected_issue": "Definition of deficiency in service",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION211-ee1d2b-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.6117,
+      "expected_chunk_score": 0.6117,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "CONS-THECONSUMERP-SECTION211-ee1d2b-chunk-0",
+        "CONS-THECONSUMERP-SECTION85-6cd240-chunk-0",
+        "CONS-THECONSUMERP-SECTION25-66766d-chunk-1",
+        "CONS-THECONSUMERP-SECTION242-cab14c-chunk-0",
+        "CONS-THECONSUMERP-SECTION25-66766d-chunk-2"
+      ],
+      "retrieved_scores": [
+        0.6117,
+        0.5697,
+        0.5549,
+        0.5171,
+        0.4754
+      ]
+    },
+    {
+      "query_id": "REAL_Q_05",
+      "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+      "expected_domain": "consumer",
+      "expected_issue": "Definition of e-commerce",
+      "expected_chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0",
+      "status": "success",
+      "actual_rank": null,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top5_hit": false,
+      "reciprocal_rank": 0.0,
+      "best_score": 0.7252,
+      "expected_chunk_score": null,
+      "expected_chunk_qualified": false,
+      "retrieved_chunk_ids": [
+        "CONS-THECONSUMERP-SECTION216-793550-chunk-0",
+        "CONS-THECONSUMERP-SECTION27-c01b79-chunk-3",
+        "CONS-THECONSUMERP-SECTION94-6e98fb-chunk-0",
+        "CONS-THECONSUMERP-SECTION217-a9ba7e-chunk-0",
+        "CONS-THECONSUMERP-SECTION237-3324d4-chunk-1"
+      ],
+      "retrieved_scores": [
+        0.7252,
+        0.6192,
+        0.6052,
+        0.6043,
+        0.5966
+      ]
+    },
+    {
+      "query_id": "REAL_Q_08",
+      "query": "Does the Code on Wages prohibit paying different wages to male and female employees for equal work?",
+      "expected_domain": "labour",
+      "expected_issue": "Prohibition of gender discrimination in wages",
+      "expected_chunk_id": "LABO-THECODEONWAG-SECTION3-75d583-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.7172,
+      "expected_chunk_score": 0.7172,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "LABO-THECODEONWAG-SECTION3-75d583-chunk-0",
+        "LABO-THECODEONWAG-SECTION4-78d364-chunk-0",
+        "LABO-THECODEONWAG-SECTION17-a05ce0-chunk-2",
+        "LABO-THECODEONWAG-SECTION2-fe8e60-chunk-18",
+        "LABO-THEOCCUPATIO-SECTION2-662524-chunk-79"
+      ],
+      "retrieved_scores": [
+        0.7172,
+        0.6913,
+        0.6411,
+        0.63,
+        0.6283
+      ]
+    },
+    {
+      "query_id": "REAL_Q_09",
+      "query": "What factors must the government consider when fixing minimum wage rates for workers?",
+      "expected_domain": "labour",
+      "expected_issue": "Fixation of minimum rate of wages",
+      "expected_chunk_id": "LABO-THECODEONWAG-SECTION6-12443d-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.6974,
+      "expected_chunk_score": 0.6974,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "LABO-THECODEONWAG-SECTION6-12443d-chunk-0",
+        "LABO-THECODEONWAG-SECTION6-12443d-chunk-1",
+        "LABO-THECODEONWAG-SECTION6-12443d-chunk-3",
+        "LABO-THECODEONWAG-SECTION9-2e5be2-chunk-0",
+        "LABO-THECODEONWAG-SECTION7-28fe65-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.6974,
+        0.6424,
+        0.6076,
+        0.5924,
+        0.586
+      ]
+    },
+    {
+      "query_id": "REAL_Q_10",
+      "query": "What is the role and powers of conciliation officers in industrial disputes?",
+      "expected_domain": "labour",
+      "expected_issue": "Appointment of conciliation officers",
+      "expected_chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0",
+      "status": "success",
+      "actual_rank": null,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top5_hit": false,
+      "reciprocal_rank": 0.0,
+      "best_score": 0.6541,
+      "expected_chunk_score": null,
+      "expected_chunk_qualified": false,
+      "retrieved_chunk_ids": [
+        "LABO-THEINDUSTRIA-SECTION43-e7e64f-chunk-0",
+        "LABO-THEINDUSTRIA-SECTION49-7aec73-chunk-4",
+        "LABO-THEINDUSTRIA-SECTION53-b472c2-chunk-1",
+        "LABO-THEINDUSTRIA-SECTION53-b472c2-chunk-0",
+        "LABO-THEINDUSTRIA-SECTION49-7aec73-chunk-3"
+      ],
+      "retrieved_scores": [
+        0.6541,
+        0.6538,
+        0.5969,
+        0.5952,
+        0.5941
+      ]
+    },
+    {
+      "query_id": "REAL_Q_11",
+      "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+      "expected_domain": "labour",
+      "expected_issue": "Constitution of Employees Provident Fund Board",
+      "expected_chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0",
+      "status": "success",
+      "actual_rank": null,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top5_hit": false,
+      "reciprocal_rank": 0.0,
+      "best_score": 0.7455,
+      "expected_chunk_score": null,
+      "expected_chunk_qualified": false,
+      "retrieved_chunk_ids": [
+        "LABO-THECODEONSOC-SECTION4-376a34-chunk-0",
+        "LABO-THECODEONSOC-SECTION4-376a34-chunk-3",
+        "LABO-THECODEONSOC-SECTION4-376a34-chunk-4",
+        "LABO-THECODEONSOC-SECTION155-3ada45-chunk-3",
+        "LABO-THECODEONSOC-SECTION156-ec2aa4-chunk-5"
+      ],
+      "retrieved_scores": [
+        0.7455,
+        0.7313,
+        0.7308,
+        0.6824,
+        0.679
+      ]
+    },
+    {
+      "query_id": "REAL_Q_12",
+      "query": "What safety equipment and precautions must factory employers provide to workers?",
+      "expected_domain": "labour",
+      "expected_issue": "Duties of employer for safety at workplace",
+      "expected_chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0",
+      "status": "success",
+      "actual_rank": null,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top5_hit": false,
+      "reciprocal_rank": 0.0,
+      "best_score": 0.6547,
+      "expected_chunk_score": null,
+      "expected_chunk_qualified": false,
+      "retrieved_chunk_ids": [
+        "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-4",
+        "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-19",
+        "LABO-THEOCCUPATIO-SECTION84-46dfe4-chunk-0",
+        "LABO-THEOCCUPATIO-SECTION8-a0cea1-chunk-7",
+        "LABO-THEOCCUPATIO-SECTION136-8a90bc-chunk-22"
+      ],
+      "retrieved_scores": [
+        0.6547,
+        0.6188,
+        0.6149,
+        0.6134,
+        0.6054
+      ]
+    },
+    {
+      "query_id": "REAL_Q_13",
+      "query": "How is a valid sale of immovable property defined under the Transfer of Property Act?",
+      "expected_domain": "tenant_property",
+      "expected_issue": "Definition of sale of immovable property",
+      "expected_chunk_id": "TENA-THETRANSFERO-SECTION54-277528-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.7283,
+      "expected_chunk_score": 0.7283,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "TENA-THETRANSFERO-SECTION54-277528-chunk-0",
+        "TENA-THETRANSFERO-SECTION118-b8f672-chunk-0",
+        "TENA-THETRANSFERO-SECTION123-439d84-chunk-0",
+        "TENA-THETRANSFERO-SECTION4-8f6d08-chunk-0",
+        "TENA-THELIMITATIO-SECTION94-faed73-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.7283,
+        0.6985,
+        0.6912,
+        0.6892,
+        0.6854
+      ]
+    },
+    {
+      "query_id": "REAL_Q_14",
+      "query": "What are the legal requirements for creating a lease of immovable property?",
+      "expected_domain": "tenant_property",
+      "expected_issue": "Definition of lease of immovable property",
+      "expected_chunk_id": "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+      "status": "success",
+      "actual_rank": 4,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top5_hit": true,
+      "reciprocal_rank": 0.25,
+      "best_score": 0.6977,
+      "expected_chunk_score": 0.5811,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "TENA-THETRANSFERO-SECTION107-36ecb8-chunk-0",
+        "TENA-THETRANSFERO-SECTION107-36ecb8-chunk-1",
+        "TENA-THETRANSFERO-SECTION116-a3af55-chunk-0",
+        "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+        "TENA-THETRANSFERO-SECTION104-d9e451-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.6977,
+        0.6649,
+        0.5892,
+        0.5811,
+        0.575
+      ]
+    },
+    {
+      "query_id": "REAL_Q_15",
+      "query": "Which property lease agreements and legal documents require compulsory registration?",
+      "expected_domain": "tenant_property",
+      "expected_issue": "Documents requiring compulsory registration",
+      "expected_chunk_id": "TENA-THEREGISTRAT-SECTION17-9aacc8-chunk-0",
+      "status": "success",
+      "actual_rank": 1,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 1.0,
+      "best_score": 0.7184,
+      "expected_chunk_score": 0.7184,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "TENA-THEREGISTRAT-SECTION17-9aacc8-chunk-0",
+        "TENA-THEREGISTRAT-SECTION18-1a2b3f-chunk-0",
+        "TENA-THEREGISTRAT-SECTION50-c03f89-chunk-0",
+        "TENA-THEREGISTRAT-SECTION58-65f47c-chunk-1",
+        "TENA-THEREGISTRAT-SECTION2-a94cc3-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.7184,
+        0.6972,
+        0.6948,
+        0.6636,
+        0.6545
+      ]
+    },
+    {
+      "query_id": "REAL_Q_16",
+      "query": "How can a rightful property owner recover possession of immovable property?",
+      "expected_domain": "tenant_property",
+      "expected_issue": "Recovery of specific immovable property",
+      "expected_chunk_id": "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+      "status": "success",
+      "actual_rank": 3,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top5_hit": true,
+      "reciprocal_rank": 0.3333,
+      "best_score": 0.5725,
+      "expected_chunk_score": 0.5487,
+      "expected_chunk_qualified": true,
+      "retrieved_chunk_ids": [
+        "TENA-THELIMITATIO-SECTION65-40c8d7-chunk-0",
+        "TENA-THELIMITATIO-SECTION92-c829f0-chunk-0",
+        "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+        "TENA-THELIMITATIO-SECTION91-3dc091-chunk-0",
+        "TENA-THESPECIFICR-SECTION6-25edf4-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.5725,
+        0.5512,
+        0.5487,
+        0.5468,
+        0.5361
+      ]
+    },
+    {
+      "query_id": "REAL_Q_17",
+      "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+      "expected_domain": "tenant_property",
+      "expected_issue": "No eviction if tenant pays rent",
+      "expected_chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0",
+      "status": "success",
+      "actual_rank": null,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top5_hit": false,
+      "reciprocal_rank": 0.0,
+      "best_score": 0.4145,
+      "expected_chunk_score": null,
+      "expected_chunk_qualified": false,
+      "retrieved_chunk_ids": [
+        "TENA-THEBOMBAYREN-SECTION18-f6c809-chunk-3",
+        "TENA-THETRANSFERO-SECTION116-a3af55-chunk-1",
+        "TENA-THEBOMBAYREN-SECTION23-66637a-chunk-0",
+        "TENA-THELIMITATIO-SECTION37-9a7d84-chunk-0",
+        "TENA-THEBOMBAYREN-SECTION38-f9d38e-chunk-0"
+      ],
+      "retrieved_scores": [
+        0.4145,
+        0.4133,
+        0.4103,
+        0.4041,
+        0.4021
+      ]
+    }
+  ]
+}

@@ -7,6 +7,14 @@ from dotenv import load_dotenv
 # Load environment variables from .env if present
 load_dotenv()
 
+# Set Hugging Face cache directory to D: drive workspace storage/hf_cache to prevent C: drive disk space issues
+hf_cache_dir = Path(os.getenv("HF_HOME", "storage/hf_cache")).resolve()
+hf_cache_dir.mkdir(parents=True, exist_ok=True)
+os.environ["HF_HOME"] = str(hf_cache_dir)
+os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
+os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
 
 @dataclass
 class Config:
@@ -14,6 +22,7 @@ class Config:
 
     EMBEDDING_MODEL: str = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
     OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "qwen2.5:7b")
+    OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
     TOP_K: int = int(os.getenv("TOP_K", "5"))
     SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.35"))
     DATA_PATH: Path = Path(os.getenv("DATA_PATH", "data/legal_knowledge_base.json"))

@@ -1,0 +1,26 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.5, pytest-9.1.1, pluggy-1.6.0 -- D:\LegalAId\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\LegalAId
+plugins: anyio-4.14.2
+collecting ... collected 15 items
+
+tests/test_embedder.py::test_1_model_loads_successfully PASSED           [  6%]
+tests/test_embedder.py::test_2_build_embedding_text_contains_context PASSED [ 13%]
+tests/test_embedder.py::test_3_missing_optional_metadata_handled PASSED  [ 20%]
+tests/test_embedder.py::test_4_embed_chunk_produces_valid_embedded_chunk PASSED [ 26%]
+tests/test_embedder.py::test_5_vector_dtype_is_float32 PASSED            [ 33%]
+tests/test_embedder.py::test_6_vector_dimension_matches_model PASSED     [ 40%]
+tests/test_embedder.py::test_7_embed_chunks_batch_shape PASSED           [ 46%]
+tests/test_embedder.py::test_8_embed_query_dimension PASSED              [ 53%]
+tests/test_embedder.py::test_9_query_embedding_determinism PASSED        [ 60%]
+tests/test_embedder.py::test_10_batch_order_preservation PASSED          [ 66%]
+tests/test_embedder.py::test_11_traceability_association PASSED          [ 73%]
+tests/test_embedder.py::test_12_empty_invalid_input_handling PASSED      [ 80%]
+tests/test_embedder.py::test_13_dummy_flag_and_metadata_accessible PASSED [ 86%]
+tests/test_embedder.py::test_14_original_chunk_text_unmodified PASSED    [ 93%]
+tests/test_embedder.py::test_15_semantic_sanity_test PASSED              [100%]
+
+============================= 15 passed in 16.32s =============================
+
+Exit Code: 0

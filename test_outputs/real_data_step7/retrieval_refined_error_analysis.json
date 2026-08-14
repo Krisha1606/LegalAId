@@ -1,0 +1,297 @@
+{
+  "total_queries": 15,
+  "classification_breakdown": {
+    "Sibling-chunk retrieval": 4,
+    "Exact Chunk Hit": 6,
+    "Related provision in the same Act": 4,
+    "Related provision from another Act in same domain": 1
+  },
+  "genuinely_failing_queries": [],
+  "detailed_error_cases": [
+    {
+      "query_id": "REAL_Q_01",
+      "query": "What is the territorial extent and commencement of the Consumer Protection Act, 2019?",
+      "classification": "Sibling-chunk retrieval",
+      "explanation": "Retrieved sibling chunk 'CONS-THECONSUMERP-SECTION1-29f7d3-chunk-2' belonging to same document/section 'Section 1'.",
+      "expected": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 1",
+        "chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 1",
+        "title": "Short Title, Extent, Commencement And Application",
+        "score": 0.7823
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_02",
+      "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+      "classification": "Sibling-chunk retrieval",
+      "explanation": "Retrieved sibling chunk 'CONS-THECONSUMERP-SECTION27-c01b79-chunk-1' belonging to same document/section 'Section 2(7)'.",
+      "expected": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(7)",
+        "chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(7)",
+        "title": "Consumer",
+        "score": 0.781
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_03",
+      "query": "How is a defect in goods defined under consumer protection law?",
+      "classification": "Exact Chunk Hit",
+      "explanation": "Retrieved exact target chunk at Rank 1.",
+      "expected": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(10)",
+        "chunk_id": "CONS-THECONSUMERP-SECTION210-7aa357-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(10)",
+        "title": "Defect",
+        "score": 0.7827
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_04",
+      "query": "What constitutes a deficiency of service for a service provider?",
+      "classification": "Exact Chunk Hit",
+      "explanation": "Retrieved exact target chunk at Rank 1.",
+      "expected": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(11)",
+        "chunk_id": "CONS-THECONSUMERP-SECTION211-ee1d2b-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(11)",
+        "title": "Deficiency",
+        "score": 0.6117
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_05",
+      "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+      "classification": "Sibling-chunk retrieval",
+      "explanation": "Retrieved sibling chunk 'CONS-THECONSUMERP-SECTION216-793550-chunk-0' belonging to same document/section 'Section 2(14)'.",
+      "expected": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(14)",
+        "chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Consumer Protection Act, 2019",
+        "section": "Section 2(16)",
+        "title": "E-Commerce",
+        "score": 0.7252
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_08",
+      "query": "Does the Code on Wages prohibit paying different wages to male and female employees for equal work?",
+      "classification": "Exact Chunk Hit",
+      "explanation": "Retrieved exact target chunk at Rank 1.",
+      "expected": {
+        "act": "The Code on Wages, 2019",
+        "section": "Section 3",
+        "chunk_id": "LABO-THECODEONWAG-SECTION3-75d583-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Code on Wages, 2019",
+        "section": "Section 3",
+        "title": "Central Government From Time To Time",
+        "score": 0.7172
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_09",
+      "query": "What factors must the government consider when fixing minimum wage rates for workers?",
+      "classification": "Exact Chunk Hit",
+      "explanation": "Retrieved exact target chunk at Rank 1.",
+      "expected": {
+        "act": "The Code on Wages, 2019",
+        "section": "Section 6",
+        "chunk_id": "LABO-THECODEONWAG-SECTION6-12443d-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Code on Wages, 2019",
+        "section": "Section 6",
+        "title": "Notified By The Appropriate Government",
+        "score": 0.6974
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_10",
+      "query": "What is the role and powers of conciliation officers in industrial disputes?",
+      "classification": "Sibling-chunk retrieval",
+      "explanation": "Retrieved sibling chunk 'LABO-THEINDUSTRIA-SECTION43-e7e64f-chunk-0' belonging to same document/section 'Section 4'.",
+      "expected": {
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 4",
+        "chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Industrial Relations Code, 2020",
+        "section": "Section 43",
+        "title": "Echanism For Resolution Of Industrial Disputes",
+        "score": 0.6541
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_11",
+      "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+      "classification": "Related provision in the same Act",
+      "explanation": "Retrieved Section 'Section 4' from same Act 'The Code on Social Security, 2020'.",
+      "expected": {
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 6",
+        "chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Code on Social Security, 2020",
+        "section": "Section 4",
+        "title": "Ocial Security Organisations",
+        "score": 0.7455
+      },
+      "section_level_hit_in_top5": false,
+      "document_level_hit_in_top5": false
+    },
+    {
+      "query_id": "REAL_Q_12",
+      "query": "What safety equipment and precautions must factory employers provide to workers?",
+      "classification": "Related provision in the same Act",
+      "explanation": "Retrieved Section 'Section 136' from same Act 'The Occupational Safety, Health and Working Conditions Code, 2020'.",
+      "expected": {
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 6",
+        "chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+        "section": "Section 136",
+        "title": "Factories",
+        "score": 0.6547
+      },
+      "section_level_hit_in_top5": false,
+      "document_level_hit_in_top5": false
+    },
+    {
+      "query_id": "REAL_Q_13",
+      "query": "How is a valid sale of immovable property defined under the Transfer of Property Act?",
+      "classification": "Exact Chunk Hit",
+      "explanation": "Retrieved exact target chunk at Rank 1.",
+      "expected": {
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 54",
+        "chunk_id": "TENA-THETRANSFERO-SECTION54-277528-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 54",
+        "title": "Of Sales Of Immoveable Property",
+        "score": 0.7283
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_14",
+      "query": "What are the legal requirements for creating a lease of immovable property?",
+      "classification": "Related provision in the same Act",
+      "explanation": "Retrieved Section 'Section 107' from same Act 'The Transfer of Property Act, 1882'.",
+      "expected": {
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 105",
+        "chunk_id": "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Transfer of Property Act, 1882",
+        "section": "Section 107",
+        "title": "Is Not Practicable) Affixed To A Conspicuous Part Of The Property.]",
+        "score": 0.6977
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_15",
+      "query": "Which property lease agreements and legal documents require compulsory registration?",
+      "classification": "Exact Chunk Hit",
+      "explanation": "Retrieved exact target chunk at Rank 1.",
+      "expected": {
+        "act": "The Registration Act, 1908",
+        "section": "Section 17",
+        "chunk_id": "TENA-THEREGISTRAT-SECTION17-9aacc8-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Registration Act, 1908",
+        "section": "Section 17",
+        "title": "Or Registrabel Documents",
+        "score": 0.7184
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_16",
+      "query": "How can a rightful property owner recover possession of immovable property?",
+      "classification": "Related provision from another Act in same domain",
+      "explanation": "Retrieved Act 'The Limitation Act, 1963' in domain 'tenant_property'.",
+      "expected": {
+        "act": "The Specific Relief Act, 1963",
+        "section": "Section 5",
+        "chunk_id": "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Limitation Act, 1963",
+        "section": "Section 65",
+        "title": "Twelve Years. The Date Of Dispossession",
+        "score": 0.5725
+      },
+      "section_level_hit_in_top5": true,
+      "document_level_hit_in_top5": true
+    },
+    {
+      "query_id": "REAL_Q_17",
+      "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+      "classification": "Related provision in the same Act",
+      "explanation": "Retrieved Section 'Section 18' from same Act 'The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947'.",
+      "expected": {
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 12",
+        "chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0"
+      },
+      "retrieved_top1": {
+        "act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+        "section": "Section 18",
+        "title": "The Order And The State Government May Pass Such Order As It Deems Fit.]",
+        "score": 0.4145
+      },
+      "section_level_hit_in_top5": false,
+      "document_level_hit_in_top5": false
+    }
+  ]
+}

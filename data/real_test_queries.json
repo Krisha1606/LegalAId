@@ -1,0 +1,137 @@
+[
+  {
+    "query_id": "REAL_Q_01",
+    "query": "What is the territorial extent and commencement of the Consumer Protection Act, 2019?",
+    "expected_domain": "consumer",
+    "expected_issue": "Consumer Protection Act short title and commencement",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION1-29f7d3-chunk-0",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 1"
+  },
+  {
+    "query_id": "REAL_Q_02",
+    "query": "Who is legally classified as a consumer under the Consumer Protection Act, 2019?",
+    "expected_domain": "consumer",
+    "expected_issue": "Definition of consumer",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION27-c01b79-chunk-0",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 2(7)"
+  },
+  {
+    "query_id": "REAL_Q_03",
+    "query": "How is a defect in goods defined under consumer protection law?",
+    "expected_domain": "consumer",
+    "expected_issue": "Definition of defect in goods",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION210-7aa357-chunk-0",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 2(10)"
+  },
+  {
+    "query_id": "REAL_Q_04",
+    "query": "What constitutes a deficiency of service for a service provider?",
+    "expected_domain": "consumer",
+    "expected_issue": "Definition of deficiency in service",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION211-ee1d2b-chunk-0",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 2(11)"
+  },
+  {
+    "query_id": "REAL_Q_05",
+    "query": "What is the legal definition of e-commerce and digital transactions under consumer laws?",
+    "expected_domain": "consumer",
+    "expected_issue": "Definition of e-commerce",
+    "expected_chunk_id": "CONS-THECONSUMERP-SECTION214-e43ec3-chunk-0",
+    "expected_act": "The Consumer Protection Act, 2019",
+    "expected_section": "Section 2(14)"
+  },
+  {
+    "query_id": "REAL_Q_08",
+    "query": "Does the Code on Wages prohibit paying different wages to male and female employees for equal work?",
+    "expected_domain": "labour",
+    "expected_issue": "Prohibition of gender discrimination in wages",
+    "expected_chunk_id": "LABO-THECODEONWAG-SECTION3-75d583-chunk-0",
+    "expected_act": "The Code on Wages, 2019",
+    "expected_section": "Section 3"
+  },
+  {
+    "query_id": "REAL_Q_09",
+    "query": "What factors must the government consider when fixing minimum wage rates for workers?",
+    "expected_domain": "labour",
+    "expected_issue": "Fixation of minimum rate of wages",
+    "expected_chunk_id": "LABO-THECODEONWAG-SECTION6-12443d-chunk-0",
+    "expected_act": "The Code on Wages, 2019",
+    "expected_section": "Section 6"
+  },
+  {
+    "query_id": "REAL_Q_10",
+    "query": "What is the role and powers of conciliation officers in industrial disputes?",
+    "expected_domain": "labour",
+    "expected_issue": "Appointment of conciliation officers",
+    "expected_chunk_id": "LABO-THEINDUSTRIA-SECTION4-00f97d-chunk-0",
+    "expected_act": "The Industrial Relations Code, 2020",
+    "expected_section": "Section 4"
+  },
+  {
+    "query_id": "REAL_Q_11",
+    "query": "How is the Central Board of Trustees for Provident Fund constituted under the Social Security Code?",
+    "expected_domain": "labour",
+    "expected_issue": "Constitution of Employees Provident Fund Board",
+    "expected_chunk_id": "LABO-THECODEONSOC-SECTION6-f2bd34-chunk-0",
+    "expected_act": "The Code on Social Security, 2020",
+    "expected_section": "Section 6"
+  },
+  {
+    "query_id": "REAL_Q_12",
+    "query": "What safety equipment and precautions must factory employers provide to workers?",
+    "expected_domain": "labour",
+    "expected_issue": "Duties of employer for safety at workplace",
+    "expected_chunk_id": "LABO-THEOCCUPATIO-SECTION6-43d624-chunk-0",
+    "expected_act": "The Occupational Safety, Health and Working Conditions Code, 2020",
+    "expected_section": "Section 6"
+  },
+  {
+    "query_id": "REAL_Q_13",
+    "query": "How is a valid sale of immovable property defined under the Transfer of Property Act?",
+    "expected_domain": "tenant_property",
+    "expected_issue": "Definition of sale of immovable property",
+    "expected_chunk_id": "TENA-THETRANSFERO-SECTION54-277528-chunk-0",
+    "expected_act": "The Transfer of Property Act, 1882",
+    "expected_section": "Section 54"
+  },
+  {
+    "query_id": "REAL_Q_14",
+    "query": "What are the legal requirements for creating a lease of immovable property?",
+    "expected_domain": "tenant_property",
+    "expected_issue": "Definition of lease of immovable property",
+    "expected_chunk_id": "TENA-THETRANSFERO-SECTION105-3d38de-chunk-0",
+    "expected_act": "The Transfer of Property Act, 1882",
+    "expected_section": "Section 105"
+  },
+  {
+    "query_id": "REAL_Q_15",
+    "query": "Which property lease agreements and legal documents require compulsory registration?",
+    "expected_domain": "tenant_property",
+    "expected_issue": "Documents requiring compulsory registration",
+    "expected_chunk_id": "TENA-THEREGISTRAT-SECTION17-9aacc8-chunk-0",
+    "expected_act": "The Registration Act, 1908",
+    "expected_section": "Section 17"
+  },
+  {
+    "query_id": "REAL_Q_16",
+    "query": "How can a rightful property owner recover possession of immovable property?",
+    "expected_domain": "tenant_property",
+    "expected_issue": "Recovery of specific immovable property",
+    "expected_chunk_id": "TENA-THESPECIFICR-SECTION5-e272b3-chunk-0",
+    "expected_act": "The Specific Relief Act, 1963",
+    "expected_section": "Section 5"
+  },
+  {
+    "query_id": "REAL_Q_17",
+    "query": "Can a landlord evict a tenant if the tenant pays rent regularly?",
+    "expected_domain": "tenant_property",
+    "expected_issue": "No eviction if tenant pays rent",
+    "expected_chunk_id": "TENA-THEBOMBAYREN-SECTION12-564b29-chunk-0",
+    "expected_act": "The Bombay Rents, Hotel and Lodging House Rates Control Act, 1947",
+    "expected_section": "Section 12"
+  }
+]

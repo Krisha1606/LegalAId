@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "Q_CONS_01",
+    "query": "I bought a defective smartphone and the seller refuses to replace it or give me a refund.",
+    "expected_domain": "Consumer",
+    "expected_issue": "Defective product replacement and full refund rights",
+    "expected_chunk_id": "DUMMY-CONS-001-chunk-0",
+    "description": "Defective item replacement/refund claim"
+  },
+  {
+    "query_id": "Q_CONS_02",
+    "query": "An online store advertised a discount price but charged me full price at checkout.",
+    "expected_domain": "Consumer",
+    "expected_issue": "Misleading advertising and deceptive price claims",
+    "expected_chunk_id": "DUMMY-CONS-002-chunk-0",
+    "description": "False advertisement and price deception"
+  },
+  {
+    "query_id": "Q_CONS_03",
+    "query": "My e-commerce order was delayed by three weeks without any explanation from the shopping platform.",
+    "expected_domain": "Consumer",
+    "expected_issue": "Deficiency of service in e-commerce logistics and non-delivery",
+    "expected_chunk_id": "DUMMY-CONS-003-chunk-0",
+    "description": "Online shopping delivery delay"
+  },
+  {
+    "query_id": "Q_CONS_04",
+    "query": "The manufacturer cancelled my laptop warranty because a local technician cleaned the dust inside.",
+    "expected_domain": "Consumer",
+    "expected_issue": "Warranty void claims based on unauthorized third-party repairs",
+    "expected_chunk_id": "DUMMY-CONS-004-chunk-0",
+    "description": "Third-party repair warranty void dispute"
+  },
+  {
+    "query_id": "Q_CONS_05",
+    "query": "My mobile network auto-renewed an expensive monthly pack without taking my consent.",
+    "expected_domain": "Consumer",
+    "expected_issue": "Hidden charges and un-consented subscription billing",
+    "expected_chunk_id": "DUMMY-CONS-005-chunk-0",
+    "description": "Unconsented recurring subscription fee"
+  },
+  {
+    "query_id": "Q_LAB_01",
+    "query": "My boss has not paid my monthly salary for the past two months.",
+    "expected_domain": "Labour",
+    "expected_issue": "Unpaid salary and illegal withholding of earned wages",
+    "expected_chunk_id": "DUMMY-LAB-001-chunk-0",
+    "description": "Unpaid wages and salary delay"
+  },
+  {
+    "query_id": "Q_LAB_02",
+    "query": "I am forced to work 12 hours every day but my employer pays me normal hourly rate.",
+    "expected_domain": "Labour",
+    "expected_issue": "Overtime work performed without double-rate compensation",
+    "expected_chunk_id": "DUMMY-LAB-002-chunk-0",
+    "description": "Overtime work double rate pay claim"
+  },
+  {
+    "query_id": "Q_LAB_03",
+    "query": "Factory management refuses to provide safety helmets and boots on hazardous construction sites.",
+    "expected_domain": "Labour",
+    "expected_issue": "Unsafe working conditions and lack of mandatory safety equipment",
+    "expected_chunk_id": "DUMMY-LAB-003-chunk-0",
+    "description": "Lack of protective workplace safety gear"
+  },
+  {
+    "query_id": "Q_LAB_04",
+    "query": "My company fired me after I submitted my 26-week paid maternity leave request.",
+    "expected_domain": "Labour",
+    "expected_issue": "Denial of paid maternity leave and benefit entitlement",
+    "expected_chunk_id": "DUMMY-LAB-004-chunk-0",
+    "description": "Maternity leave denial and illegal discharge"
+  },
+  {
+    "query_id": "Q_LAB_05",
+    "query": "I was terminated on the spot without 30 days notice or severance compensation after two years of work.",
+    "expected_domain": "Labour",
+    "expected_issue": "Abrupt termination of employment without contractual notice or severance",
+    "expected_chunk_id": "DUMMY-LAB-005-chunk-0",
+    "description": "Immediate termination without notice or severance"
+  },
+  {
+    "query_id": "Q_TEN_01",
+    "query": "My landlord is refusing to return my security deposit after I moved out of the apartment.",
+    "expected_domain": "Tenant/Rental",
+    "expected_issue": "Unlawful retention of rental security deposit by landlord",
+    "expected_chunk_id": "DUMMY-TEN-001-chunk-0",
+    "description": "Security deposit refund retention"
+  },
+  {
+    "query_id": "Q_TEN_02",
+    "query": "The house owner increased my rent by 30 percent in the middle of my 11-month rental lease.",
+    "expected_domain": "Tenant/Rental",
+    "expected_issue": "Unilateral and arbitrary increase in monthly rent during lease period",
+    "expected_chunk_id": "DUMMY-TEN-002-chunk-0",
+    "description": "Arbitrary mid-lease rent hike"
+  },
+  {
+    "query_id": "Q_TEN_03",
+    "query": "The roof of my rented house is leaking heavily and the landlord refuses to fix it.",
+    "expected_domain": "Tenant/Rental",
+    "expected_issue": "Landlord refusing essential structural repairs and maintenance",
+    "expected_chunk_id": "DUMMY-TEN-003-chunk-0",
+    "description": "Essential structural roof repair refusal"
+  },
+  {
+    "query_id": "Q_TEN_04",
+    "query": "My landlord changed the main door locks and threw out my belongings without giving notice or court order.",
+    "expected_domain": "Tenant/Rental",
+    "expected_issue": "Forced eviction without proper notice or court order",
+    "expected_chunk_id": "DUMMY-TEN-004-chunk-0",
+    "description": "Unlawful lockout eviction"
+  },
+  {
+    "query_id": "Q_TEN_05",
+    "query": "The landlord disconnected my electricity and water connection to force me to leave the house.",
+    "expected_domain": "Tenant/Rental",
+    "expected_issue": "Cut-off of water or electricity supply by landlord to force tenant exit",
+    "expected_chunk_id": "DUMMY-TEN-005-chunk-0",
+    "description": "Illegal cut-off of water and power utilities"
+  }
+]
