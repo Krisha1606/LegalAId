@@ -1,0 +1,41 @@
+{
+  "document_type": "consumer_notice",
+  "user": {
+    "name": "Priya Mehta",
+    "address": "Surat, Gujarat"
+  },
+  "opposite_party": {
+    "name": "QuickShop E-Commerce Pvt. Ltd.",
+    "address": "Mumbai, Maharashtra"
+  },
+  "issue": {
+    "title": "Defective product delivered",
+    "description": "A defective mobile phone was delivered and the refund was not processed.",
+    "amount": "₹25,000"
+  },
+  "facts": [
+    "Consumer purchased a mobile phone from the e-commerce platform.",
+    "The product delivered was defective and non-functional.",
+    "Refund request was submitted but not processed within the promised timeline."
+  ],
+  "rights": [
+    "Consumer may have a right to receive a refund or replacement for defective goods."
+  ],
+  "laws": [
+    {
+      "act": "Dummy Consumer Protection Law",
+      "section": "Section Y",
+      "title": "Protection Against Defective Goods",
+      "explanation": "Dummy legal information for testing consumer rights."
+    }
+  ],
+  "recommended_actions": [
+    "Preserve all purchase receipts and communication records.",
+    "File a formal complaint with the consumer forum."
+  ],
+  "relief_requested": [
+    "Full refund of the purchase amount.",
+    "Compensation for inconvenience caused."
+  ],
+  "date": "13 August 2026"
+}

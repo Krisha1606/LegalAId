@@ -1,0 +1,43 @@
+{
+  "document_type": "tenant_notice",
+  "user": {
+    "name": "Amit Patel",
+    "address": "Vadodara, Gujarat"
+  },
+  "opposite_party": {
+    "name": "Suresh Landlord",
+    "address": "Vadodara, Gujarat"
+  },
+  "issue": {
+    "title": "Illegal eviction and security deposit non-refund",
+    "description": "Tenant is being illegally evicted and the security deposit has not been refunded.",
+    "amount": "₹30,000"
+  },
+  "facts": [
+    "Tenant has been residing at the premises under a valid rental agreement.",
+    "Landlord has demanded vacation of premises without proper legal notice.",
+    "Security deposit of ₹30,000 has not been returned despite completion of tenancy."
+  ],
+  "rights": [
+    "Tenant may have a right to proper notice before eviction.",
+    "Tenant may have a right to refund of security deposit."
+  ],
+  "laws": [
+    {
+      "act": "Dummy Rent Control Act",
+      "section": "Section Z",
+      "title": "Protection Against Illegal Eviction",
+      "explanation": "Dummy legal information for testing tenant rights."
+    }
+  ],
+  "recommended_actions": [
+    "Preserve the original rental agreement.",
+    "Document all communications with the landlord.",
+    "Send a formal legal notice demanding refund of security deposit."
+  ],
+  "relief_requested": [
+    "Refund of security deposit of ₹30,000.",
+    "Withdrawal of illegal eviction notice."
+  ],
+  "date": "13 August 2026"
+}
